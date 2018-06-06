@@ -1,0 +1,49 @@
+main:
+  # - fr: Accueil
+  #   en: Home
+  #   link: homePage
+  #   submenu: false
+  #   links:
+  #     - fr:
+  #       en:
+  #       link:
+  - fr: Services
+    en: Services
+    link: servicesPage
+    submenu: false
+    links:
+      - fr:
+        en:
+        link:
+  - fr: Portfolio
+    en: Portfolio
+    link: portfolioPage
+    submenu: false
+    links:
+      - fr:
+        en:
+        link:
+  - fr: À propos
+    en: About
+    link: aboutPage
+    submenu: false
+    links:
+      - fr:
+        en:
+        link:
+  - fr: Contact
+    en: Contact
+    link: contactPage
+    submenu: false
+    links:
+      - fr:
+        en:
+        link:
+  - fr: Blogue
+    en: Blog
+    link: articlesPage
+    submenu: false
+    links:
+      - fr:
+        en:
+        link:

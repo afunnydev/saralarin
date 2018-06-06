@@ -1,0 +1,106 @@
+<!-- start header -->
+<header class="header-with-topbar">
+    <!-- topbar -->
+    <div class="top-header-area bg-black padding-5px-tb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-uppercase alt-font xs-no-padding-lr xs-text-center">
+                    <a href="tel:{{- .Site.Data.settings.mphone -}}" class="text-link-white xs-width-100" title='{{ i18n "contact" }} {{ .Site.Data.settings.phone }}'>{{ i18n "contact" }} {{ .Site.Data.settings.phone }}</a>
+                    <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle top-minus1"></div>
+                    <a href="mailto:{{- .Site.Data.settings.email -}}" class="text-link-white xs-width-100" title="{{- .Site.Data.settings.email -}}">{{- .Site.Data.settings.email -}}</a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 hidden-xs xs-no-padding-lr text-right">
+                    <div class="icon-social-very-small xs-width-100 xs-text-center display-inline-block">
+                        {{ with .Site.Data.settings.socials.facebookurl }}
+                        <a href="{{- . -}}" title="Facebook" target="_blank" class="text-link-white"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        {{ end }}
+                        {{ with .Site.Data.settings.socials.twitterurl }}
+                        <a href="{{- . -}}" title="Twitter" target="_blank" class="text-link-white"><i class="fab fa-twitter"></i></a>
+                        {{ end }}
+                        {{ with .Site.Data.settings.socials.linkedinurl }}
+                        <a href="{{- . -}}" title="Linked In" target="_blank" class="text-link-white"><i class="fab fa-linkedin-in"></i></a>
+                        {{ end }}
+                        {{ with .Site.Data.settings.socials.instagramurl }}
+                        <a href="{{- . -}}" title="Instagram" target="_blank" class="text-link-white"><i class="fab fa-instagram"></i></a>
+                        {{ end }}
+                    </div>  
+                    <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle"></div>
+                    <div class="btn-group xs-width-100 xs-text-center xs-margin-three-bottom display-inline-block">
+                        <a href='{{ $.Scratch.Get "faqPage" }}' class="top-bar-link" title="FAQ">FAQ</a>
+                    </div>
+                    <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle"></div>
+                    <div class="btn-group dropdown-style-1 xs-width-100 xs-text-center xs-margin-three-bottom display-inline-block">
+                        <button type="button" class="btn dropdown-toggle xs-width-100" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ i18n (lower ($.Lang)) }} <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu xs-width-100">
+                            {{ if .Params.translationlink }}
+                                {{ $link := .Params.translationlink }}
+                                <li><a href='{{ $link | absURL }}' class="title lang" title=>{{ if eq $.Lang "fr" }}English{{ else if eq $.Lang "en" }}Français{{ end }}</a></li>
+                            {{ else if .Translations }}
+                                {{ range .Translations }}
+                                <li><a href="{{.Permalink}}" class="title lang">{{ i18n (lower (.Lang)) }}</a></li>
+                                {{ end }}
+                            {{ end }} 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end topbar -->
+    <!-- start navigation -->
+    <nav class="navbar navbar-default bootsnav navbar-top header-light-transparent bg-transparent nav-box-width">
+        <div class="container nav-header-container">
+            <div class="row">
+                <!-- start logo -->
+                <div class="col-md-2 col-xs-5">
+                    <a href='{{ $.Scratch.Get "homePage" }}' title="Pofo" class="logo"><img src="/img/sara-larin-logo-1x.png" data-rjs="/img/sara-larin-logo-2x.png" class="logo-dark default" alt="Pofo"><img src="/images/logo-white.png" data-rjs="/images/logo-white@2x.png" alt="Sara Larin" class="logo-light"></a>
+                </div>
+                <!-- end logo -->
+                <div class="col-md-10 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
+                    <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
+                        <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+                            {{ range .Site.Data.menu.main }}
+                                {{ if .submenu }}
+                                    <li class="dropdown simple-dropdown"><a href="javascript:void(0);">{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                        <!-- start sub menu -->
+                                        <ul class="dropdown-menu" role="menu">
+                                            {{ range .links }}
+                                            {{ $link := .link }}
+                                            <li><a href='{{ $.Scratch.Get $link }}'>{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a></li>
+                                            {{ end }}
+                                        </ul>
+                                    </li>
+                                {{ else }}
+                                    {{ $link := .link }}
+                                    <li><a href='{{ $.Scratch.Get $link }}'>{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2 col-xs-5 width-auto">
+                    <div class="header-searchbar">
+                        <a href="#search-header" class="header-search-form text-white"><i class="fas fa-search search-button"></i></a>
+                        <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
+                            <div class="search-form position-relative">
+                                <button type="submit" class="fas fa-search close-search search-button"></button>
+                                <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
+                            </div>
+                        </form>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- end navigation --> 
+    <!-- end navigation --> 
+</header>
+<!-- end header -->

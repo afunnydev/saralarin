@@ -1,0 +1,29 @@
+@import "_variables.scss";
+
+@import "theme/animate.scss";
+/*  Bootstrap */
+@import "theme/bootstrap.min.scss";
+/* et line icon */ 
+@import "theme/et-line-icons.scss";
+/* font-awesome icon */
+@import "theme/font-awesome.min.scss";
+/* themify icon */
+@import "theme/themify-icons.scss";
+/* swiper carousel */
+@import "theme/swiper.min.scss";
+/* justified gallery  */
+@import "theme/justified-gallery.min.scss";
+/* magnific popup */
+@import "theme/magnific-popup.scss";
+/* revolution slider */
+@import "revolution/settings.scss";
+@import "revolution/layers.scss";
+@import "revolution/navigation.scss";
+/* bootsnav */
+@import "theme/bootsnav.scss";
+/* style */
+@import "theme/style.scss";
+/* responsive css */
+@import "theme/responsive.scss";
+/* Custom Akia CSS */
+@import "_custom.scss";

@@ -1,0 +1,80 @@
+<!-- start footer --> 
+<footer class="footer-standard"> 
+    <div class="footer-widget-area padding-five-tb xs-padding-30px-tb">
+        <div class="container">
+            <div class="row equalize xs-equalize-auto">
+                <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-extra-light-gray sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                    <!-- start logo -->
+                    <a href='{{ $.Scratch.Get "homePage" }}' class="margin-20px-bottom display-inline-block"><img class="footer-logo" src="/img/sara-larin-logo-1x.png" data-rjs="/img/sara-larin-logo-2x.png" alt="Sara Larin"></a>
+                    <!-- end logo -->
+                    <p class="text-small width-95 xs-width-100">{{ if eq .Lang "fr" }}{{ .Site.Data.footer.col1.fr }}{{ else if eq .Lang "en" }}{{ .Site.Data.footer.col1.en }}{{ end }}</p>
+                    <!-- start social media -->
+                    <div class="social-icon-style-8 display-inline-block vertical-align-middle">
+                        <ul class="small-icon no-margin-bottom">
+                            {{ with .Site.Data.settings.socials.facebookurl }}
+                            <li><a href="{{- . -}}" title="Facebook" target="_blank" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            {{ end }}
+                            {{ with .Site.Data.settings.socials.twitterurl }}
+                            <li><a href="{{- . -}}" title="Twitter" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            {{ end }}
+                            {{ with .Site.Data.settings.socials.linkedinurl }}
+                            <li><a href="{{- . -}}" title="Linked In" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            {{ end }}
+                            {{ with .Site.Data.settings.socials.instagramurl }}
+                            <li><a href="{{- . -}}" title="Instagram" target="_blank" class="instagram"><i class="fab fa-instagram no-margin-right" aria-hidden="true"></i></a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <!-- end social media -->
+                </div>
+                <!-- start additional links -->
+                <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-extra-light-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                    {{ with .Site.Data.footer.col2 }}
+                    <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-10px-bottom font-weight-600">{{ .title }}</div>
+                    <ul class="list-unstyled">
+                        {{ range .links }}
+                            {{ $link := .link }}
+                            <li><a class="text-small" href='{{ $.Scratch.Get $link }}'>{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+                <!-- end additional links -->
+                <!-- start contact information -->
+                <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-extra-light-gray padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right  xs-margin-30px-bottom xs-text-center">
+                    {{ with .Site.Data.footer.col3 }}
+                    <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-10px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
+                    <!-- <p class="text-small display-block margin-15px-bottom width-80 sm-width-70 xs-center-col">POFO Design Agency<br> 301 The Greenhouse, Custard Factory, London, E2 8DY.</p> -->
+                    <div class="text-small">{{ i18n "email" }}: <a href="mailto:{{ $.Site.Data.settings.email }}">{{ .Site.Data.settings.email }}</a></div>
+                    <div class="text-small">{{ i18n "phone" }}: {{ $.Site.Data.settings.phone }}</div>
+                    {{ end }}
+                </div>
+                <!-- end contact information -->
+                <!-- start instagram -->
+                <div class="col-md-3 col-sm-6 col-xs-12 widget padding-45px-left sm-padding-15px-left xs-text-center">
+                    {{ with .Site.Data.footer.col4 }}
+                    <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-20px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
+                    <div class="instagram-follow-api">
+                        <ul id="instaFeed-footer"></ul>
+                    </div>
+                    {{ end }}
+                </div>
+                <!-- end instagram -->
+            </div>
+        </div>
+    </div>
+    <div class="bg-light-gray padding-50px-tb text-center xs-padding-30px-tb">
+        <div class="container">
+            <div class="row">
+                <!-- start copyright -->
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">&copy; {{ if eq $.Lang "fr" }}{{ .Site.Data.footer.copyright.fr }}{{ else if eq $.Lang "en" }}{{ .Site.Data.footer.copyright.en }}{{ end }} {{ safeHTML (i18n "akiatagline") }}</div>
+                <!-- end copyright -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- start scroll to top -->
+<a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+<!-- end scroll to top  -->

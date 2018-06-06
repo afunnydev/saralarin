@@ -1,0 +1,17 @@
+<!-- start call to action section -->
+<section class="wow fadeIn padding-50px-tb border-top border-width-1 border-color-extra-light-gray">
+    <div class="container">
+        <div class="row">
+            {{ with .Site.Data.cta.main }}
+            {{ $link := .btn.link }}
+            <div class="col-md-8 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown"> 
+                <span class="alt-font text-extra-large text-extra-dark-gray margin-5px-top sm-no-margin-top display-inline-block width-100">{{ if eq $.Lang "fr" }}{{ .text.fr }}{{ else if eq $.Lang "en" }}{{ .text.en }} {{ end }}</span>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 sm-text-center wow fadeInDown"> 
+                <a href='{{ $.Scratch.Get $link }}' class="btn btn-medium btn-rounded btn-transparent-dark-gray" data-wow-delay="0.4s">{{ if eq $.Lang "fr" }}{{ .btn.fr }}{{ else if eq $.Lang "en" }}{{ .btn.en }} {{ end }} <i class="ti-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- end call to action section -->

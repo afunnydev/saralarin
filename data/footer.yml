@@ -1,0 +1,35 @@
+col1:
+  fr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsum quibusdam accusantium officiis sapiente harum soluta, voluptates quam dolorum, modi, excepturi alias."
+  en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos numquam, nulla doloribus totam sit? Perspiciatis, voluptate asperiores maiores saepe rerum dolores."
+col2:
+  title: Liens utiles
+  links:
+    - fr: Accueil
+      en: Home
+      link: homePage
+    - fr: Services
+      en: Services
+      link: servicesPage
+    - fr: Portfolio
+      en: Portfolio
+      link: portfolioPage
+    - fr: À propos
+      en: About
+      link: aboutPage
+    - fr: Contact
+      en: Contact
+      link: contactPage
+    - fr: Blogue
+      en: Blog
+      link: articlesPage
+col3:
+  title: 
+    fr: "Me contacter"
+    en: "Contact me"
+col4:
+  title: 
+    fr: "Portfolio"
+    en: "Portfolio"
+copyright:
+  fr: "2018 Sara Larin."
+  en: "2018 Sara Larin."

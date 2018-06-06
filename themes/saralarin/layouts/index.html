@@ -1,0 +1,555 @@
+{{ define "main" }}
+<main class="main" id="homepage">
+	{{ with .Params.section1 }}
+	<!-- start hero section -->
+    <section id="home" class="no-padding parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}');">
+        <div class="opacity-extra-medium bg-extra-dark-gray"></div>
+        <div class="container position-relative full-screen">
+            <div class="slider-typography text-center">
+                <div class="slider-text-middle-main xs-padding-15px-lr">
+                    <div class="slider-text-middle">
+                    	<img src="images/text.png" alt=""/>
+                        <!-- <div class="text white">
+                        	<span>{{.Params.section1.subtitle}}</span>
+                        	<h1>{{.Params.section1.title}}</h1>
+                       	</div> -->
+                        <div class="down-section text-center">
+                        	<a href="#about" class="inner-link">
+                        		<div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" 
+		                             id="slide-3238-layer-13" 
+		                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+		                             data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','50','50']" 
+		                             data-width="30"
+		                             data-height="45"
+		                             data-whitespace="nowrap"
+
+		                             data-type="button" 
+		                             data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":"","speed":1000}]'
+		                             data-basealign="slide" 
+		                             data-responsive_offset="on" 
+		                             data-responsive="off"
+		                             data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+		                             data-textAlign="['left','left','left','left']"
+		                             data-paddingtop="[0,0,0,0]"
+		                             data-paddingright="[0,0,0,0]"
+		                             data-paddingbottom="[0,0,0,0]"
+		                             data-paddingleft="[0,0,0,0]"
+
+		                             style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+		                            <span></span>												
+		                        </div>
+                        	</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    {{ with .Params.section2 }}
+    <!-- start feature box section -->
+    <section id="about" class="wow fadeIn half-section">
+        <div class="container">
+            <div class="row">
+                <!-- start feature box item -->
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 text-center center-col xs-margin-30px-bottom">
+                    <span class="alt-font text-deep-pink text-medium margin-5px-bottom display-block">{{.title}}</span>
+                    <h5 class="font-weight-300 text-extra-dark-gray ">{{.description}}</h5>
+                </div>
+                <!-- end feature box item -->
+            </div>
+        </div>
+    </section>
+    <!-- end feature box section -->
+    {{ end }}
+    {{ with .Params.section3 }}
+    <!-- start about section -->
+    <section class="wow fadeIn cover-background sm-no-background-img bg-medium-light-gray" style="background-image: url('/xl{{.image}}')">
+        <div class="container">
+            <div class="row"> 
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right wow fadeIn">
+                    <div class="col-lg-12 col-md-12 sm-text-center xs-no-padding-lr last-paragraph-no-margin margin-60px-bottom sm-margin-30px-bottom"> 
+                        <span class="text-medium text-deep-pink alt-font margin-10px-bottom display-inline-block">{{.subtitle}}</span>
+                        <h5 class="alt-font text-extra-dark-gray font-weight-600">{{.title}}</h5>
+                        <p class="width-90 sm-width-100">{{.description}}</p>
+                    </div> 
+                    {{ range .icons}}
+                    {{ $linkicon := .link }}                         
+                    <!-- feature box item-->
+                    <div class="col-md-6 col-sm-6 col-xs-12 xs-margin-five-bottom last-paragraph-no-margin wow fadeInUp">
+                    	<a href='{{ $.Scratch.Get $linkicon }}{{.anchor}}' title="{{.title}}">
+	                        <div class="feature-box">
+	                            <div class="content">
+	                                <i class="{{.icon}} text-deep-pink icon-large margin-25px-bottom sm-margin-15px-bottom"></i>
+	                                <div class="text-medium alt-font text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom">{{.title}}</div>
+	                                <!-- <p class="width-85 margin-lr-auto sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+	                            </div>        
+	                        </div>
+	                    </a>
+                    </div>
+                    <!-- end feature box item-->
+                    {{ end }}
+                    {{ with .btn }}
+                    {{ $btnlink := .link}}
+                    <div class="col-lg-12 col-md-12 text-center xs-no-padding-lr last-paragraph-no-margin"> 
+                    	<a href='{{ $.Scratch.Get $btnlink }}' class="btn btn-small btn-dark-gray margin-50px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
+                    </div>
+                    {{ end }}
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+    {{ end }}
+    {{ with .Params.section4 }}
+    <!-- start interactive banners style 03 section -->
+    <section class="wow fadeIn half-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center">
+                    <div class="position-relative overflow-hidden">
+                        <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h3>
+                        <div class="row">
+                        	{{ with .btn1 }}
+		                    <div class="col-lg-6 col-md-6 text-right xs-no-padding-lr last-paragraph-no-margin">
+		                    	<a href="{{ .anchor }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
+		                    </div>
+		                    {{ end }}
+		                    {{ with .btn2 }}
+		                    <div class="col-lg-6 col-md-6 text-left xs-no-padding-lr last-paragraph-no-margin"> 
+		                    	<a href="{{ .anchor }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
+		                    </div>
+		                    {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    {{ with .Params.section5 }}
+    <section class="wow fadeIn no-padding" id="a-la-piece">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-sm-12 margin-60px-bottom sm-margin-30px-bottom">
+        			<h4 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h4>
+        			<p class="width-90 sm-width-100">{{ .description }}</p>
+        		</div>
+        	</div>
+    	</div>
+        <div class="container-fluid">
+            <div class="row equalize xs-equalize-auto">
+            	{{ range $i, $e := .portfolio }}
+            	{{ $number := mul 2 $i}}
+                <!-- start interactive banners item -->
+                <div class="col-md-3 col-sm-6 col-xs-12 banner-style3 no-padding-lr wow fadeInUp" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+                    <figure class="bg-white">
+                        <div class="banner-image bg-white">
+                            <img src="/half{{ $e.image }}" alt="{{ .text }}"/>
+                        </div>
+                        <figcaption>
+                            <div class="display-table width-100 height-100">
+                                <div class="display-table-cell vertical-align-middle text-center">
+                                    <div class="text-large text-white alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
+                                    <!-- <p class="text-light-gray width-80 margin-lr-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                    <a href="single-project-page-01.html" class="btn btn-small btn-white font-weight-300 btn-rounded">View Portfolio <i class="ti-arrow-right"></i></a> -->
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- end interactive banners item -->
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!-- start interactive banners style 03 section -->
+    {{ end }}
+    {{ with .Params.section6 }}
+    <!-- start fancy text box style 02 section -->
+    <section class="wow fadeIn no-padding-bottom" id="projet-agile">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-sm-12 margin-60px-bottom sm-margin-30px-bottom">
+        			<h4 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h4>
+        		</div>
+        	</div>
+    	</div>
+        <div class="container-fluid">
+            <div class="row equalize xs-equalize-auto feature-box-14  border-top border-color-light-gray">
+            	{{ range .steps }}
+                <!-- start feature box item -->
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center display-table last-paragraph-no-margin wow fadeInRight no-padding">
+                    <div class="display-table-cell vertical-align-middle padding-fifteen-all sm-padding-50px-all xs-padding-30px-all">
+                        <h2 class="text-light-gray alt-font letter-spacing-minus-3 no-margin-bottom">{{ .number }}</h2>
+                        <span class="display-block alt-font text-large text-extra-dark-gray margin-15px-top margin-10px-bottom xs-margin-5px-bottom">{{ .title }}</span>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+                <!-- end feature box item -->
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!-- end fancy text box style 02 section -->
+    {{ end }}
+    {{ with .Params.section7 }}
+    <!-- start advantage section -->
+    <section class="no-padding wow fadeIn bg-light-gray" id="services">
+        <div class="container-fluid no-padding">
+            <div class="row equalize sm-equalize-auto no-margin"> 
+            	<div class="col-md-6 col-sm-12 col-xs-12 position-relative sm-height-500px xs-height-300 cover-background wow fadeIn" style="background-image: url('http://placehold.it/960x678')"></div>
+                <div class="col-md-6 col-sm-12 col-xs-12 display-table wow fadeIn last-paragraph-no-margin sm-text-center">
+                    <div class="display-table-cell vertical-align-middle padding-fifteen-all md-padding-ten-all xs-no-padding-lr xs-text-center">
+                        <span class="text-medium margin-15px-bottom display-block alt-font text-deep-pink">{{ .client }}</span>
+                        <h4 class="alt-font text-extra-dark-gray font-weight-600 sm-margin-lr-auto xs-width-100">{{ .title }}</h4>
+                        <p class="width-80 md-width-100">{{ .description }}</p>
+                        {{ with .btn }}
+                        <a href="{{ .link }}" class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-35px-top">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end advantage section -->
+    {{ end }}
+    {{ with .Params.section8 }}
+	<!-- start interactive banners style 01 section -->
+    <section class="wow fadeIn">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-100px-bottom xs-margin-40px-bottom">
+                    <div class="position-relative overflow-hidden width-100">
+                        <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            	{{ with .box1 }}
+                <!-- start interactive banners item -->
+                <div class="col-md-6 col-sm-6 col-xs-12 xs-margin-30px-bottom wow fadeInUp">
+                    <div class="feature-box-16 xs-width-100">
+                        <img src="{{.image}}" alt="{{ .title }}">
+                        <div class="feature-box-content text-center">
+                            <div class="opacity-full-dark bg-extra-dark-gray"></div>
+                            <div class="display-table height-100 width-100 position-relative">
+                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
+                                    <div class="text-white alt-font text-medium margin-15px-bottom">{{ .title }}</div> 
+                                    <p class="width-85 center-col text-extra-light-gray">{{ .description }}</p>
+                                    {{ with .btn }}
+                                    <a class="btn btn-medium btn-transparent-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto" href="{{ .link }}">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- end interactive banners item -->
+                {{ end }}
+                {{ with .box2 }}
+                <!-- start interactive banners item -->
+                <div class="col-md-6 col-sm-6 col-xs-12 xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="feature-box-16 xs-width-100">
+                        <img src="{{.image}}" alt="{{ .title }}">
+                        <div class="feature-box-content text-center text-white">
+                            <div class="opacity-full-dark bg-extra-dark-gray"></div>
+                            <div class="display-table height-100 width-100 position-relative">
+                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
+                                    <div class="text-white alt-font text-medium margin-15px-bottom">{{ .title }}</div> 
+                                    <p class="width-85 center-col text-extra-light-gray">{{ .description }}</p>
+                                    {{ with .btn }}
+                                    <a class="btn btn-medium btn-transparent-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto" href="{{ .link }}">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end interactive banners item -->
+                {{ end }}
+            </div> 
+        </div>
+    </section>
+    <!-- start interactive banners style 01 section -->
+    {{ end }}
+    {{ with .Params.section9 }}
+    <!-- start section -->
+    <section class="no-padding wow fadeIn xs-text-center">
+        <div class="container-fluid no-padding">
+            <div class="row no-margin equalize sm-equalize-auto">
+                <div class="col-lg-6 col-md-4 col-sm-12 cover-background no-padding" style="background-image: url('/half{{ .imageg }}')"><div class="sm-height-500px xs-height-350px"></div></div>
+                <div class="col-lg-3 col-md-4 col-sm-12 bg-white no-padding last-paragraph-no-margin sm-text-center">
+                    <div class="padding-80px-all md-padding-40px-all sm-padding-60px-all xs-padding-30px-all">
+                    	{{ with .title }}
+                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">{{ . }}</h5>
+                        <div class="separator-line-horrizontal-medium-thick bg-extra-dark-gray width-70 sm-width-70 margin-25px-bottom sm-margin-20px-bottom sm-center-col xs-width-50 xs-margin-lr-auto xs-margin-15px-bottom"></div>
+                        {{ end }}
+                        <p class="width-95 md-width-100">{{ .description }}</p>
+                        {{ with .btn }}
+                        <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top">{{ .text }}</a>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 no-padding cover-background" style="background-image: url('/half{{ .imaged }}')"><div class="sm-height-500px xs-height-350px"></div></div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    {{ end }}
+    {{ with .Params.section10 }}
+    <!-- start portfolio section -->
+    <section class="wow fadeIn padding-90px-top sm-padding-50px-top xs-padding-30px-top">
+        <div class="container">
+        	<div class="row">
+                <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-60px-bottom xs-margin-40px-bottom">
+                    <div class="position-relative overflow-hidden width-100">
+                        <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- start filter navigation -->
+                    <ul class="portfolio-filter nav nav-tabs border-none portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-80px-bottom text-small sm-margin-40px-bottom xs-margin-20px-bottom">
+                        <li class="nav active"><a href="javascript:void(0);" data-filter="*" class="xs-display-inline light-gray-text-link text-very-small">All</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".web" class="xs-display-inline light-gray-text-link text-very-small">Web</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".advertising" class="xs-display-inline light-gray-text-link text-very-small">Advertising</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".branding" class="xs-display-inline light-gray-text-link text-very-small">Branding</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".design" class="xs-display-inline light-gray-text-link text-very-small">Design</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".photography" class="xs-display-inline light-gray-text-link text-very-small">Photography</a></li>
+                    </ul>                                                                           
+                    <!-- end filter navigation -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 no-padding xs-padding-15px-lr">
+                <div class="filter-content overflow-hidden">
+                    <ul class="portfolio-grid portfolio-metro-grid work-4col hover-option5 gutter-medium">
+                        <li class="grid-sizer"></li>
+                        <!-- start portfolio item -->
+                        <li class="grid-item web advertising wow zoomIn">
+                            <a href="single-project-page-01.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Tailoring Interior</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Brochure</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item branding grid-item-double wow zoomIn" data-wow-delay="0.2s">
+                            <a href="single-project-page-02.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Herbal Beauty Salon</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item web design wow zoomIn" data-wow-delay="0.4s">
+                            <a href="single-project-page-03.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Pixflow Studio</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item advertising photography wow zoomIn">
+                            <a href="single-project-page-04.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Educamp School</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item branding grid-item-double wow zoomIn">
+                            <a href="single-project-page-05.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">HardDot Stone</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item web design wow zoomIn" data-wow-delay="0.2s">
+                            <a href="single-project-page-06.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Designblast Inc</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Web and Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item advertising photography grid-item-double wow zoomIn" data-wow-delay="0.2s">
+                            <a href="single-project-page-07.html">
+                                <figure>
+                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Designblast Inc</span>
+                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Web and Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <!-- end portfolio item -->
+                    </ul>
+                </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio section -->
+    {{ end }}
+    {{ with .Params.section11}}
+    <!-- start clients logo section  -->
+    <section class="color-code half-section" data-color="5" style="background-color: #4b2a95" id="clients">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-9 col-sm-10 col-xs-12 center-col text-center">
+                    <div class="text-extra-small letter-spacing-3 alt-font text-white text-uppercase margin-70px-bottom sm-margin-50px-bottom xs-margin-30px-bottom display-inline-block">{{ .title }}</div> 
+                </div>
+            </div> 
+            <div class="row text-center">
+            	{{ range $i, $e := .clients }}
+            	{{ $number := mul 2 $i}}
+                <!-- start client logo item -->
+                <div class="col-md-3 col-sm-3 col-xs-12 margin-three-bottom xs-margin-15px-bottom wow fadeInDown clients-box" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+                    <a href="{{ .link }}" target="_blank" name="{{ .name }}"><img src="{{ .logo }}" alt="{{ .name }}" class="clients-logo"></a>
+                </div>
+                <!-- end client logo item -->
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!-- end client logo section -->
+    {{ end }}
+    {{ with .Params.section12 }}
+    <!-- start testimonial style 02 section -->
+    <section class="wow fadeIn bg-black">
+        <div class="container">
+            <div class="row">
+            	<div class="swiper-slider-second swiper-container white-move">
+                    <div class="swiper-wrapper">
+                    	{{ range .testimonials }}
+                        <!-- start testimonial item -->
+                        <div class="swiper-slide">
+			                <div class="col-lg-8 col-md-8 col-sm-10 center-col text-center">
+			                    <i class="fas fa-quote-left icon-small text-deep-pink display-block margin-25px-bottom"></i>
+			                    <h5 class="alt-font text-white font-weight-300">{{ .text }}</h5>
+			                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">{{ .name }}</span>
+			                </div>
+                        </div>    
+                        <!-- end testimonial item -->
+                        {{ end }}
+                    </div>
+                    <div class="swiper-button-next slider-long-arrow-white"></div>
+                    <div class="swiper-button-prev slider-long-arrow-white"></div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!-- end testimonial style 02 section -->
+    {{ end }}
+    {{ with .Params.section13 }}
+    <!-- start contact section -->
+    <section class="wow fadeIn animated color-code md-no-background-img" data-color="6" style="background: url('/xl{{ .image }}'); background-size: cover; background-repeat: no-repeat; background-position: center center; background-color: #172f9a">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-10 col-xs-12 center-col text-center wow fadeIn">
+                    <div class="text-extra-small letter-spacing-3 alt-font text-white text-uppercase margin-70px-bottom sm-margin-50px-bottom xs-margin-30px-bottom display-inline-block">{{ .title }}</div> 
+                </div>
+            </div>
+            <form id="contact-form" {{ if eq .Lang "fr" }}action="/merci"{{ else }} action="/en/thank-you" {{ end }} method="post" netlify name="contact-{{$.Lang}}" role="form">
+                <div class="row">
+                    <div class="col-md-8 center-col input-border-white text-center">
+                        <div id="success-contact-form" class="no-margin-lr"></div>
+                        <input type="text" name="name" id="name" placeholder='{{ i18n "name" }}*' class="input-border-bottom border-white-light">
+                        <input type="text" name="email" id="email" placeholder='{{ i18n "email" }}*' class="input-border-bottom border-white-light">
+                        <textarea name="comment" id="comment" placeholder="Message" class="input-border-bottom border-white-light"></textarea>
+                        <button id="contact-us-button" type="submit" class="btn btn-very-small btn-transparent-white xs-margin-15px-top">{{ i18n "send_message" }}</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- end contact section -->
+    {{ end }}	
+</main>
+{{ end }}

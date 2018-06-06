@@ -1,0 +1,8 @@
+main:
+  text:
+    fr: Êtes-vous prêts?
+    en: Are you ready?
+  btn:
+    fr: Démarrer un projet
+    en: Start a project
+    link: contactPage
