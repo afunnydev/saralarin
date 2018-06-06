@@ -1,0 +1,28 @@
+<div class="filter-content overflow-hidden">
+    <ul class="portfolio-grid portfolio-metro-grid work-4col hover-option5 gutter-medium">
+        <li class="grid-sizer"></li>
+        {{ range $i, $e := (where $.Site.RegularPages "Type" "portfolio") }}
+        {{ $number := mul 2 $i}}
+        <!-- start portfolio item -->
+        <li class="grid-item {{ range .Params.tags}}{{ . | urlize }} {{ end }}{{ if .Params.listing.big }}grid-item-double {{ end }}wow zoomIn" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+            <a href="{{ .Permalink }}">
+                <figure>
+                    <div class="portfolio-img"><img src="{{ .Params.image }}" alt="{{ .Params.listing.title }}"/></div>
+                    <figcaption>
+                        <div class="portfolio-hover-main text-center">
+                            <div class="portfolio-hover-box vertical-align-middle">
+                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
+                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">{{ .Params.listing.title }}</span>
+                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">{{ .Params.listing.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+        </li>
+        <!-- end portfolio item -->
+        {{ end }}
+    </ul>
+</div>

@@ -1,0 +1,25 @@
+<!-- start testimonial style 02 section -->
+<section class="wow fadeIn bg-black">
+    <div class="container">
+        <div class="row">
+        	<div class="swiper-slider-second swiper-container white-move">
+                <div class="swiper-wrapper">
+                	{{ range $.Site.Data.testimonials.testimonials }}
+                    <!-- start testimonial item -->
+                    <div class="swiper-slide">
+		                <div class="col-lg-8 col-md-8 col-sm-10 center-col text-center">
+		                    <i class="fas fa-quote-left icon-small text-deep-pink display-block margin-25px-bottom"></i>
+		                    <h5 class="alt-font text-white font-weight-300">{{ if eq $.Lang "fr" }}{{ .text.fr }}{{ else }}{{ .text.en }}{{ end }}</h5>
+		                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">{{ if eq $.Lang "fr" }}{{ .name.fr }}{{ else }}{{.name.en }}{{ end }}</span>
+		                </div>
+                    </div>    
+                    <!-- end testimonial item -->
+                    {{ end }}
+                </div>
+                <div class="swiper-button-next slider-long-arrow-white"></div>
+                <div class="swiper-button-prev slider-long-arrow-white"></div>
+            </div>
+        </div> 
+    </div>
+</section>
+<!-- end testimonial style 02 section -->

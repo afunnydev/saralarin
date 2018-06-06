@@ -14,3 +14,10 @@ a.top-bar-link {
 		max-height: 100px;
 	}
 }
+
+#merci .row {
+	a {
+		text-decoration: underline;
+		color: $pcolor;
+	}
+}

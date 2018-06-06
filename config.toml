@@ -45,11 +45,17 @@ EnableMissingTranslationPlaceholders = true
 
 [Languages]
 [Languages.en]
+[Languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
 [Languages.en.permalinks]
   singles = "/:slug/"
   category = "categories"
 
 [Languages.fr]
+[Languages.fr.taxonomies]
+  category = "categories"
+  tag = "tags"
 [Languages.fr.permalinks]
   singles = "/:slug/"
   category = "categories"

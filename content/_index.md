@@ -113,54 +113,7 @@ section10:
   title: "Projets"
 section11:
   title: "Quelques clients"
-  clients:
-    - name: Les industries Harnois
-      link: "#"
-      logo: /img/logo-harnois.png
-    - name: nod-A
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Gab café
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Tourisme Lanaudière
-      link: "#"
-      logo: /img/logo-toursime.png
-    - name: Grenier nouvelles
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Cryos 
-      link: "#"
-      logo: /images/logo-10.png
-    - name: SOS Labyrinthe 
-      link: "#"
-      logo: /img/logo-sos.png
-    - name: Gestev
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Youville Haussmann Park
-      link: "#"
-      logo: /img/logo-youville.png
-    - name: Buck créatifs 
-      link: "#"
-      logo: /img/logo-buck.png
-section12:
-  testimonials:
-    - text: >-
-        Étant moi-même un homme de mots (et je le dis avec toute l'humilité de quelqu'un qui n'a que 6 crédits universitaires), j'ai été plus que satisfait de ma relation avec Sara. C'était professionnel, rapide, satisfaisant et j'en suis sorti heureux, comblé et mon site Web ainsi que mes réseaux sociaux ont pris du tonus et de la vigueur. Comme toujours, merci. Love
-      name: Gabriel Dancause, cofondateur GAB
-    - text: >-
-        Sara démontre toujours une très grande créativité et une compréhension rapide des clients et enjeux. Elle se démarque par sa capacité de créer des textes marquants et axés résultat. Elle maîtrise tous les styles et longueurs, du « liners/short copy » au « long copy ».
-      name: Alexandre Cossette, chef de marque groupe Antonopoulos
-    - text: >-
-        Sara a cette capacité à joindre une gestion de projet serrée à l'aspect créatif du livrable à produire. Elle est en mesure de faire une évaluation critique et pertinente au niveau créatif, tout en mettant le tout en contexte grâce à sa grande expérience sur de nombreux comptes et projets. C'est un atout essentiel dans le contexte d'affaires dans lequel nous évoluons chaque jour.
-      name: Alexandre Gravel, Associé-fondateur et producteur Toast Studio
-    - text: >-
-        Sara est une personne sensible et intelligente. travailler avec elle c'est agréable, devrais-je dire collaborer, en effet c'est sa force la collaboration. Elle pose les bonnes questions et aime aller au fond des choses. C'est donc dire que c'est super que de la connaître et de savoir que nous pouvons compter sur elle.
-      name: Stéphane Olivier, Producteur / Propriétaire Buck Créatifs
-    - text: >-
-        Les Industries Harnois ont pris tout un virage en 2017-2018 avec la refonte complète de leur image de marque ainsi que de nouvelles stratégies marketing, dont un tout nouveau site web. Sara a très bien compris l’entreprise et son environnement (une grande entreprise qui chapeaute 3 divisions très différentes) afin d’acquitter son mandat parfaitement. Du contenu devait être créé pour plusieurs plateformes : site web, brochures, photos, vidéos, articles de blogue, etc. Versatile, Sara a très bien su mener à terme ses projets qui comprenaient non seulement de la rédaction et de la recherche, mais aussi de la gestion. Le travail d’équipe et l’initiative ont également été de mise puisqu’elle a dû contacter et travailler avec plusieurs intervenants en plus de la coordonnatrice de projets de l’entreprise.
-      name: Geneviève Hétu, Coordonnatrice marketing Industries Harnois Inc.  
+section12: true
 section13:
   title: "Vous avez des questions?"
   image: /img/hp-bloc contact.png

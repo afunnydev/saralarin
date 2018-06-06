@@ -1,17 +1,16 @@
 {{ define "main" }}
 <main class="main" id="{{ .Type }}-list">
 		<!-- start page title section -->
-    <section class="wow fadeIn parallax" data-stellar-background-ratio="0.5" style="background-image:url('http://placehold.it/1920x1100');">
-        <div class="opacity-medium bg-extra-dark-gray"></div>
+    <section class="wow fadeIn parallax" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.Params.image }}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
                     <div class="display-table-cell vertical-align-middle text-center">
                         <!-- start page title -->
-                        <h1 class="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">{{ .Params.titre }}</h1>
+                        <h1 class="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1 margin-10px-bottom">{{ .Params.titre }}</h1>
                         <!-- end page title -->
                         <!-- start sub title -->
-                        <span class="text-white opacity6 alt-font no-margin-bottom">{{ .Params.subtitle }}</span>
+                        <span class="opacity6 text-extra-dark-gray alt-font no-margin-bottom">{{ .Params.subtitle }}</span>
                         <!-- end sub title -->
                     </div>
                 </div>
@@ -24,168 +23,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!-- start filter navigation -->
-                    <ul class="portfolio-filter nav nav-tabs border-none portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-80px-bottom text-small sm-margin-40px-bottom xs-margin-20px-bottom">
-                        <li class="nav active"><a href="javascript:void(0);" data-filter="*" class="xs-display-inline light-gray-text-link text-very-small">All</a></li>
-                        <li class="nav"><a href="javascript:void(0);" data-filter=".web" class="xs-display-inline light-gray-text-link text-very-small">Web</a></li>
-                        <li class="nav"><a href="javascript:void(0);" data-filter=".advertising" class="xs-display-inline light-gray-text-link text-very-small">Advertising</a></li>
-                        <li class="nav"><a href="javascript:void(0);" data-filter=".branding" class="xs-display-inline light-gray-text-link text-very-small">Branding</a></li>
-                        <li class="nav"><a href="javascript:void(0);" data-filter=".design" class="xs-display-inline light-gray-text-link text-very-small">Design</a></li>
-                        <li class="nav"><a href="javascript:void(0);" data-filter=".photography" class="xs-display-inline light-gray-text-link text-very-small">Photography</a></li>
-                    </ul>                                                                           
-                    <!-- end filter navigation -->
+                    {{- partial "site/portfolio-filter.html" . -}}
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 no-padding xs-padding-15px-lr">
-                <div class="filter-content overflow-hidden">
-                    <ul class="portfolio-grid portfolio-metro-grid work-4col hover-option5 gutter-medium">
-                        <li class="grid-sizer"></li>
-                        <!-- start portfolio item -->
-                        <li class="grid-item web advertising wow zoomIn">
-                            <a href="single-project-page-01.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Tailoring Interior</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Brochure</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item branding grid-item-double wow zoomIn" data-wow-delay="0.2s">
-                            <a href="single-project-page-02.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Herbal Beauty Salon</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item web design wow zoomIn" data-wow-delay="0.4s">
-                            <a href="single-project-page-03.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Pixflow Studio</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item advertising photography wow zoomIn">
-                            <a href="single-project-page-04.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Educamp School</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item branding grid-item-double wow zoomIn">
-                            <a href="single-project-page-05.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">HardDot Stone</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Branding and Identity</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item web design wow zoomIn" data-wow-delay="0.2s">
-                            <a href="single-project-page-06.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Designblast Inc</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Web and Photography</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item advertising photography grid-item-double wow zoomIn" data-wow-delay="0.2s">
-                            <a href="single-project-page-07.html">
-                                <figure>
-                                    <div class="portfolio-img"><img src="http://placehold.it/770x788" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light2 position-relative"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Designblast Inc</span>
-                                                    <p class="text-medium-gray letter-spacing-1 text-uppercase text-extra-small">Web and Photography</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                    </ul>
+                    {{- partial "site/portfolio-list.html" . -}}
                 </div>
-                    </div>
             </div>
         </div>
     </section>

@@ -81,6 +81,9 @@
   other = "Autres services"
   one = "Autre service"
 
+[all]
+  other = "Tous"
+
 # Form elements
 
 [name]
@@ -109,6 +112,12 @@
 
 [subject]
   other = "Sujet"
+
+[select_budget]
+  other = "Choisissez votre budget"
+
+[describe_project]
+  other = "Décrivez votre projet"
 
 # Language
 

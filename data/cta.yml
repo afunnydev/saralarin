@@ -6,3 +6,12 @@ main:
     fr: Démarrer un projet
     en: Start a project
     link: contactPage
+second:
+  image: /img/a-propos-cta.png
+  text:
+    fr: On collabore?
+    en: Ready to collaborate?
+  btn:
+    fr: Démarrer un projet
+    en: Start a project
+    link: contactPage

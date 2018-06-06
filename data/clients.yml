@@ -1,0 +1,31 @@
+clients:
+  - name: Les industries Harnois
+    link: "#"
+    logo: /img/logo-harnois.png
+  - name: nod-A
+    link: "#"
+    logo: /images/logo-10.png
+  - name: Gab café
+    link: "#"
+    logo: /images/logo-10.png
+  - name: Tourisme Lanaudière
+    link: "#"
+    logo: /img/logo-toursime.png
+  - name: Grenier nouvelles
+    link: "#"
+    logo: /images/logo-10.png
+  - name: Cryos 
+    link: "#"
+    logo: /images/logo-10.png
+  - name: SOS Labyrinthe 
+    link: "#"
+    logo: /img/logo-sos.png
+  - name: Gestev
+    link: "#"
+    logo: /images/logo-10.png
+  - name: Youville Haussmann Park
+    link: "#"
+    logo: /img/logo-youville.png
+  - name: Buck créatifs 
+    link: "#"
+    logo: /img/logo-buck.png
