@@ -1,13 +1,13 @@
 <!-- start product hero section -->
-<section id="home" class="no-padding parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('http://placehold.it/1920x1200');">
+<section id="home" class="no-padding parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{ .Params.image }}');">
     <div class="opacity-full bg-black"></div>
     <div class="container position-relative full-screen">
         <div class="slider-typography text-center">
             <div class="slider-text-middle-main">
                 <div class="slider-text-middle">
                     <div class="text-bottom-line border-color-deep-pink margin-25px-bottom"></div>
-                    <h1 class="text-white alt-font font-weight-700">Filamento Lamps</h1>
-                    <span class="width-60 center-col text-extra-large display-block  margin-20px-top line-height-30 xs-width-90">Based in Guadalajara and founded by Enrique, Filamento creates beautiful lamp designs with an eye on simplicity for the modern homes.</span>
+                    <h1 class="text-white alt-font font-weight-700">{{ .Params.listing.title }}</h1>
+                    <span class="width-60 center-col text-extra-large display-block  margin-20px-top line-height-30 xs-width-90">{{ .Params.listing.description }}</span>
                     <div class="down-section text-center"><a href="#down-section" class="inner-link"><i class="ti-arrow-down icon-extra-small text-white bg-deep-pink padding-15px-all xs-padding-10px-all border-radius-100"></i></a></div>
                 </div>
             </div>
@@ -15,84 +15,78 @@
     </div>
 </section>
 <!-- end product hero section -->
+{{ with .Params.section1 }}
 <!-- start product information section -->
-<section class="wow fadeIn big-section" id="down-section">
+<section class="wow fadeIn half-section" id="down-section">
     <div class="container">
         <div class="row">
             <div class="col-md-11 center-col text-center margin-70px-bottom sm-margin-50px-bottom xs-margin-30px-bottom wow fadeInUp">
-                <h6 class="alt-font text-extra-dark-gray">Holistic brand redesign focusing product design, interface design, studio photograph style, icon design, editorial design, web design & motion design.</h6>
+                <h6 class="alt-font text-extra-dark-gray">{{ .title }}</h6>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12 no-padding margin-70px-bottom sm-margin-50px-bottom xs-margin-30px-bottom fadeInUp">
-                <div class="col-md-3 padding-30px-lr">
+            <div class="col-md-12 col-sm-12 col-xs-12 no-padding margin-40px-bottom sm-margin-20px-bottom xs-margin-30px-bottom fadeInUp">
+                {{ range .table }}
+                <div class="col-md-2 padding-30px-lr">
                     <ul class="list-style-6">
-                        <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">Client</li>
-                        <li>Filamento Lamps</li>
+                        <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">{{ .name }}</li>
+                        <li>{{ .text | markdownify }}</li>
                     </ul>
                 </div>
-                <div class="col-md-3 padding-30px-lr">
-                    <ul class="list-style-6">
-                        <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">Industry</li>
-                        <li>Lighting, Decoration</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 padding-30px-lr">
-                    <ul class="list-style-6">
-                        <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">Services</li>
-                        <li>Design, Art Direction, Website</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 padding-30px-lr">
-                    <ul class="list-style-6">
-                        <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">Art Director</li>
-                        <li>Jackson Smith</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-10 center-col text-center wow fadeInUp" data-wow-delay="0.4s">
-                <a href="index.html" class="btn btn-transparent-dark-gray btn-large">Launch Website</a>
+                {{ end }}
             </div>
         </div>
     </div>
 </section>
 <!-- end product information section -->
+{{ end }}
+{{ with .Params.section2 }}
 <!-- start product image section -->
 <section class="wow fadeIn no-padding">
     <div class="container-fluid no-padding">
         <div class="row no-margin">
+            {{ with .image1 }}
             <div class="col-md-6 no-padding wow fadeInUp">
-                <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
+                <img src="{{ . }}" class="width-100" alt="Portfolio"/>
             </div>
+            {{ end }}
+            {{ with .image2 }}
             <div class="col-md-6 no-padding wow fadeInUp">
-                <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
+                <img src="{{ . }}" class="width-100" alt="Porfolio"/>
             </div>
+            {{ end }}
         </div>
     </div>
 </section>
 <!-- end product image section -->
+{{ end }}
+{{ with .Params.section3 }}
 <!-- start product information section -->
 <section class="wow fadeIn">
     <div class="container">
         <div class="row">
+            {{ with .text1 }}
             <div class="col-md-5 col-md-offset-1 line-height-28 last-paragraph-no-margin wow fadeInUp">
                 <ul class="list-style-6">
-                    <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">About Project</li>
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</li>
+                    <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">{{ .title }}</li>
+                    <li>{{ .description }}</li>
                 </ul>
             </div>
+            {{ end }}
+            {{ with .text2 }}
             <div class="col-md-5 col-md-offset-1 line-height-28 last-paragraph-no-margin wow fadeInUp"  data-wow-delay="0.2s">
                 <ul class="list-style-6">
-                    <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">Project Brief</li>
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</li>
+                    <li class="text-extra-small text-uppercase text-black font-weight-500 line-height-22">{{ .title }}</li>
+                    <li>{{ .description }}</li>
                 </ul>
             </div>
+            {{ end }}
         </div>
     </div>
 </section>
 <!-- end product information section -->
+{{ end }}
+{{ with .Params.section4 }}
 <!-- start product slider section -->
 <section class="wow fadeIn no-padding">
     <div class="container-fluid">
@@ -100,26 +94,13 @@
             <div class="col-md-12">
                 <div class="swiper-blog white-move">
                     <div class="swiper-wrapper">
+                        {{ range . }}
                         <!-- start slider item -->
                         <div class="swiper-slide width-50 sm-width-80 xs-width-100">
-                            <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
+                            <img src="{{ .image }}" class="width-100" alt=""/>
                         </div>
                         <!-- end slider item -->
-                        <!-- start slider item -->
-                        <div class="swiper-slide width-50 sm-width-80 xs-width-100">
-                            <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- start slider item -->
-                        <div class="swiper-slide width-50 sm-width-80 xs-width-100">
-                            <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- start slider item -->
-                        <div class="swiper-slide width-50 sm-width-80 xs-width-100">
-                            <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
-                        </div>
-                        <!-- end slider item -->
+                        {{ end }}
                     </div>
                 </div>
             </div>
@@ -127,82 +108,36 @@
     </div>
 </section>
 <!-- end product slider section -->
+{{ end }}
+{{ with .Params.section5 }}
 <!-- start product video section -->
 <section class="wow fadeIn">
     <div class="container">
         <div class="row">
-            <div class="col-md-11 center-col text-center margin-70px-bottom xs-no-margin-bottom wow fadeInUp">
-                <span class="text-uppercase alt-font text-small text-medium-gray margin-5px-bottom display-block">How to make decorative light</span>
-                <h6 class="alt-font text-extra-dark-gray">Holistic brand redesign focusing product design, interface design, studio photograph style, icon design, editorial design, web design & motion design.</h6>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-lg-12 text-center display-table sm-margin-50px-bottom xs-margin-30px-bottom center-col wow fadeIn">
                 <div class="display-table-cell vertical-align-middle">
-                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                        <img src="http://placehold.it/1000x673" class="width-100" alt=""/>
+                    {{ if .video }}
+                    <a class="popup-youtube" href="{{ .videolink }}">
+                        <img src="{{ .image }}" class="width-100" alt=""/>
                         <div class="icon-play">
                             <div class="absolute-middle-center">
-                                <img src="images/icon-play.png" alt="">
+                                <img src="/images/icon-play.png" alt="">
                             </div>
                         </div>
                     </a>
+                    {{ else }}
+                    <img src="{{ .image }}" alt="Redaction">
+                    {{ end }}
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- end product video section -->
-<!-- start progress bar section -->
-<section class="wow fadeIn bg-light-gray">
-    <div class="container">
-        <div class="row equalize sm-equalize-auto">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 display-table wow fadeIn last-paragraph-no-margin">
-                <div class="display-table-cell vertical-align-middle padding-seventeen-right sm-no-padding-lr sm-text-center sm-padding-30px-bottom">
-                    <h6 class="text-extra-dark-gray width-90 alt-font sm-width-100 margin-15px-bottom">Project skills & expertise</h6>
-                    <p class="width-90 margin-30px-bottom sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 display-table sm-no-margin-bottom wow fadeIn">
-                <div class="display-table-cell vertical-align-middle">
-                    <div class="skillbar-bar-main skillbar-bar-style2">
-                        <!-- start progress bar item -->
-                        <div class="skillbar margin-45px-bottom" data-percent="92%">
-                            <span class="skill-bar-text text-extra-small text-uppercase text-dark-gray">Jquery - 4 years Experience</span>
-                            <p class="skillbar-bar"></p>
-                            <span class="skill-bar-percent text-small"></span>
-                        </div>
-                        <!-- end progress bar item -->
-                        <!-- start progress bar item -->
-                        <div class="skillbar margin-45px-bottom" data-percent="97%">
-                            <span class="skill-bar-text text-extra-small text-uppercase text-dark-gray">Wordpress - 6 years Experience</span>
-                            <p class="skillbar-bar"></p>
-                            <span class="skill-bar-percent text-small"></span>
-                        </div>
-                        <!-- end progress bar item -->
-                        <!-- start progress bar item -->
-                        <div class="skillbar margin-45px-bottom" data-percent="98%">
-                            <span class="skill-bar-text text-extra-small text-uppercase text-dark-gray">HTML5 - 5 years Experience</span>
-                            <p class="skillbar-bar"></p>
-                            <span class="skill-bar-percent text-small"></span>
-                        </div>
-                        <!-- end progress bar item -->
-                        <!-- start progress bar item -->
-                        <div class="skillbar" data-percent="92%">
-                            <span class="skill-bar-text text-extra-small text-uppercase text-dark-gray">Photography - 6 years Experience</span>
-                            <p class="skillbar-bar"></p>
-                            <span class="skill-bar-percent text-small"></span>
-                        </div>
-                        <!-- end progress bar item -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end progress bar section -->
+{{ end }}
+{{ with .Params.section6}}
 <!-- start parallax section -->
-<section id="home-bottom" class="parallax one-fourth-screen wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('http://placehold.it/1920x1292');">
+<section id="home-bottom" class="parallax one-fourth-screen wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('/xl{{ .image }}');">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -211,16 +146,4 @@
     </div>
 </section>
 <!-- end parallax section -->
-<!-- start blockquote section -->
-<section class="wow fadeIn">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 center-col text-center">
-                <i class="fas fa-quote-left icon-small text-deep-pink display-block margin-25px-bottom"></i>
-                <h6 class="alt-font text-extra-dark-gray">This is an excellent company! I personally enjoyed the energy and the professional support the whole team gave to us into creating website.</h6>
-                <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">Mattie Stepanek</span>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end blockquote section -->
+{{ end }}

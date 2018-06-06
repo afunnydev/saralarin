@@ -84,6 +84,27 @@
 [all]
   other = "Tous"
 
+[agency]
+  other = "Agence"
+
+[search_interview]
+  other = "Recherches et entrevues"
+
+[copywriting]
+  other = "Rédaction"
+
+[adaptation]
+  other = "Adaptation"
+
+[previous_project]
+  other = "Projet précédent"
+
+[next_project]
+  other = "Projet suivant"
+
+[related_projects]
+  other = "Autres projets"
+
 # Form elements
 
 [name]

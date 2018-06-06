@@ -13,109 +13,92 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 center-col margin-eight-bottom text-center last-paragraph-no-margin">
-                    <h5 class="text-extra-dark-gray margin-20px-bottom font-weight-300">Related Projects</h5>
+                    <h5 class="text-extra-dark-gray margin-20px-bottom font-weight-300">{{ i18n "related_projects" }}</h5>
                 </div>  
             </div>
             <div class="row no-margin">
                 <div class="filter-content overflow-hidden">
                     <ul class="portfolio-grid work-3col hover-option4 gutter-medium">
                         <li class="grid-sizer"></li>
+                        {{ range $i, $e := shuffle (first 3 (where .Site.RegularPages "Type" "portfolio")) }}
+                        {{ $number := mul 2 $i}}
                         <!-- start portfolio item -->
-                        <li class="grid-item web branding design wow fadeInUp">
-                            <a href="single-project-page-02.html">
+                        <li class="grid-item web branding design wow fadeInUp" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+                            <a href="{{ .Permalink }}">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="http://placehold.it/800x650" alt=""/></div>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="{{ .Params.image }}" alt="{{ .Params.listing.title }}"/></div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">
                                                 <div class="portfolio-hover-content position-relative">
                                                     <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light3 margin-25px-bottom"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Herbal Beauty Salon</span>
-                                                    <p class="text-medium-gray text-uppercase text-extra-small no-margin-bottom">Branding and Identity</p>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">{{ .Params.listing.title }}</span>
+                                                    <p class="text-medium-gray text-uppercase text-extra-small no-margin-bottom">{{ .Params.listing.description }}</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="single-project-page-03.html">
-                                <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="http://placehold.it/800x650" alt=""/></div>
+                                <!-- <figure>
+                                    <div class="portfolio-img bg-extra-dark-gray" style="background-image: url('{{ .Params.image }}'); background-position: center center; background-size: cover; background-repeat: no-repeat;">
+                                        <div class="bg-extra-dark-gray" style="height: 100%; width: 100%; position: absolute; opacity: 0.4"></div>
+                                    </div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">
                                                 <div class="portfolio-hover-content position-relative">
                                                     <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light3 margin-25px-bottom"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Tailoring Interior</span>
-                                                    <p class="text-medium-gray text-uppercase text-extra-small no-margin-bottom">Branding and Brochure</p>
+                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">{{ .Params.listing.title }}</span>
+                                                    <p class="text-white text-uppercase text-extra-small no-margin-bottom">{{ .Params.listing.description }}</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </figcaption>
-                                </figure>
+                                </figure> -->
                             </a>
                         </li>
                         <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item advertising branding photography wow fadeInUp wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="single-project-page-04.html">
-                                <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="http://placehold.it/800x650" alt=""/></div>
-                                    <figcaption>
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative">
-                                                    <div class="bg-deep-pink center-col separator-line-horrizontal-medium-light3 margin-25px-bottom"></div>
-                                                    <span class="font-weight-600 letter-spacing-1 alt-font text-white text-uppercase margin-5px-bottom display-block">Pixflow Studio</span>
-                                                    <p class="text-medium-gray text-uppercase text-extra-small no-margin-bottom">Branding and Identity</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <!-- end portfolio item -->
+                        {{ end }}
                     </ul>
                 </div>
             </div>
         </div>
     </section>
     <!-- end product post section -->
-		<!-- start blog navigation bar section -->
-		<section class="wow fadeIn border-top border-width-1 border-color-medium-gray no-padding">
-		    <div class="container-fluid">
-		        <div class="row">
-		            <div class="display-table width-100 padding-30px-lr sm-padding-15px-lr">
-		                <div class="width-45 text-left display-table-cell vertical-align-middle">
-		                    <div class="blog-nav-link blog-nav-link-prev text-extra-dark-gray">
-		                        <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">Previous Project</span>
-		                        <a href="single-project-page-07.html">
-		                            <i class="ti-arrow-left blog-nav-icon"></i>
-		                            Restaurant Photography
-		                        </a>
-		                    </div>
-		                </div>
-		                <div class="width-10 text-center display-table-cell vertical-align-middle">
-		                    <a href="portfolio-boxed-grid-overlay.html" class="blog-nav-link blog-nav-home"><i class="ti-layout-grid2-alt"></i></a>
-		                </div>
-		                <div class="width-45 text-right display-table-cell vertical-align-middle">
-		                    <div class="blog-nav-link blog-nav-link-next text-extra-dark-gray">    
-		                        <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">Next Project</span>
-		                        <a href="single-project-page-01.html">
-		                            <i class="ti-arrow-right blog-nav-icon"></i>
-		                            Mammut Adventure
-		                        </a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</section>
-		<!-- end blog navigation bar section -->
+	<!-- start blog navigation bar section -->
+	<section class="wow fadeIn border-top border-width-1 border-color-medium-gray no-padding">
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="display-table width-100 padding-30px-lr sm-padding-15px-lr">
+                    {{if .PrevInSection }}
+	                <div class="width-45 text-left display-table-cell vertical-align-middle">
+	                    <div class="blog-nav-link blog-nav-link-prev text-extra-dark-gray">
+	                        <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">{{ i18n "previous_project" }}</span>
+	                        <a href="{{ .PrevInSection.Permalink }}">
+	                            <i class="ti-arrow-left blog-nav-icon"></i>
+	                            {{.PrevInSection.Params.listing.title}}
+	                        </a>
+	                    </div>
+	                </div>
+                    {{ end }}
+	                <div class="width-10 text-center display-table-cell vertical-align-middle">
+	                    <a href='{{ $.Scratch.Get "portfolioPage" }}' class="blog-nav-link blog-nav-home"><i class="ti-layout-grid2-alt"></i></a>
+	                </div>
+                    {{ if .NextInSection }}
+	                <div class="width-45 text-right display-table-cell vertical-align-middle">
+	                    <div class="blog-nav-link blog-nav-link-next text-extra-dark-gray">    
+	                        <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">{{ i18n "next_project" }}</span>
+	                        <a href="{{ .NextInSection.Permalink }}">
+	                            <i class="ti-arrow-right blog-nav-icon"></i>
+	                            {{ .NextInSection.Params.listing.title }}
+	                        </a>
+	                    </div>
+	                </div>
+                    {{ end }}
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<!-- end blog navigation bar section -->
 </main>
 {{ end }}
