@@ -75,12 +75,12 @@ collections:
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
 #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "string", default: "en"}
-      # - label: "Testing"
-      #   name: "testing"
-      #   widget: "string"
-      #   condition:
-      #     field: "i18nlanguage"
-      #     value: "fr"
+      - label: "Testing"
+        name: "testing"
+        widget: "string"
+        condition:
+          field: "i18nlanguage"
+          value: "fr"
       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
@@ -140,7 +140,7 @@ collections:
           - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - name: "parametres"
         label: "Paramètres"
-        file: "data/setting.yml"
+        file: "data/settings.yml"
         fields:
           - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
   - name: "pages"
