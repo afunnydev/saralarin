@@ -117,26 +117,32 @@ collections:
         label: "Clients"
         file: "data/clients.yml"
         fields:
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - name: "temoignages"
         label: "Témoignages"
         file: "data/testimonials.yml"
         fields:
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - name: "cta"
         label: "Call-to-action"
         file: "data/cta.yml"
         fields:
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - name: "footer"
         label: "Pied de page"
         file: "data/footer.yml"
         fields:
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - name: "menu"
         label: "Menu"
         file: "data/menu.yml"
         fields:
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - name: "parametres"
         label: "Paramètres"
         file: "data/setting.yml"
         fields:
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
   - name: "pages"
     label: "Pages"
     editor:
@@ -146,8 +152,7 @@ collections:
         label: "Accueil - FR"
         file: "content/_index.md"
         fields:
-
-
+          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
           # - name: shaker
           #   label: Shaker
           #   widget: list
