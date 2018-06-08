@@ -75,12 +75,12 @@ collections:
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
 #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "string", default: "en"}
-      - label: "Testing"
-        name: "testing"
-        widget: "string"
-        condition:
-          field: "i18nlanguage"
-          value: "fr"
+      # - label: "Testing"
+      #   name: "testing"
+      #   widget: "string"
+      #   condition:
+      #     field: "i18nlanguage"
+      #     value: "fr"
       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
@@ -96,17 +96,6 @@ collections:
       value: "en"
     fields:
       - {label: "Titre SEO", name: "title", widget: "string"}
-      - {label: "Titre visible", name: "titre", widget: "string"}
-      - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-      - {label: "Description SEO", name: "description", widget: "text", required: false}
-      - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
-      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-#      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
-      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-      - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
-      - {label: "Texte", name: "body", widget: "markdown"}
-      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 ### SETTINGS
   - name: "settings"
     label: "Settings"
@@ -117,32 +106,267 @@ collections:
         label: "Clients"
         file: "data/clients.yml"
         fields:
-          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+          - name: clients
+            label: Clients
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Lien", name: "link", widget: "string", defaut: "#"}
+              - {label: "Logo", name: "logo", widget: "image"}
       - name: "temoignages"
         label: "Témoignages"
         file: "data/testimonials.yml"
         fields:
-          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+          - name: testimonials
+            label: "Témoignages"
+            widget: list
+            create: true
+            fields:
+              - label: "Texte" 
+                name: "text" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "text", required: false}
+                  - {label: "Anglais", name: "en", widget: "text", required: false}
+              - label: "Nom" 
+                name: "name" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
       - name: "cta"
         label: "Call-to-action"
         file: "data/cta.yml"
         fields:
-          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+          - label: "Principal" 
+            name: "main" 
+            widget: "object" 
+            fields:
+              - label: "Texte" 
+                name: "text" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+                  - label: "Lien"
+                    name: "link"
+                    widget: "select"
+                    options:
+                      - { label: "Accueil", value: "homePage" }
+                      - { label: "Portfolio", value: "portfolioPage" }
+                      - { label: "Services", value: "servicesPage" }
+                      - { label: "À propos", value: "aboutPage" }
+                      - { label: "Contact", value: "contactPage" }
+                      - { label: "Articles", value: "articlesPage" }
+                      - { label: "FAQ", value: "faqPage" }
+          - label: "Secondaire" 
+            name: "second" 
+            widget: "object" 
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Texte" 
+                name: "text" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+                  - label: "Lien"
+                    name: "link"
+                    widget: "select"
+                    options:
+                      - { label: "Accueil", value: "homePage" }
+                      - { label: "Portfolio", value: "portfolioPage" }
+                      - { label: "Services", value: "servicesPage" }
+                      - { label: "À propos", value: "aboutPage" }
+                      - { label: "Contact", value: "contactPage" }
+                      - { label: "Articles", value: "articlesPage" }
+                      - { label: "FAQ", value: "faqPage" }
       - name: "footer"
         label: "Pied de page"
         file: "data/footer.yml"
         fields:
-          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+          - label: "Colonne 1" 
+            name: "col1" 
+            widget: "object" 
+            fields:
+              - {label: "Français", name: "fr", widget: "text", required: false}
+              - {label: "Anglais", name: "en", widget: "text", required: false}
+          - label: "Colonne 2" 
+            name: "col2" 
+            widget: "object" 
+            fields:
+              - name: "title" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+              - name: links
+                label: Menu
+                widget: list
+                create: true
+                fields:
+                  - {label: "Français", name: "fr", widget: "text", required: false}
+                  - {label: "Anglais", name: "en", widget: "text", required: false}
+                  - label: "Lien"
+                    name: "link"
+                    widget: "select"
+                    options:
+                      - { label: "Accueil", value: "homePage" }
+                      - { label: "Portfolio", value: "portfolioPage" }
+                      - { label: "Services", value: "servicesPage" }
+                      - { label: "À propos", value: "aboutPage" }
+                      - { label: "Contact", value: "contactPage" }
+                      - { label: "Articles", value: "articlesPage" }
+                      - { label: "FAQ", value: "faqPage" }
+          - label: "Colonne 3" 
+            name: "col3" 
+            widget: "object" 
+            fields:
+              - name: "title" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+          - label: "Colonne 4" 
+            name: "col4" 
+            widget: "object" 
+            fields:
+              - name: "title" 
+                widget: "object" 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+          - label: "Copyrights" 
+            name: "copyrights" 
+            widget: "object" 
+            fields:
+              - {label: "Français", name: "fr", widget: "string", required: false}
+              - {label: "Anglais", name: "en", widget: "string", required: false}
       - name: "menu"
         label: "Menu"
         file: "data/menu.yml"
         fields:
-          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+          - label: "Principal" 
+            name: "main" 
+            widget: "list"
+            create: true 
+            fields:
+              - {label: "Français", name: "fr", widget: "string", required: false}
+              - {label: "Anglais", name: "en", widget: "string", required: false}
+              - label: "Lien"
+                name: "link"
+                widget: "select"
+                options:
+                  - { label: "Accueil", value: "homePage" }
+                  - { label: "Portfolio", value: "portfolioPage" }
+                  - { label: "Services", value: "servicesPage" }
+                  - { label: "À propos", value: "aboutPage" }
+                  - { label: "Contact", value: "contactPage" }
+                  - { label: "Articles", value: "articlesPage" }
+                  - { label: "FAQ", value: "faqPage" }
+              - {label: "Sous-menu?", name: "submenu", widget: "boolean", required: false, default: false}
+              - label: "Liens dans le sous-menu (s'il est actif)" 
+                name: "links" 
+                widget: "list"
+                create: true
+                required: false 
+                fields:
+                  - {label: "Français", name: "fr", widget: "string", required: false}
+                  - {label: "Anglais", name: "en", widget: "string", required: false}
+                  - label: "Lien"
+                    name: "link"
+                    widget: "select"
+                    options:
+                      - { label: "Accueil", value: "homePage" }
+                      - { label: "Portfolio", value: "portfolioPage" }
+                      - { label: "Services", value: "servicesPage" }
+                      - { label: "À propos", value: "aboutPage" }
+                      - { label: "Contact", value: "contactPage" }
+                      - { label: "Articles", value: "articlesPage" }
+                      - { label: "FAQ", value: "faqPage" }
+
       - name: "parametres"
         label: "Paramètres"
         file: "data/settings.yml"
+        description: "Paramètres"
         fields:
-          - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+          - name: socials
+            label: Réseaux sociaux
+            widget: object
+            fields:
+              - {label: "Facebook", name: "facebookurl", widget: "string", required: false}
+              - {label: "Linkedin", name: "linkedinurl", widget: "string", required: false}
+              - {label: "Twitter", name: "twitterurl", widget: "string", required: false}
+              - {label: "Youtube", name: "youtubeurl", widget: "string", required: false}
+              - {label: "Instagram", name: "instagramurl", widget: "string", required: false}
+              - {label: "Google+", name: "googleplusurl", widget: "string", required: false}
+              - {label: "Pinterest", name: "pinteresturl", widget: "string", required: false}
+              - {label: "Vimeo", name: "vimeourl", widget: "string", required: false}
+              - {label: "Dribble", name: "dribbleurl", widget: "string", required: false}
+          - name: twitter
+            label: Twitter
+            widget: object
+            fields:
+              - {label: "Avez-vous besoin des données de partage pour Twitter?", name: "share", widget: "boolean", required: false, default: false}
+              - {label: "Identifiant", name: "id", widget: "string", required: false}
+          - name: address
+            label: Adresse
+            widget: object
+            fields:
+              - {label: "Rue", name: "road", widget: "string", required: false}
+              - {label: "Appartement", name: "app", widget: "string", required: false}
+              - {label: "Ville", name: "city", widget: "string", required: false}
+              - {label: "Province", name: "province", widget: "string", required: false}
+              - {label: "Code postal", name: "postal", widget: "string", required: false}
+              - {label: "Pays", name: "country", widget: "string", required: false}
+          - name: heures
+            label: Heures d'ouverture
+            widget: object
+            fields:
+              - name: fr
+                label: Français
+                widget: list
+                create: true
+                fields:
+                  - {label: "Journée(s)", name: "jour", widget: "string", required: false}
+                  - {label: "Heures", name: "heures", widget: "string", required: false}
+              - name: en
+                label: Anglais
+                widget: list
+                create: true
+                fields:
+                  - {label: "Journée(s)", name: "jour", widget: "string", required: false}
+                  - {label: "Heures", name: "heures", widget: "string", required: false}
+          - {label: "Téléphone", name: "phone", widget: "string"}
+          - {label: "Téléphone (condensé)", name: "mphone", widget: "string"}
+          - {label: "Courriel", name: "email", widget: "string"}
+          - label: "Description SEO par défaut du site" 
+            name: "sitedescription" 
+            widget: "object" 
+            fields:
+              - {label: "Français", name: "fr", widget: "text", required: false}
+              - {label: "Anglais", name: "en", widget: "text", required: false}
+          - label: "Titre SEO par défaut du site" 
+            name: "sitetitle" 
+            widget: "object" 
+            fields:
+              - {label: "Français", name: "fr", widget: "string", required: false}
+              - {label: "Anglais", name: "en", widget: "string", required: false}
+          - {label: "Image réseaux sociaux par défaut", name: "defaultsocialimage", widget: "image", required: false}
+          - {label: "Retirer le site des moteurs de recherche", name: "removefromexternalsearch", widget: "boolean", required: false, default: false}
   - name: "pages"
     label: "Pages"
     editor:

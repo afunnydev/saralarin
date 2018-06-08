@@ -2,7 +2,9 @@ col1:
   fr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsum quibusdam accusantium officiis sapiente harum soluta, voluptates quam dolorum, modi, excepturi alias."
   en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos numquam, nulla doloribus totam sit? Perspiciatis, voluptate asperiores maiores saepe rerum dolores."
 col2:
-  title: Liens utiles
+  title: 
+    fr: Liens utiles
+    en: Sitemap
   links:
     - fr: Accueil
       en: Home

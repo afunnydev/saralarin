@@ -40,7 +40,11 @@ ouverture:
 phone: '(514) 265-7523'
 mphone: '+15142657523'
 email: 'info@saralarin.ca'
-sitedescription: ""
-sitetitle: ""
+sitedescription:
+  fr:
+  en:
+sitetitle:
+  fr:
+  en:
 defaultsocialimage: "/images/logo-share.jpg"
 removefromexternalsearch: true
