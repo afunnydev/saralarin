@@ -1,5 +1,10 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescription }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescription }}{{ end }}" />
-<title>{{if .IsHome}}{{.Site.Data.settings.sitetitle}}{{ else }}{{.Title}}{{end}}{{if .Site.Data.settings.titleautocompletion}} | {{.Site.Title}}{{end}}</title>
+{{ if eq $.Lang "fr" }}
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescription.fr }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescription.fr }}{{ end }}" />
+<title>{{if .IsHome}}{{.Site.Data.settings.sitetitle.fr}}{{ else if .Title}}{{.Title}}{{else}}{{.Site.Data.settings.sitetitle.fr}}{{end}}</title>
+{{ else if eq $.Lang "en" }}
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescription.en }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescription.en }}{{ end }}" />
+<title>{{if .IsHome}}{{.Site.Data.settings.sitetitle.en}}{{ else if .Title }}{{.Title}}{{else}}{{.Site.Data.settings.sitetitle.en}}{{end}}</title>
+{{ end }}
 
