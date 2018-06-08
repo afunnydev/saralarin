@@ -11,50 +11,50 @@ publish_mode: editorial_workflow
 
 collections:
 ### AUTRES
-  - name: "articles-fr" # Used in routes, e.g. /admin/collections/blog
-    label: "Articles - FR" # Used in the UI
-    folder: "content/articles" # The path to the folder where the documents are stored
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    create: true # Allow users to create new documents in this collection
-    filter: 
-      field: "i18nlanguage"
-      value: "fr"
-    fields:
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-      - {label: "Description SEO", name: "description", widget: "text", required: false}
-      - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
-      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-#      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
-      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
-      - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
-      - {label: "Texte", name: "body", widget: "markdown"}
-      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
-  - name: "articles-en" # Used in routes, e.g. /admin/collections/blog
-    label: "Articles - EN" # Used in the UI
-    folder: "content/articles" # The path to the folder where the documents are stored
-    slug: "{{slug}}.en"
-    editor:
-      preview: false
-    create: true # Allow users to create new documents in this collection
-    filter: 
-      field: "i18nlanguage"
-      value: "en"
-    fields:
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-      - {label: "Description SEO", name: "description", widget: "text", required: false}
-      - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
-      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-#      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
-      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-      - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
-      - {label: "Texte", name: "body", widget: "markdown"}
-      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+#   - name: "articles-fr" # Used in routes, e.g. /admin/collections/blog
+#     label: "Articles - FR" # Used in the UI
+#     folder: "content/articles" # The path to the folder where the documents are stored
+#     slug: "{{slug}}"
+#     editor:
+#       preview: false
+#     create: true # Allow users to create new documents in this collection
+#     filter: 
+#       field: "i18nlanguage"
+#       value: "fr"
+#     fields:
+#       - {label: "Titre", name: "title", widget: "string"}
+#       - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+#       - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
+#       - {label: "Description SEO", name: "description", widget: "text", required: false}
+#       - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
+#       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+# #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
+#       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+#       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
+#       - {label: "Texte", name: "body", widget: "markdown"}
+#       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+#   - name: "articles-en" # Used in routes, e.g. /admin/collections/blog
+#     label: "Articles - EN" # Used in the UI
+#     folder: "content/articles" # The path to the folder where the documents are stored
+#     slug: "{{slug}}.en"
+#     editor:
+#       preview: false
+#     create: true # Allow users to create new documents in this collection
+#     filter: 
+#       field: "i18nlanguage"
+#       value: "en"
+#     fields:
+#       - {label: "Titre", name: "title", widget: "string"}
+#       - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+#       - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
+#       - {label: "Description SEO", name: "description", widget: "text", required: false}
+#       - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
+#       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+# #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
+#       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+#       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
+#       - {label: "Texte", name: "body", widget: "markdown"}
+#       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
   - name: "portoflio-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Portfolio - FR" # Used in the UI
     folder: "content/portfolio" # The path to the folder where the documents are stored
@@ -74,7 +74,13 @@ collections:
       - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
 #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
-      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Langue", name: "i18nlanguage", widget: "string", default: "en"}
+      - label: "Testing"
+        name: "testing"
+        widget: "string"
+        condition:
+          field: "i18nlanguage"
+          value: "fr"
       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
@@ -102,98 +108,128 @@ collections:
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 ### SETTINGS
-  # - name: "settings"
-  #   label: "Settings"
-  #   editor:
-  #     preview: false
-  #   files:
-  #     - name: "succursales"
-  #       label: "Succursales"
-  #       file: "data/locations.yml"
-  #       description: "Modification des succursales des branches"
-  #       fields:
-  #         - name: shaker
-  #           label: Shaker
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: chocolato
-  #           label: Chocolato
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: frits
-  #           label: "Frit's"
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: tartar
-  #           label: TARTAR station
-  #           widget: list
-  #           create: true
-  #           fields:
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "clients"
+        label: "Clients"
+        file: "data/clients.yml"
+        fields:
+      - name: "temoignages"
+        label: "Témoignages"
+        file: "data/testimonials.yml"
+        fields:
+      - name: "cta"
+        label: "Call-to-action"
+        file: "data/cta.yml"
+        fields:
+      - name: "footer"
+        label: "Pied de page"
+        file: "data/footer.yml"
+        fields:
+      - name: "menu"
+        label: "Menu"
+        file: "data/menu.yml"
+        fields:
+      - name: "parametres"
+        label: "Paramètres"
+        file: "data/setting.yml"
+        fields:
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - name: "accueil-fr"
+        label: "Accueil - FR"
+        file: "content/_index.md"
+        fields:
 
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: hola
-  #           label: Hola
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: vapo
-  #           label: "Vaposhop"
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: grenouille
-  #           label: Grenouille
-  #           widget: list
-  #           create: true
-  #           fields:
 
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: planete
-  #           label: "Planète Nutrition"
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
+          # - name: shaker
+          #   label: Shaker
+          #   widget: list
+          #   create: true
+          #   fields:
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: chocolato
+          #   label: Chocolato
+          #   widget: list
+          #   create: true
+          #   fields:
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: frits
+          #   label: "Frit's"
+          #   widget: list
+          #   create: true
+          #   fields:
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: tartar
+          #   label: TARTAR station
+          #   widget: list
+          #   create: true
+          #   fields:
+
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: hola
+          #   label: Hola
+          #   widget: list
+          #   create: true
+          #   fields:
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: vapo
+          #   label: "Vaposhop"
+          #   widget: list
+          #   create: true
+          #   fields:
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: grenouille
+          #   label: Grenouille
+          #   widget: list
+          #   create: true
+          #   fields:
+
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
+          # - name: planete
+          #   label: "Planète Nutrition"
+          #   widget: list
+          #   create: true
+          #   fields:
+          #     - {label: "Nom", name: "name", widget: "string"}
+          #     - {label: "Adresse", name: "loc", widget: "string"}
+          #     - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+          #     - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
+          #     - {label: "Ville", name: "city", widget: "string"}
   # - name: "pages"
   #   label: "Pages"
   #   editor:
