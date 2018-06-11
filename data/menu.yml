@@ -12,8 +12,8 @@ main:
     link: servicesPage
     submenu: false
     links:
-  - fr: Portfolio
-    en: Portfolio
+  - fr: Projets
+    en: Projects
     link: portfolioPage
     submenu: false
     links:
@@ -35,3 +35,7 @@ main:
     link: articlesPage
     submenu: false
     links:
+top:
+  - fr: FAQ
+    en: FAQ
+    link: faqPage

@@ -11,7 +11,7 @@
                         <h1 class="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-15px-bottom">{{ .Params.titre }}</h1>
                         <!-- end page title -->
                         <!-- start sub title -->
-                        <span class="text-white opacity6 alt-font">{{ .Params.subtitle }}</span>
+                        <span class="text-white opacity6 alt-font subtitle">{{ .Params.subtitle }}</span>
                         <!-- end sub title -->
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 margin-10px-bottom sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
                     <i class="{{ .icon }} icon-extra-medium text-deep-pink margin-20px-bottom"></i>
                     <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">{{ .title }}</div>
-                    <p>{{ .description }}</p>
+                    <p class="text-justify">{{ .description }}</p>
                 </div>
                 <!-- end features box item -->
                 {{ end }}
@@ -78,12 +78,12 @@
                         <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h3>
                         <div class="row">
                             {{ with .btn1 }}
-                            <div class="col-lg-6 col-md-6 text-right xs-no-padding-lr last-paragraph-no-margin">
+                            <div class="col-lg-6 col-md-6 col-xs-6 text-right">
                                 <a href="{{ .anchor }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
                             </div>
                             {{ end }}
                             {{ with .btn2 }}
-                            <div class="col-lg-6 col-md-6 text-left xs-no-padding-lr last-paragraph-no-margin"> 
+                            <div class="col-lg-6 col-md-6 col-xs-6 text-left"> 
                                 <a href="{{ .anchor }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
                             </div>
                             {{ end }}
@@ -117,7 +117,7 @@
                         <figcaption>
                             <div class="display-table width-100 height-100">
                                 <div class="display-table-cell vertical-align-middle text-center">
-                                    <div class="text-large text-white alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
+                                    <div class="text-large text-black alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
                                     <!-- <p class="text-light-gray width-80 margin-lr-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
                                     <a href="single-project-page-01.html" class="btn btn-small btn-white font-weight-300 btn-rounded">View Portfolio <i class="ti-arrow-right"></i></a> -->
                                 </div>
@@ -172,7 +172,7 @@
                 </div>
             </div>
             {{ with .box1 }}
-            <div class="row equalize sm-equalize-auto">
+            <div class="row equalize sm-equalize-auto" id="{{ .id }}">
             		<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 display-table col-lg-offset-1 wow fadeInRight">
                     <div class="display-table-cell vertical-align-middle">
                         <h5 class="alt-font text-extra-dark-gray font-weight-600 margin-30px-bottom">{{ .title }}</h5>
@@ -183,7 +183,7 @@
                         </ul>
                         {{ with .btn }}
                         {{ $link := .link }}
-                        <a href='{{ $.Scratch.Get $link }}' class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-20px-top"><i class="fas fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i> {{ .text }}</a>
+                        <a href='{{ $.Scratch.Get $link }}' class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-20px-top xs-margin-20px-bottom"><i class="fas fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i> {{ .text }}</a>
                         {{ end }}
                     </div>
                 </div>
@@ -195,13 +195,8 @@
             </div>
             {{ end }}
             {{ with .box2 }}
-            <div class="row equalize sm-equalize-auto">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 display-table sm-margin-30px-bottom wow fadeInLeft">
-                    <div class="display-table-cell vertical-align-middle">
-                        <img src="{{ .image }}" class="width-100" alt="{{ .title }}" />
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 display-table col-lg-offset-1 wow fadeInRight">
+            <div class="row equalize sm-equalize-auto" id="{{ .id }}">
+                <div class="col-lg-push-6 col-md-push-6 col-lg-5 col-md-6 col-sm-12 col-xs-12 display-table col-lg-offset-1 wow fadeInRight">
                     <div class="display-table-cell vertical-align-middle">
                         <h5 class="alt-font text-extra-dark-gray font-weight-600 margin-30px-bottom">{{ .title }}</h5>
                         <ul class="no-padding list-style-4">
@@ -211,8 +206,13 @@
                         </ul>
                         {{ with .btn }}
                         {{ $link := .link }}
-                        <a href='{{ $.Scratch.Get $link }}' class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-20px-top"><i class="fas fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i> {{ .text }}</a>
+                        <a href='{{ $.Scratch.Get $link }}' class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-20px-top xs-margin-20px-bottom"><i class="fas fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i> {{ .text }}</a>
                         {{ end }}
+                    </div>
+                </div>
+                <div class="col-lg-pull-6 col-md-pull-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 display-table sm-margin-30px-bottom wow fadeInLeft">
+                    <div class="display-table-cell vertical-align-middle">
+                        <img src="{{ .image }}" class="width-100" alt="{{ .title }}" />
                     </div>
                 </div>
             </div>

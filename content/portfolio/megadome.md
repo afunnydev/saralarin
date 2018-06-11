@@ -17,6 +17,6 @@ tags:
   - Adaptation
   - Photographie
   - Gestion de projet
-  - Medias sociaux
-  - Imprime
+  - Médias sociaux
+  - Imprimé
 ---

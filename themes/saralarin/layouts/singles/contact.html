@@ -11,7 +11,7 @@
                         <h1 class="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-15px-bottom">{{ .Params.titre }}</h1>
                         <!-- end page title -->
                         <!-- start sub title -->
-                        <span class="text-white opacity6 alt-font">{{ .Params.subtitle }}</span>
+                        <span class="text-white opacity6 alt-font subtitle">{{ .Params.subtitle }}</span>
                         <!-- end sub title -->
                     </div>
                 </div>
@@ -30,19 +30,28 @@
             </div>
             <div class="row">
                 <div class="row">
-                    {{ $number := len .icons}}
-                    {{ if (eq $number 2) }}
                     <div class="col-md-3"></div>
-                    {{ end }}
-                    {{ range $i, $e := .icons }}
-                    {{ $number := mul 6 $i}}
+                    {{ with .tel }}
                     <!-- start contact info item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center sm-margin-eight-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center sm-margin-eight-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
                         <div class="display-inline-block margin-20px-bottom">
-                            <div class="bg-extra-dark-gray icon-round-medium"><i class="{{ $e.icon }} icon-medium text-white"></i></div>
+                            <div class="bg-extra-dark-gray icon-round-medium"><i class="{{ .icon }} icon-medium text-white"></i></div>
                         </div>
-                        <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">{{ $e.title }}</div>
-                        <p class="center-col">{{ $e.text }}</p>
+                        <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">{{ .title }}</div>
+                        <p class="center-col hidden-xs">{{ $.Site.Data.settings.phone }}</p>
+                        <a class="center-col visible-xs" href="tel:{{ $.Site.Data.settings.mphone }}">{{ $.Site.Data.settings.phone }}</p>
+                        <!-- <a href="#" class="text-decoration-line-through-deep-pink text-uppercase text-deep-pink text-small margin-15px-top xs-margin-10px-top display-inline-block">GET DIRECTION</a> -->
+                    </div>
+                    <!-- end contact info item -->
+                    {{ end }}
+                    {{ with .email }}
+                    <!-- start contact info item -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center sm-margin-eight-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                        <div class="display-inline-block margin-20px-bottom">
+                            <div class="bg-extra-dark-gray icon-round-medium"><i class="{{ .icon }} icon-medium text-white"></i></div>
+                        </div>
+                        <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">{{ .title }}</div>
+                        <a class="center-col" href="mailto:{{ $.Site.Data.settings.email }}">{{ $.Site.Data.settings.email }}</p>
                         <!-- <a href="#" class="text-decoration-line-through-deep-pink text-uppercase text-deep-pink text-small margin-15px-top xs-margin-10px-top display-inline-block">GET DIRECTION</a> -->
                     </div>
                     <!-- end contact info item -->
@@ -61,7 +70,6 @@
                 <div class="col-md-6 cover-background sm-height-450px xs-height-350px wow fadeIn" style="background: url('/half{{ .image }}')"></div>
                 <div class="col-md-6 wow fadeIn">
                     <div class="padding-eleven-all text-center xs-no-padding-lr">
-                        <div class="text-medium-gray alt-font text-small text-uppercase margin-5px-bottom xs-margin-three-bottom">{{ .subtitle }}</div>
                         <h5 class="margin-55px-bottom text-white alt-font font-weight-700 text-uppercase xs-margin-ten-bottom">{{ .title }}</h5>
                         <form id="project-contact-form" {{ if eq .Lang "fr" }}action="/merci"{{ else }} action="/en/thank-you" {{ end }} method="post" netlify name="contact-{{$.Lang}}" role="form">
                             <div class="row">
@@ -77,7 +85,7 @@
                                 <div class="col-md-6">
                                     <input type="text" name="email" id="email" placeholder='{{ i18n "email" }}*' class="bg-transparent border-color-medium-dark-gray medium-input">
                                 </div>
-                                <div class="col-md-6">
+                                <!-- <div class="col-md-6">
                                     <div class="select-style bg-transparent border-color-medium-dark-gray medium-select">
                                         <select name="budget" id="budget" class="bg-transparent no-margin-bottom">
                                             <option value="">{{ i18n "select_budget" }}</option>
@@ -87,12 +95,12 @@
                                             <option value="$2000 - $5000">5000$ +</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-12">
                                     <textarea name="comment" id="comment" placeholder='{{ i18n "describe_project" }}' rows="6" class="bg-transparent border-color-medium-dark-gray medium-textarea"></textarea>
                                 </div>
                                 <div class="col-md-12 text-center">
-                                    <button id="project-contact-us-button" type="submit" class="btn btn-deep-pink btn-medium margin-20px-top">{{ i18n "send_message" }}</button>
+                                    <button id="project-contact-us-button" type="submit" class="btn btn-deep-pink btn-medium margin-20px-top">{{ i18n "send" }}</button>
                                     
                                 </div>
                             </div>

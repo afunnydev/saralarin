@@ -15,7 +15,7 @@ listing:
   description: Rédaction d’une brochure qui présente la nouvelle offre de fabrication de bière des 3 Brasseurs.
 tags:
   - Blogue
-  - Production video
+  - Production vidéo
   - Projet agile
 
 ---

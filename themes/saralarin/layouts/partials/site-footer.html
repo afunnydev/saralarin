@@ -45,7 +45,7 @@
                     {{ with .Site.Data.footer.col3 }}
                     <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-10px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
                     <!-- <p class="text-small display-block margin-15px-bottom width-80 sm-width-70 xs-center-col">POFO Design Agency<br> 301 The Greenhouse, Custard Factory, London, E2 8DY.</p> -->
-                    <div class="text-small">{{ i18n "email" }}: <a href="mailto:{{ $.Site.Data.settings.email }}">{{ .Site.Data.settings.email }}</a></div>
+                    <div class="text-small">{{ i18n "email" }}: <a href="mailto:{{ $.Site.Data.settings.email }}">{{ $.Site.Data.settings.email }}</a></div>
                     <div class="text-small">{{ i18n "phone" }}: {{ $.Site.Data.settings.phone }}</div>
                     {{ end }}
                 </div>

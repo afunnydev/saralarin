@@ -12,8 +12,8 @@ col2:
     - fr: Services
       en: Services
       link: servicesPage
-    - fr: Portfolio
-      en: Portfolio
+    - fr: Projets
+      en: Projects
       link: portfolioPage
     - fr: À propos
       en: About
@@ -30,8 +30,8 @@ col3:
     en: "Contact me"
 col4:
   title: 
-    fr: "Portfolio"
-    en: "Portfolio"
+    fr: "Projets"
+    en: "Projects"
 copyright:
   fr: "2018 Sara Larin."
   en: "2018 Sara Larin."

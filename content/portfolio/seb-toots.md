@@ -15,7 +15,7 @@ listing:
   description: "Rédiger un livre pour ce snowboarder médaillé olympique"
 tags:
   - Blogue
-  - Production video
+  - Production vidéo
   - Projet agile
   - Gestion client
   - Adaptation

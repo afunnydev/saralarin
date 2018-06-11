@@ -20,23 +20,23 @@ section3:
   icons:
     - icon: icon-pencil
       title: "Création de contenu"
-      link: "servicePage"
+      link: "servicesPage"
       anchor: "#creation-contenu"
     - icon: icon-presentation
       title: "Rédaction SEO"
-      link: "servicePage"
+      link: "servicesPage"
       anchor: "#redaction-seo"
     - icon: icon-target
       title: "Stratégie"
-      link: "servicePage"
+      link: "servicesPage"
       anchor: "#strategie"
     - icon: icon-speedometer
       title: "Gestion et production"
-      link: "servicePage"
+      link: "servicesPage"
       anchor: "#gestion-production"
   btn:
     text: "CONSULTER TOUS LES SERVICES"
-    link: "servicePage"
+    link: "servicesPage"
 section4:
   title: On collabore?
   btn1:
@@ -65,8 +65,8 @@ section6:
       title: "Évaluation"
       description: "Elle est effectuée en début de mandat afin de dresser rapidement le portrait exact du projet à accomplir et d’en comprendre l’ensemble des enjeux."
     - number: 02
-      title: "Stratégie"
-      description: "Elle cerne les objectifs, permet d’élaborer un plan de création de contenu et de choisir les données récoltées. Elle est la ligne directrice du projet et en assure la réussite."
+      title: "Stratégie et création"
+      description: "La stratégie cerne les objectifs, permet d’élaborer un plan de création de contenu et de choisir les données récoltées. Elle est la ligne directrice du projet et en assure la réussite. La création communique votre message de façon attrayante à la cible."
     - number: 03
       title: "Création"
       description: "Elle communique votre message de façon attrayante à la cible. Elle peut être modifiée au besoin suite à l’analyse. "
@@ -84,7 +84,8 @@ section7:
     text: Voir le projet
     link: "#"
 section8:
-  title: Je travaille avec les agences et les entreprises
+  title: >-
+    Je travaille avec</br>les agences et les entreprises
   box1:
     image: /img/hp-viz-agences.png
     title: Agences

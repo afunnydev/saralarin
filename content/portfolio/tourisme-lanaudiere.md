@@ -29,6 +29,7 @@ section1:
   btn:
     text: CONSULTER MES ARTICLES
     link: "https://lanaudiere.ca/fr/blogue-lanaudiere/auteurs/sara-larin/"
+    external: true
   table:
     - name: Client
       text: "Tourisme Lanaudière"

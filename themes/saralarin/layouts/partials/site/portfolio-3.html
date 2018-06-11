@@ -10,7 +10,7 @@
             <div class="col-md-5 col-md-offset-1 line-height-28 last-paragraph-no-margin sm-margin-50px-bottom xs-margin-30px-bottom wow fadeInUp animated">
                 <p>{{ .description }}</p>
                 {{ with .btn }}
-                    <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{ .text }}">{{ .text }}</a>
+                    <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{ .text }}"{{ if .external }} target="_blank"{{ end }}>{{ .text }}</a>
                 {{ end }}
             </div>
             <div class="col-md-4 col-md-offset-1 line-height-26 wow fadeInUp animated">
@@ -36,7 +36,7 @@
                 {{ with .caption }}
                 <h5 class="font-weight-300 text-extra-dark-gray margin-30px-top margin-10px-bottom">{{.title}}</h5>
                 <p class="margin-10px-bottom">{{ .description }}</p>
-                <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-10px-top sm-margin-10px-top xs-margin-10px-top" title="{{ .title }}">{{ i18n "read_more" }}</a>
+                <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-10px-top sm-margin-10px-top xs-margin-10px-top" title="{{ .title }}" target="_blank">{{ i18n "read_more" }}</a>
                 {{ end }}
             </div>
             {{ end }}

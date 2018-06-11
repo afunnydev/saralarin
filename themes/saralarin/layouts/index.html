@@ -52,9 +52,9 @@
         <div class="container">
             <div class="row">
                 <!-- start feature box item -->
-                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 text-center center-col xs-margin-30px-bottom">
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 text-center center-col">
                     <span class="alt-font text-deep-pink text-medium margin-5px-bottom display-block">{{.title}}</span>
-                    <h5 class="font-weight-300 text-extra-dark-gray ">{{.description}}</h5>
+                    <h5 class="font-weight-300 text-extra-dark-gray xs-no-margin">{{.description}}</h5>
                 </div>
                 <!-- end feature box item -->
             </div>
@@ -69,8 +69,8 @@
             <div class="row"> 
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right wow fadeIn">
                     <div class="col-lg-12 col-md-12 sm-text-center xs-no-padding-lr last-paragraph-no-margin margin-60px-bottom sm-margin-30px-bottom"> 
-                        <span class="text-medium text-deep-pink alt-font margin-10px-bottom display-inline-block">{{.subtitle}}</span>
-                        <h5 class="alt-font text-extra-dark-gray font-weight-600">{{.title}}</h5>
+                        <h4 class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">{{.title}}</h5>
+                        <span class="text-medium text-deep-pink alt-font margin-20px-bottom display-inline-block">{{.subtitle}}</span>
                         <p class="width-90 sm-width-100">{{.description}}</p>
                     </div> 
                     {{ range .icons}}
@@ -111,12 +111,12 @@
                         <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h3>
                         <div class="row">
                         	{{ with .btn1 }}
-		                    <div class="col-lg-6 col-md-6 text-right xs-no-padding-lr last-paragraph-no-margin">
+		                    <div class="col-lg-6 col-md-6 col-xs-6 text-right">
 		                    	<a href="{{ .anchor }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
 		                    </div>
 		                    {{ end }}
 		                    {{ with .btn2 }}
-		                    <div class="col-lg-6 col-md-6 text-left xs-no-padding-lr last-paragraph-no-margin"> 
+		                    <div class="col-lg-6 col-md-6 col-xs-6 text-left"> 
 		                    	<a href="{{ .anchor }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
 		                    </div>
 		                    {{ end }}
@@ -221,7 +221,7 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-100px-bottom xs-margin-40px-bottom">
                     <div class="position-relative overflow-hidden width-100">
-                        <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h3>
+                        <h3 class="text-extra-dark-gray alt-font font-weight-600">{{ .title | markdownify }}</h3>
                     </div>
                 </div>
             </div>
@@ -233,12 +233,12 @@
                         <img src="{{.image}}" alt="{{ .title }}">
                         <div class="feature-box-content text-center">
                             <div class="opacity-full-dark bg-extra-dark-gray"></div>
-                            <div class="display-table height-100 width-100 position-relative">
-                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
+                            <div class="display-table height-100 width-100 position-relative xs-display-block">
+                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb xs-display-block">
                                     <div class="text-white alt-font text-medium margin-15px-bottom">{{ .title }}</div> 
                                     <p class="width-85 center-col text-extra-light-gray">{{ .description }}</p>
                                     {{ with .btn }}
-                                    <a class="btn btn-medium btn-transparent-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto" href="{{ .link }}">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
+                                    <a class="btn too-long-btn btn-medium btn-transparent-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto" href="{{ .link }}">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
                                     {{ end }}
                                 </div>
                             </div>
@@ -254,8 +254,8 @@
                         <img src="{{.image}}" alt="{{ .title }}">
                         <div class="feature-box-content text-center text-white">
                             <div class="opacity-full-dark bg-extra-dark-gray"></div>
-                            <div class="display-table height-100 width-100 position-relative">
-                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
+                            <div class="display-table height-100 width-100 position-relative xs-display-block">
+                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb xs-display-block">
                                     <div class="text-white alt-font text-medium margin-15px-bottom">{{ .title }}</div> 
                                     <p class="width-85 center-col text-extra-light-gray">{{ .description }}</p>
                                     {{ with .btn }}
@@ -338,7 +338,7 @@
             	{{ $number := mul 2 $i}}
                 <!-- start client logo item -->
                 <div class="col-md-3 col-sm-3 col-xs-12 margin-three-bottom xs-margin-15px-bottom wow fadeInDown clients-box" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
-                    <a href="{{ $e.link }}" target="_blank" name="{{ $e.name }}"><img src="{{ $e.logo }}" alt="{{ $e.name }}" class="clients-logo"></a>
+                    <img src="{{ $e.logo }}" alt="{{ $e.name }}" class="clients-logo">
                 </div>
                 <!-- end client logo item -->
                 {{ end }}

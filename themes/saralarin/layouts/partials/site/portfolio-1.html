@@ -77,11 +77,13 @@
     <div class="container-fluid">
         <div class="row">
             {{ range .}}
+            {{ with .image }}
             <!-- start product gallery item -->
             <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                <img src="{{ .image }}" class="width-100" alt="Redaction"/>
+                <img src="{{ . }}" class="width-100" alt="Redaction"/>
             </div>
             <!-- end product gallery item -->
+            {{ end }}
             {{ end }}
         </div>
     </div>

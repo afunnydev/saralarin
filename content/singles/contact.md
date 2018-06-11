@@ -11,13 +11,12 @@ layout: contact
 image: /img/contact-sara-header.png
 section1:
   title: "Vous avez un projet en tête. Contactez-moi!"
-  icons:
-    - icon: icon-chat
-      title: Téléphone
-      text: 514-265-7523
-    - icon: icon-envelope
-      title: Courriel 
-      text: info@saralarin.ca
+  tel:
+    icon: icon-chat
+    title: Téléphone
+  email:
+    icon: icon-envelope
+    title: Courriel 
 section2:
   image: /img/contact-bloc-formulaire.png
   title: Vous avez des questions

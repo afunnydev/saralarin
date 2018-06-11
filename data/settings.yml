@@ -48,3 +48,10 @@ sitetitle:
   en:
 defaultsocialimage: "/images/logo-share.jpg"
 removefromexternalsearch: true
+logo:
+  color:
+    sm: "/img/sara-larin-logo-1x.png"
+    lg: "/img/sara-larin-logo-2x.png"
+  white:
+    sm: "/images/logo-white.png"
+    lg: "/images/logo-white@2x.png"

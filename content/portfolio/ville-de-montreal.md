@@ -15,7 +15,7 @@ listing:
   description: This is a desc
 tags:
   - Blogue
-  - Production video
+  - Production vidéo
   - Adaptation
   - Photographie
 weight: 10

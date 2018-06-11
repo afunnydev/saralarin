@@ -13,8 +13,8 @@ listing:
   description: "Rédaction d’un concept accrocheur en anglais pour l’offre de la rentrée de WOW! boutique mobile."
 tags:
   - Web
-  - Medias sociaux
-  - Imprime
+  - Médias sociaux
+  - Imprimé
 section1:
   image: /img/wow-mobile-indiv.jpg
   title: "WOW! boutique mobile: campagne rentrée des classes"
@@ -48,7 +48,7 @@ section4:
   description: >-
     Tous les concepts ont été déployés en magasin et sur le Web. Les représentants portaient des chandails à l’image de la campagne et des affiches étaient exposées en boutique. Des visuels ont été mis en ligne sur le site Web et les médias sociaux du client.
 section5:
-  - image: /img/wow-mobile3.jpg
+  - image: ""
 section6:
 weight: 0
 ---

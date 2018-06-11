@@ -112,7 +112,6 @@ collections:
             create: true
             fields:
               - {label: "Nom", name: "name", widget: "string"}
-              - {label: "Lien", name: "link", widget: "string", defaut: "#"}
               - {label: "Logo", name: "logo", widget: "image"}
       - name: "temoignages"
         label: "Témoignages"
@@ -297,7 +296,24 @@ collections:
                       - { label: "Contact", value: "contactPage" }
                       - { label: "Articles", value: "articlesPage" }
                       - { label: "FAQ", value: "faqPage" }
-
+          - label: "Barre du haut" 
+            name: "top" 
+            widget: "list"
+            create: true 
+            fields:
+              - {label: "Français", name: "fr", widget: "string", required: false}
+              - {label: "Anglais", name: "en", widget: "string", required: false}
+              - label: "Lien"
+                name: "link"
+                widget: "select"
+                options:
+                  - { label: "Accueil", value: "homePage" }
+                  - { label: "Portfolio", value: "portfolioPage" }
+                  - { label: "Services", value: "servicesPage" }
+                  - { label: "À propos", value: "aboutPage" }
+                  - { label: "Contact", value: "contactPage" }
+                  - { label: "Articles", value: "articlesPage" }
+                  - { label: "FAQ", value: "faqPage" }
       - name: "parametres"
         label: "Paramètres"
         file: "data/settings.yml"
@@ -366,6 +382,22 @@ collections:
               - {label: "Français", name: "fr", widget: "string", required: false}
               - {label: "Anglais", name: "en", widget: "string", required: false}
           - {label: "Image réseaux sociaux par défaut", name: "defaultsocialimage", widget: "image", required: false}
+          - label: "Logo" 
+            name: "logo" 
+            widget: "object" 
+            fields:
+              - label: "Couleur/Noir" 
+                name: "color" 
+                widget: "object" 
+                fields:
+                  - {label: "Petit", name: "sm", widget: "image", required: false}
+                  - {label: "Gros", name: "lg", widget: "image", required: false}
+              - label: "Blanc" 
+                name: "white" 
+                widget: "object" 
+                fields:
+                  - {label: "Petit", name: "sm", widget: "image", required: false}
+                  - {label: "Gros", name: "lg", widget: "image", required: false}
           - {label: "Retirer le site des moteurs de recherche", name: "removefromexternalsearch", widget: "boolean", required: false, default: false}
   - name: "pages"
     label: "Pages"

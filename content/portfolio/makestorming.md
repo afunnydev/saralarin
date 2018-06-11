@@ -18,7 +18,7 @@ listing:
   description: This is a desc
 tags:
   - Web
-  - Medias sociaux
+  - Médias sociaux
   - Blogue
   - Projet agile
 

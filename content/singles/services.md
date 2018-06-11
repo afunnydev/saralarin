@@ -83,6 +83,7 @@ section5:
 section6:
   title: "Spécialisations"
   box1:
+    id: "creation-contenu"
     image: /img/specialisation-creation-contenu.jpg
     title: Création de contenu
     list:
@@ -101,6 +102,7 @@ section6:
       text: VOIR LES PROJETS
       link: portfolioPage
   box2:
+    id: "gestion-production"
     image: /img/services-specialisation.jpg
     title: Gestion et production
     list:
