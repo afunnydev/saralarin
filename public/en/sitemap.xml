@@ -18,6 +18,48 @@
   </url>
   
   <url>
+    <loc>https://akia.saralarin.ca/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://akia.saralarin.ca/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akia.saralarin.ca/en/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://akia.saralarin.ca/en/merci/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://akia.saralarin.ca/merci/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akia.saralarin.ca/en/merci/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://akia.saralarin.ca/en/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://akia.saralarin.ca/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akia.saralarin.ca/en/services/"
+                />
+  </url>
+  
+  <url>
     <loc>https://akia.saralarin.ca/en/singles/</loc>
     <priority>0</priority>
     <xhtml:link

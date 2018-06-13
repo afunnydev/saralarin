@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://akia.saralarin.ca/portfolio/seb-toots/</loc>
+  </url>
+  
+  <url>
+    <loc>https://akia.saralarin.ca/portfolio/tourisme-lanaudiere/</loc>
+  </url>
+  
+  <url>
     <loc>https://akia.saralarin.ca/portfolio/ville-de-montreal/</loc>
   </url>
   
@@ -51,6 +59,16 @@
   
   <url>
     <loc>https://akia.saralarin.ca/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akia.saralarin.ca/en/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://akia.saralarin.ca/contact/"
+                />
   </url>
   
   <url>
@@ -64,12 +82,7 @@
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/tags/imprime/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/medias-sociaux/</loc>
+    <loc>https://akia.saralarin.ca/tags/imprim%C3%A9/</loc>
     <priority>0</priority>
   </url>
   
@@ -79,6 +92,21 @@
   
   <url>
     <loc>https://akia.saralarin.ca/merci/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akia.saralarin.ca/en/merci/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://akia.saralarin.ca/merci/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://akia.saralarin.ca/tags/m%C3%A9dias-sociaux/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -87,7 +115,7 @@
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/tags/production-video/</loc>
+    <loc>https://akia.saralarin.ca/tags/production-vid%C3%A9o/</loc>
     <priority>0</priority>
   </url>
   
@@ -101,11 +129,17 @@
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/portfolio/seb-toots/</loc>
-  </url>
-  
-  <url>
     <loc>https://akia.saralarin.ca/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akia.saralarin.ca/en/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://akia.saralarin.ca/services/"
+                />
   </url>
   
   <url>
@@ -152,10 +186,6 @@
   
   <url>
     <loc>https://akia.saralarin.ca/portfolio/makestorming/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/tourisme-lanaudiere/</loc>
   </url>
   
   <url>
