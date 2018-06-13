@@ -111,10 +111,10 @@ section8:
 section9:
   btn:
     link: /a-propos
-    text: À propos de Sara
+    text: En savoir plus
   imaged: /img/bloc-droite-redaction.png
   imageg: /img/bloc-gauche-redaction.png
-  title: À la hauteur
+  title: À propos
   description: >-
     J’offre un service de rédaction bonifié avec mon équipe de collaborateurs.
     Je me spécialise en rédaction, en stratégie et en gestion.
