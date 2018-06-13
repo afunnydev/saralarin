@@ -8,7 +8,7 @@ slug: a-propos
 layout: a-propos
 section1:
   title: 'Sara, rédactrice agile'
-  image: /img/header-test-new-design-apropos.png
+  image: /img/header-new-design-apropos-size2.png
 section2:
   btn:
     link: portfolioPage
