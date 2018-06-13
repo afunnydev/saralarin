@@ -1,5 +1,5 @@
 ---
-title: Services | Rédaction agile
+title: Services EN | Rédaction agile
 description: >-
   Un service agile qui permet de segmenter votre budget de production et de répondre à la demande de votre marché en constante évolution. 
 titre: Qu’est-ce qu’un service agile?

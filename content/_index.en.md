@@ -1,5 +1,5 @@
 ---
-title: This is a title
+title: "Accueil EN | Rédaction agile"
 description: >-
   This is a desc
 image: 

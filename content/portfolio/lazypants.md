@@ -1,5 +1,5 @@
 ---
-title: This is a title
+title: Lazypants
 description: >-
   This is a desc
 slug: 

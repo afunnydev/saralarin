@@ -1,5 +1,5 @@
 ---
-title: Contact | Rédaction agile
+title: Contact EN | Rédaction agile
 description: >-
   J’offre un service de rédaction agile. Contactez-moi pour démarrer un projet aujourd’hui!
 titre: Contact

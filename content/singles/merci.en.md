@@ -1,5 +1,5 @@
 ---
-title: Merci
+title: Thank you
 description: >-
   This is a desc
 slug: merci
