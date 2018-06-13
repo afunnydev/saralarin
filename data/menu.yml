@@ -1,4 +1,7 @@
 main:
+  - en: Services
+    fr: Services
+    link: servicesPage
   - en: Projects
     fr: Projets
     link: portfolioPage
