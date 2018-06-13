@@ -1,55 +1,69 @@
 ---
-title: "WOW! Mobile: la rentrée | Rédaction agile"
-description: >-
-  Rédaction d’un concept accrocheur en anglais pour l’offre de la rentrée de WOW! boutique mobile. Découvrir le projet.
+title: 'WOW! Mobile: la rentrée | Rédaction agile'
 slug: wow-la-rentree
-image: /img/wow-mobile-indiv.jpg
+description: >-
+  Rédaction d’un concept accrocheur en anglais pour l’offre de la rentrée de
+  WOW! boutique mobile. Découvrir le projet.
+image: /img/portfolio-1000-1000-wow-mobile-bts.png
 i18nlanguage: fr
+weight: 0
 draft: false
 style: style-1
 listing:
   big: false
-  title: "WOW! Mobile: la rentrée"
-  description: "Rédaction d’un concept accrocheur en anglais pour l’offre de la rentrée de WOW! boutique mobile."
+  title: 'WOW! Mobile: la rentrée'
+  description: >-
+    Rédaction d’un concept accrocheur en anglais pour l’offre de la rentrée de
+    WOW! boutique mobile.
 tags:
   - Web
   - Médias sociaux
   - Imprimé
 section1:
+  title: 'WOW! boutique mobile: campagne rentrée des classes'
+  description: >-
+    Le mandat demandait de rédiger un concept accrocheur en anglais pour l’offre
+    de la rentrée. Un visuel promotionnel et un axé sur la notoriété ont été
+    élaborés. 
   image: /img/wow-mobile-indiv.jpg
-  title: "WOW! boutique mobile: campagne rentrée des classes"
-  description: >-
-    Le mandat demandait de rédiger un concept accrocheur en anglais pour l’offre de la rentrée. Un visuel promotionnel et un axé sur la notoriété ont été élaborés. 
   list:
-    - text: "Rédaction"
-    - text: "Anglais"
-    - text: "Web"
-    - text: "Imprimé"
+    - text: Rédaction
+    - text: Anglais
+    - text: Web
+    - text: Imprimé
 section2:
-  title: "Sans fla-fla, jeune et amusant"
+  title: 'Sans fla-fla, jeune et amusant'
   description: >-
-    WOW! est une boutique qui propose des produits mobilités (forfaits et appareils mobiles) de différentes compagnies. Cette marque non conventionnelle communique à sa cible sans fla-fla avec un ton jeune et amusant.
+    WOW! est une boutique qui propose des produits mobilités (forfaits et
+    appareils mobiles) de différentes compagnies. Cette marque non
+    conventionnelle communique à sa cible sans fla-fla avec un ton jeune et
+    amusant.
   table:
     - name: Client
-      text: "[WOW! boutique mobile](http://www.wowmobile.ca/en/)"
+      text: '[WOW! boutique mobile](http://www.wowmobile.ca/en/)'
     - name: Agence
-      text: "[Youville](http://youville.co/)"
+      text: '[Youville](http://youville.co/)'
     - name: Service-conseil
       text: Alexandre Cossette
     - name: Designer
       text: Viviane Quesnel
-    - name: "Rédaction"
+    - name: Rédaction
       text: Sara Larin
 section3:
   images:
     - image: /img/wow-mobile1.jpg
     - image: /img/wow-mobile2.jpg
 section4:
-  title: "En boutique et sur le Web"
+  title: En boutique et sur le Web
   description: >-
-    Tous les concepts ont été déployés en magasin et sur le Web. Les représentants portaient des chandails à l’image de la campagne et des affiches étaient exposées en boutique. Des visuels ont été mis en ligne sur le site Web et les médias sociaux du client.
+    Tous les concepts ont été déployés en magasin et sur le Web. Les
+    représentants portaient des chandails à l’image de la campagne et des
+    affiches étaient exposées en boutique. Des visuels ont été mis en ligne sur
+    le site Web et les médias sociaux du client.
 section5:
   images:
-    - image: ""
-weight: 0
+    - image: ''
+section6:
+  image: /img/portfolio-1000-1000-wow-mobile-bts.png
 ---
+
