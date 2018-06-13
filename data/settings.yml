@@ -21,7 +21,7 @@ defaultsocialimage: /images/logo-share.jpg
 logo:
   color:
     lg: /img/sara-larin-logo-2x.png
-    sm: /img/logo-sara-new-200-petit.png
+    sm: /img/logo-sara-petit.png
   white:
     lg: /images/logo-white@2x.png
     sm: /images/logo-white.png
