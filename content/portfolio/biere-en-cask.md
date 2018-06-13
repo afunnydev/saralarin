@@ -24,7 +24,7 @@ section1:
   description: >-
     Le resto Les 3 Brasseurs voulait présenter sa nouvelle offre: un atelier de
     fabrication de bière. 
-  image: /img/portfolio-1000-1000-3brasseurs.png
+  image: /img/portfolio-3000-1500-3brasseurs.png
   list:
     - text: Imprimé
     - text: Rédaction
