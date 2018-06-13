@@ -2,17 +2,17 @@
 <main class="main" id="homepage">
 	{{ with .Params.section1 }}
 	<!-- start hero section -->
-    <section id="home" class="no-padding parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}');">
+    <!-- <section id="home" class="no-padding parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}');">
         <div class="opacity-very-light bg-extra-dark-gray"></div>
         <div class="container position-relative full-screen">
             <div class="slider-typography text-center">
                 <div class="slider-text-middle-main xs-padding-15px-lr">
                     <div class="slider-text-middle">
                     	<img src="images/text.png" alt=""/>
-                        <!-- <div class="text white">
+                        <div class="text white">
                         	<span>{{.Params.section1.subtitle}}</span>
                         	<h1>{{.Params.section1.title}}</h1>
-                       	</div> -->
+                       	</div>
                         <div class="down-section text-center">
                         	<a href="#about" class="inner-link">
                         		<div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" 
@@ -44,7 +44,54 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section class="wow fadeIn parallax" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}'); background-repeat: no-repeat;background-size: cover">
+        <!-- <div class="opacity-very-light bg-very-light-gray"></div> -->
+        <div class="container">
+            <img src="/img/square-sara-larin.png" alt="" style="position: absolute; top: 10%;
+            left: 50%; transform: translate(-50%,0); height: 80%;">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
+                    <div class="display-table-cell vertical-align-middle text-center">
+                        <!-- start page title -->
+                        <h1 class="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-15px-bottom">{{ .title }}</h1>
+                        <!-- end page title -->
+                        <!-- start sub title -->
+                        <span class="text-white opacity6 alt-font subtitle">{{ .subtitle }}</span>
+                        <!-- end sub title -->
+                        <div class="down-section text-center">
+                            <a href="#about" class="inner-link">
+                                <div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" 
+                                     id="slide-3238-layer-13" 
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','50','50']" 
+                                     data-width="30"
+                                     data-height="45"
+                                     data-whitespace="nowrap"
+
+                                     data-type="button" 
+                                     data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":"","speed":1000}]'
+                                     data-basealign="slide" 
+                                     data-responsive_offset="on" 
+                                     data-responsive="off"
+                                     data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                                     data-textAlign="['left','left','left','left']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+
+                                     style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                                    <span></span>                                               
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- end page title section -->
     {{ end }}
     {{ with .Params.section2 }}
     <!-- start feature box section -->
@@ -103,7 +150,7 @@
     {{ end }}
     {{ with .Params.section4 }}
     <!-- start interactive banners style 03 section -->
-    <section class="wow fadeIn half-section">
+    <section class="wow fadeIn half-section" style="background-color: #16bac5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center">
@@ -128,7 +175,7 @@
     </section>
     {{ end }}
     {{ with .Params.section5 }}
-    <section class="wow fadeIn no-padding" id="a-la-piece">
+    <section class="wow fadeIn half-section no-padding-bottom" id="a-la-piece">
     	<div class="container">
     		<div class="row">
         		<div class="col-sm-12 margin-60px-bottom sm-margin-30px-bottom">
@@ -144,13 +191,13 @@
                 <!-- start interactive banners item -->
                 <div class="col-md-3 col-sm-6 col-xs-12 banner-style3 no-padding-lr wow fadeInUp" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
                     <figure class="bg-white">
-                        <div class="banner-image bg-white">
+                        <div class="banner-image bg-extra-dark-gray">
                             <img src="/half{{ $e.image }}" alt="{{ .text }}"/>
                         </div>
                         <figcaption>
                             <div class="display-table width-100 height-100">
                                 <div class="display-table-cell vertical-align-middle text-center">
-                                    <div class="text-large text-black alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
+                                    <div class="text-large text-white alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
                                     <!-- <p class="text-light-gray width-80 margin-lr-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
                                     <a href="single-project-page-01.html" class="btn btn-small btn-white font-weight-300 btn-rounded">View Portfolio <i class="ti-arrow-right"></i></a> -->
                                 </div>
@@ -259,7 +306,7 @@
                                     <div class="text-white alt-font text-medium margin-15px-bottom">{{ .title }}</div> 
                                     <p class="width-85 center-col text-extra-light-gray">{{ .description }}</p>
                                     {{ with .btn }}
-                                    <a class="btn btn-medium btn-transparent-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto" href="{{ .link }}">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
+                                    <a class="btn too-long-btn btn-medium btn-transparent-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto" href="{{ .link }}">{{ .text }}<i class="fas fa-arrow-right icon-very-small margin-5px-left" aria-hidden="true"></i></a>
                                     {{ end }}
                                 </div>
                             </div>

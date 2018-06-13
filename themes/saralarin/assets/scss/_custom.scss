@@ -29,6 +29,25 @@ span.subtitle {
 .full-height {
 	height: 100%;
 }
+
+.header-with-topbar .navbar-top, .header-with-topbar .navbar-fixed-top {
+	top: 0;
+	padding-top: 36px;
+}
+
+@media (max-width: 991px) {
+	// .header-with-topbar .navbar-top, .header-with-topbar .navbar-fixed-top {
+
+	// }
+}
+
+@media (max-width: 768px) {
+	.header-with-topbar .navbar-top, .header-with-topbar .navbar-fixed-top {
+		top: 0;
+		padding-top: 15px;
+	}
+}
+
 @media (min-width: 768px) {
 	.portfolio-grid .grid-item figure .portfolio-img {
 		min-height: 300px;

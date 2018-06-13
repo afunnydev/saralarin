@@ -112,7 +112,6 @@ collections:
                   - {label: "Titre", name: "title", widget: "string", required: false}
                   - {label: "Description", name: "description", widget: "text", required: false}
                   - {label: "Lien", name: "link", widget: "string", required: false}
-
       - label: "Section 3" 
         name: "section3" 
         widget: "object" 
@@ -396,6 +395,7 @@ collections:
           - name: socials
             label: Réseaux sociaux
             widget: object
+            required: false
             fields:
               - {label: "Facebook", name: "facebookurl", widget: "string", required: false}
               - {label: "Linkedin", name: "linkedinurl", widget: "string", required: false}
@@ -409,12 +409,14 @@ collections:
           - name: twitter
             label: Twitter
             widget: object
+            required: false
             fields:
               - {label: "Avez-vous besoin des données de partage pour Twitter?", name: "share", widget: "boolean", required: false, default: false}
               - {label: "Identifiant", name: "id", widget: "string", required: false}
           - name: address
             label: Adresse
             widget: object
+            required: false
             fields:
               - {label: "Rue", name: "road", widget: "string", required: false}
               - {label: "Appartement", name: "app", widget: "string", required: false}
@@ -425,11 +427,13 @@ collections:
           - name: heures
             label: Heures d'ouverture
             widget: object
+            required: false
             fields:
               - name: fr
                 label: Français
                 widget: list
                 create: true
+                required: false
                 fields:
                   - {label: "Journée(s)", name: "jour", widget: "string", required: false}
                   - {label: "Heures", name: "heures", widget: "string", required: false}
@@ -437,6 +441,7 @@ collections:
                 label: Anglais
                 widget: list
                 create: true
+                required: false
                 fields:
                   - {label: "Journée(s)", name: "jour", widget: "string", required: false}
                   - {label: "Heures", name: "heures", widget: "string", required: false}
@@ -446,12 +451,14 @@ collections:
           - label: "Description SEO par défaut du site" 
             name: "sitedescription" 
             widget: "object" 
+            required: false
             fields:
               - {label: "Français", name: "fr", widget: "text", required: false}
               - {label: "Anglais", name: "en", widget: "text", required: false}
           - label: "Titre SEO par défaut du site" 
             name: "sitetitle" 
             widget: "object" 
+            required: false
             fields:
               - {label: "Français", name: "fr", widget: "string", required: false}
               - {label: "Anglais", name: "en", widget: "string", required: false}
@@ -552,7 +559,7 @@ collections:
             fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "text", required: false}
-              - name: porfolio
+              - name: portfolio
                 label: "Portfolio"
                 widget: list
                 create: false
@@ -649,172 +656,6 @@ collections:
               - {label: "Image", name: "image", widget: "image", required: false}
       #### ACCUEIL EN ANGLAIS #####
       #############################        
-      - name: "accueil-en"
-        label: "Accueil - EN"
-        file: "content/_index.en.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Image", name: "image", widget: "image", required: false}
-          - {label: "En brouillon?", name: "draft", widget: "boolean", required: false, default: false}
-          - label: "Section 1" 
-            name: "section1" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Sous-titre", name: "subtitle", widget: "string", required: false}
-              - {label: "Image", name: "image", widget: "image", required: false}
-          - label: "Section 2" 
-            name: "section2" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
-          - label: "Section 3" 
-            name: "section3" 
-            widget: "object" 
-            fields:
-              - {label: "Image", name: "image", widget: "image", required: false}
-              - {label: "Sous-Titre", name: "subtitle", widget: "string", required: false}
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
-              - name: icons
-                label: "Icônes"
-                widget: list
-                create: false
-                fields:
-                  - {label: "Icône (sous le format icon-something, voir https://museomix.be/doc/Icons-ET-LineIcons.html)", name: "icon", widget: "string", required: false}
-                  - {label: "Texte", name: "title", widget: "string", required: false}
-                  - label: "Lien"
-                    name: "link"
-                    widget: "select"
-                    options:
-                      - { label: "Accueil", value: "homePage" }
-                      - { label: "Portfolio", value: "portfolioPage" }
-                      - { label: "Services", value: "servicesPage" }
-                      - { label: "À propos", value: "aboutPage" }
-                      - { label: "Contact", value: "contactPage" }
-                      - { label: "Articles", value: "articlesPage" }
-                      - { label: "FAQ", value: "faqPage" }
-                  - {label: "Lien (anchor seulement, donc #)", name: "anchor", widget: "string", required: false}
-          - label: "Section 4" 
-            name: "section4" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - label: "Bouton 1" 
-                name: "btn1" 
-                widget: "object" 
-                fields:
-                  - {label: "Text", name: "text", widget: "string", required: false}
-                  - {label: "Lien (anchor seulement, donc #)", name: "anchor", widget: "string", required: false}
-              - label: "Bouton 2" 
-                name: "btn2" 
-                widget: "object" 
-                fields:
-                  - {label: "Text", name: "text", widget: "string", required: false}
-                  - {label: "Lien (anchor seulement, donc #)", name: "anchor", widget: "string", required: false}
-          - label: "Section 5" 
-            name: "section5" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
-              - name: porfolio
-                label: "Portfolio"
-                widget: list
-                create: false
-                fields:
-                  - {label: "Image (ratio 11:17)", name: "image", widget: "image", required: false}
-                  - {label: "Texte", name: "text", widget: "string"}
-          - label: "Section 6" 
-            name: "section6" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - name: steps
-                label: "Étapes"
-                widget: list
-                create: false
-                fields:
-                  - {label: "Nombre", name: "number", widget: "string"}
-                  - {label: "Titre", name: "title", widget: "string"}
-                  - {label: "Description", name: "description", widget: "text"}
-          - label: "Section 7" 
-            name: "section7" 
-            widget: "object" 
-            fields:
-              - {label: "Client", name: "client", widget: "string", required: false}
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
-              - label: "Bouton" 
-                name: "btn" 
-                widget: "object" 
-                fields:
-                  - {label: "Text", name: "text", widget: "string", required: false}
-                  - {label: "Lien", name: "link", widget: "string", required: false}
-          - label: "Section 8" 
-            name: "section8" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - label: "Boite 1" 
-                name: "box1" 
-                widget: "object" 
-                fields:
-                  - {label: "Image", name: "image", widget: "image", required: false}
-                  - {label: "Titre", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "text", required: false}
-                  - label: "Bouton" 
-                    name: "btn" 
-                    widget: "object" 
-                    fields:
-                      - {label: "Text", name: "text", widget: "string", required: false}
-                      - {label: "Lien", name: "link", widget: "string", required: false}
-              - label: "Boite 2" 
-                name: "box2" 
-                widget: "object" 
-                fields:
-                  - {label: "Image", name: "image", widget: "image", required: false}
-                  - {label: "Titre", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "text", required: false}
-                  - label: "Bouton" 
-                    name: "btn" 
-                    widget: "object" 
-                    fields:
-                      - {label: "Text", name: "text", widget: "string", required: false}
-                      - {label: "Lien", name: "link", widget: "string", required: false}
-          - label: "Section 9" 
-            name: "section9" 
-            widget: "object" 
-            fields:
-              - {label: "Image Gauche", name: "imageg", widget: "image", required: false}
-              - {label: "Image Droite", name: "imaged", widget: "image", required: false}
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
-              - label: "Bouton" 
-                name: "btn" 
-                widget: "object" 
-                fields:
-                  - {label: "Text", name: "text", widget: "string", required: false}
-                  - {label: "Lien", name: "link", widget: "string", required: false}
-          - label: "Section 10" 
-            name: "section10" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-          - label: "Section 11" 
-            name: "section11" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-          - {label: "Section 12", name: "section12", widget: "boolean", required: false, default: false}
-          - label: "Section 13" 
-            name: "section13" 
-            widget: "object" 
-            fields:
-              - {label: "Titre", name: "title", widget: "string", required: false}
-              - {label: "Image", name: "image", widget: "image", required: false}
       ####### PAGE À PROPOS FR #######
       ################################
       - name: "a-propos-fr"
@@ -870,8 +711,8 @@ collections:
             widget: "object" 
             fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
-              - name: images
-                label: "Images"
+              - name: boxes
+                label: "Boites"
                 widget: list
                 create: false
                 fields:
