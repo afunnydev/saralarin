@@ -6,7 +6,7 @@ description: >-
 draft: false
 section1:
   subtitle: Rédaction Agile
-  title: Sara Larin
+  title: 'Sara '
   image: /img/cover-test-2-3000.png
 section2:
   title: Qu’est-ce que la rédaction agile?
