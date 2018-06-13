@@ -47,7 +47,7 @@
 <section class="wow fadeIn no-padding">
     <div class="container-fluid">
         <div class="row padding-15px-lr sm-no-padding-lr">
-            {{ range . }}
+            {{ range .images }}
             <div class="col-md-6 sm-margin-30px-bottom wow fadeInUp">
                 <img src="{{ .image }}" class="width-100" alt=""/>
             </div>
@@ -76,7 +76,7 @@
 <section class="wow fadeIn no-padding">
     <div class="container-fluid">
         <div class="row">
-            {{ range .}}
+            {{ range .images}}
             {{ with .image }}
             <!-- start product gallery item -->
             <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">

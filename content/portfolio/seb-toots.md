@@ -2,11 +2,10 @@
 title: "Seb Toots: livre commandite | Rédaction agile"
 description: >-
   Un portfolio a été rédigé dans le but d’aller chercher de nouveaux commanditaires pour Seb Toots. Découvrir le projet.
-slug: 
-identifiant: 
+slug: seb-toots
 image: /img/sebtoots.jpg
 i18nlanguage: fr
-ordre: 1
+weight: 1
 draft: false
 style: style-2
 listing:
@@ -47,10 +46,11 @@ section3:
     description: >-
       Le contenu devait cibler les commanditaires potentiels et leur permettre de saisir rapidement la personnalité de Seb Toots. Il fallait également démontrer sa notoriété. Finalement, le livre devait inspirer les commanditaires en proposant des idées de projets de collaboration. 
 section4:
-  - image: /img/seb-toots-redaction5.jpg
-  - image: /img/seb-toots-redaction4.jpg
-  - image: /img/seb-toots-redaction3.jpg
-  - image: /img/seb-toots-redaction2.jpg
+  images:
+    - image: /img/seb-toots-redaction5.jpg
+    - image: /img/seb-toots-redaction4.jpg
+    - image: /img/seb-toots-redaction3.jpg
+    - image: /img/seb-toots-redaction2.jpg
 section5:
   video: false
   image: /img/seb-toots-redaction4.jpg

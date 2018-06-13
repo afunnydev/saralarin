@@ -26,7 +26,7 @@ collections:
       - {label: "Lien interne (ce qui suit le https://saralarin.ca/)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
       - {label: "Description SEO", name: "description", widget: "text", required: false}
       - {label: "Image principale", name: "image", widget: "image" , required: false}
-      - {label: "Langue", name: "i18nlanguage", widget: "string", default: "fr"}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Importance (0 étant le plus important)", name: "weight", widget: "number", default: 0, required: false}
       - {label: "Caché sur le site?", name: "draft", widget: "boolean", required: false, default: false}
       - label: "Style"
@@ -82,90 +82,94 @@ collections:
             fields:
               - {label: "Titre", name: "name", widget: "string", required: false}
               - {label: "Valeur", name: "text", widget: "string", required: false}
-      # - label: "Section 2" 
-      #   name: "section2" 
-      #   widget: "object" 
-      #   fields:
-      #     - {label: "Titre", name: "title", widget: "string", required: false}
-      #     - {label: "Description", name: "description", widget: "text", required: false}
-      #     - label: "Bouton" 
-      #       name: "btn" 
-      #       widget: "object" 
-      #       fields:
-      #         - {label: "Text", name: "text", widget: "string", required: false}
-      #         - label: "Lien"
-      #           name: "link"
-      #           widget: "select"
-      #           options:
-      #             - { label: "Accueil", value: "homePage" }
-      #             - { label: "Portfolio", value: "portfolioPage" }
-      #             - { label: "Services", value: "servicesPage" }
-      #             - { label: "À propos", value: "aboutPage" }
-      #             - { label: "Contact", value: "contactPage" }
-      #             - { label: "Articles", value: "articlesPage" }
-      #             - { label: "FAQ", value: "faqPage" }
-      # - label: "Section 3" 
-      #   name: "section3" 
-      #   widget: "object" 
-      #   fields:
-      #     - name: images
-      #       label: "Images"
-      #       widget: list
-      #       create: false
-      #       fields:
-      #         - {label: "Image", name: "url", widget: "image", required: false}
-      # - label: "Section 4" 
-      #   name: "section4" 
-      #   widget: "object" 
-      #   fields:
-      #     - {label: "Titre", name: "title", widget: "string", required: false}
-      #     - name: images
-      #       label: "Images"
-      #       widget: list
-      #       create: false
-      #       fields:
-      #         - {label: "Titre", name: "title", widget: "string", required: false}
-      #         - name: skill
-      #           label: "Éléments"
-      #           widget: list
-      #           create: false
-      #           fields:
-      #             - {label: "Texte", name: "name", widget: "string", required: false}
-      # - label: "Section 5" 
-      #   name: "section5" 
-      #   widget: "object" 
-      #   fields:
-      #     - {label: "Titre", name: "title", widget: "string", required: false}
-      #     - {label: "Image", name: "image", widget: "image", required: false}
-      #     - label: "Bouton" 
-      #       name: "btn" 
-      #       widget: "object" 
-      #       fields:
-      #         - {label: "Text", name: "text", widget: "string", required: false}
-      #         - label: "Lien"
-      #           name: "link"
-      #           widget: "select"
-      #           options:
-      #             - { label: "Accueil", value: "homePage" }
-      #             - { label: "Portfolio", value: "portfolioPage" }
-      #             - { label: "Services", value: "servicesPage" }
-      #             - { label: "À propos", value: "aboutPage" }
-      #             - { label: "Contact", value: "contactPage" }
-      #             - { label: "Articles", value: "articlesPage" }
-      #             - { label: "FAQ", value: "faqPage" }
-### PORTFOLIO EN  
-  - name: "portoflio-en" # Used in routes, e.g. /admin/collections/blog
-    label: "Portfolio - EN" # Used in the UI
-    folder: "content/portfolio" # The path to the folder where the documents are stored
-    slug: "{{slug}}.en"
-    editor:
-      preview: false
-    create: true # Allow users to create new documents in this collection
-    filter: 
-      field: "i18nlanguage"
-      value: "en"
-    fields:
-      - {label: "Titre SEO", name: "title", widget: "string"}
+      - label: "Section 2" 
+        name: "section2" 
+        widget: "object" 
+        fields:
+          - {label: "S1-Titre", name: "title", widget: "string", required: false}
+          - {label: "S1-Description", name: "description", widget: "text", required: false}
+          - name: table
+            label: "S1-Tableau"
+            widget: list
+            create: true
+            required: false
+            fields:
+              - {label: "Titre", name: "name", widget: "string", required: false}
+              - {label: "Valeur", name: "text", widget: "string", required: false}
+          - {label: "S2-Image 1", name: "image1", widget: "image", required: false}
+          - {label: "S2-Image 2", name: "image2", widget: "image", required: false}
+          - name: articles
+            label: "S3-Articles"
+            widget: list
+            create: true
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Texte" 
+                name: "caption" 
+                widget: "object" 
+                fields:
+                  - {label: "Titre", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Lien", name: "link", widget: "string", required: false}
+
+      - label: "Section 3" 
+        name: "section3" 
+        widget: "object" 
+        fields:
+          - name: images
+            label: "S1-Images"
+            widget: list
+            create: true
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "S2-Texte 1" 
+            name: "text1" 
+            widget: "object" 
+            required: false
+            fields:
+              - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "S2-Texte 2" 
+            name: "text2" 
+            widget: "object" 
+            required: false
+            fields:
+              - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 4" 
+        name: "section4" 
+        widget: "object" 
+        fields:
+          - {label: "S1-Titre", name: "title", widget: "string", required: false}
+          - {label: "S1-Description", name: "description", widget: "text", required: false}
+          - name: images
+            label: "S2-Images"
+            widget: list
+            create: true
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image", required: false}
+      - label: "Section 5" 
+        name: "section5" 
+        widget: "object" 
+        fields:
+          - name: images
+            label: "S1-Images"
+            widget: list
+            create: true
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "S2-Voulez-vous un vidéo? Sinon, c'est une image", name: "video", widget: "boolean", required: false, default: false}
+          - {label: "S2-Image", name: "image", widget: "image", required: false}
+          - {label: "S2-Lien Vidéo (si applicable)", name: "videolink", widget: "string", required: false}
+      - label: "Section 6" 
+        name: "section6" 
+        widget: "object" 
+        fields:
+          - {label: "S3-Image", name: "image", widget: "image", required: false}
 ### SETTINGS
   - name: "settings"
     label: "Settings"
