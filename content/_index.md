@@ -104,7 +104,7 @@ section8:
       votre équipe composée de coordonnateurs, designers, d’architectes de
       l’information, etc. Je livre une création en accord avec l’image de marque
       de vos clients.
-    image: /img/hp-viz-agences.png
+    image: /img/hp-boite-agence-700.png
   box2:
     btn:
       link: '#'
@@ -115,7 +115,7 @@ section8:
       compléter avec succès le projet. Mon implication vous évite de nombreuses
       heures de gestion à l’interne et limite les intermédiaires. Le mandat peut
       être un projet complet agile ou à la pièce selon votre besoin. 
-    image: /img/hp-viz-entreprises.png
+    image: /img/hp-boite-entreprises-700.png
   title: Je travaille avec</br>les agences et les entreprises
 section9:
   btn:
