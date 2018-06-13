@@ -25,11 +25,11 @@ section3:
       icon: icon-pencil
       link: servicesPage
       title: Création de contenu
-    - anchor: '#redaction-seo'
+    - anchor: '#creation-contenu'
       icon: icon-presentation
       link: servicesPage
       title: Rédaction SEO
-    - anchor: '#strategie'
+    - anchor: '#creation-contenu'
       icon: icon-target
       link: servicesPage
       title: Stratégie
