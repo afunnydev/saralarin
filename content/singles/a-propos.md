@@ -2,9 +2,6 @@
 title: À propos | Rédaction agile
 description: >-
   Sara Larin se spécialise en rédaction, stratégie et gestion. Découvrir la rédaction agile.
-titre: À propos
-identifiant: a-propos
-i18nlanguage: fr
 slug: a-propos
 layout: a-propos
 image: null
