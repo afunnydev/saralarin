@@ -53,7 +53,7 @@ section2:
   description: >-
     Je fais avec vous le portrait de votre mandat afin de saisir vos besoins,
     maintenir un cap stratégique et bien collaborer avec votre équipe.
-  image: /img/redaction-web-sara-gestion.jpg
+  image: /img/visuel-briques-services.png
 section3:
   btn1:
     anchor: '#a-la-piece'
