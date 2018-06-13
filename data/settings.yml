@@ -20,8 +20,8 @@ sitetitle: {}
 defaultsocialimage: /images/logo-share.jpg
 logo:
   color:
-    lg: /img/logo-sara-gros.png
-    sm: /img/logo-sara-petit.png
+    lg: /img/logo-sara-gros-rev.png
+    sm: /img/logo-sara-petit-rev.png
   white:
     lg: /images/logo-white@2x.png
     sm: /images/logo-white.png
