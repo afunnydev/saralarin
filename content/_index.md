@@ -7,7 +7,7 @@ draft: false
 section1:
   subtitle: Rédaction Agile
   title: Sara Larin
-  image: /img/services-bloc-bandeauCTA.png
+  image: /img/cover-test-2-3000.png
 section2:
   title: Qu’est-ce que la rédaction agile?
   description: Un service de rédaction bonifié qui s’adapte à votre réalité.
@@ -52,13 +52,13 @@ section5:
     marque.
   portfolio:
     - image: /img/cover-3-brasseurs.jpg
-      text: "Adaptation"
+      text: Adaptation
     - image: /img/wow-mobile.jpg
-      text: "Offre promotionnelle"
+      text: Offre promotionnelle
     - image: /img/ville-mtl-cover.jpg
-      text: "Vidéo promotionnel"
+      text: Vidéo promotionnel
     - image: /img/manifesto.jpg
-      text: "Manifesto"
+      text: Manifesto
 section6:
   steps:
     - number: 1
