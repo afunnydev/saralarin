@@ -99,7 +99,7 @@ section6:
       text: VOIR LES PROJETS
     id: creation-contenu
     title: Création de contenu
-    image: /img/specialisation-creation-contenu.jpg
+    image: /img/services-specialisation-crea.png
     list:
       - sentence: Stratégie de contenu
       - sentence: Stratégie et rédaction SEO
@@ -118,7 +118,7 @@ section6:
       text: VOIR LES PROJETS
     id: gestion-production
     title: Gestion et production
-    image: /img/services-specialisation.jpg
+    image: /img/services-specialisation-prod.png
     list:
       - sentence: Projets
       - sentence: Clients (pour les agences)
