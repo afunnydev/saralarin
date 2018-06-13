@@ -121,7 +121,7 @@ section9:
   btn:
     link: /a-propos
     text: En savoir plus
-  imaged: /img/bloc-droite-redaction.png
+  imaged: /img/bloc-à-propos-droite-rev.png
   imageg: /img/bloc-gauche-redaction.png
   title: À propos
   description: >-
