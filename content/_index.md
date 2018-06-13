@@ -7,7 +7,7 @@ draft: false
 section1:
   subtitle: Rédaction Agile
   title: 'Sara '
-  image: /img/header-test-new-design-2.png
+  image: /img/header-test-new-design-3.png
 section2:
   title: Qu’est-ce que la rédaction agile?
   description: Un service de rédaction bonifié qui s’adapte à votre réalité.
