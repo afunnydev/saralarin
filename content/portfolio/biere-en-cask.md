@@ -19,26 +19,24 @@ tags:
   - rédaction
   - adaptation
 section1:
-  categories:
-    - name: Imprimé
-    - name: Rédaction
-    - name: Adaptation
+  categories: []
   title: Concoctez votre bière en cask
   description: >-
     Le resto Les 3 Brasseurs voulait présenter sa nouvelle offre: un atelier de
     fabrication de bière. 
   image: /img/portfolio-1000-1000-3brasseurs.png
   list:
-    - text: >-
-        La brochure devait parler aux amateurs de bière qui avaient envie de
-        vivre ou offrir une expérience hors du commun. Le contenu devait
-        expliquer clairement l’activité et inciter la cible à s’y inscrire. 
+    - text: Imprimé
+    - text: Rédaction
+    - text: Adaptation
 section2:
   title: Présenter une expérience
   description: >-
     La brochure devait parler aux amateurs de bière qui avaient envie de vivre
     ou offrir une expérience hors du commun. Le contenu devait expliquer
     clairement l’activité et inciter la cible à s’y inscrire. 
+  image1: /img/portfolio-1000-1000-3brasseurs.png
+  image2: /img/portfolio-1000-1000-3brasseurs.png
   table:
     - name: Client
       text: Les 3 Brasseurs
@@ -50,17 +48,18 @@ section3:
   images:
     - {}
   text1:
-    title: Un accord parfait entre la rédaction et le design
-    description: >-
-      Ma collaboration avec le designer a permis de créer un visuel et un texte
-      qui suscitent l’intérêt. On remarque la structure du contenu, les
-      illustrations et les blocs de couleurs qui facilitent la compréhension. 
+    title: ''
+    description: ''
 section4:
-  title: test
+  title: Un accord parfait entre la rédaction et le design
+  description: >-
+    Ma collaboration avec le designer a permis de créer un visuel et un texte
+    qui suscitent l’intérêt. On remarque la structure du contenu, les
+    illustrations et les blocs de couleurs qui facilitent la compréhension. 
 section5:
   images:
     - image: /img/portfolio-1000-1000-3brasseurs.png
 section6:
-  image: /img/portfolio-1000-1000-3brasseurs.png
+  image: ''
 ---
 
