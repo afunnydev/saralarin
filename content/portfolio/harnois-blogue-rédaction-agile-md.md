@@ -4,7 +4,7 @@ slug: blogue-harnois
 description: >-
   Le mandat consistait à développer une stratégie de contenu et de déploiement
   pour le blogue des Industries Harnois. Découvrir le projet.
-image: /img/harnois-blogue-2000-px-x-1000-px-portfolio-image-principale-template.png
+image: /img/harnois-blogue-1000-px-x-1000-px-portfolio-image-more-projects.png
 i18nlanguage: fr
 weight: 0
 draft: false
