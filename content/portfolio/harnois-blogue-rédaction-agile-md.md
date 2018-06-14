@@ -57,8 +57,7 @@ section2:
       text: Sara Larin et Helen Savage
 section3:
   images:
-    - image: /img/harnois-blogue-750-px-x-1500-px-portfolio-style-1-images-2.png
-    - image: /img/harnois-blogue-750-px-x-1500-px-portfolio-style-1-images-3.png
+    - image: /img/harnois-blogue-portfolio-style-1-image-2-option2-1500.jpg
   text1:
     title: 'Une stratégie pour 3 divisions '
     description: >-
