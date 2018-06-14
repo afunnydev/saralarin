@@ -1,6 +1,6 @@
 ---
 title: '3 Brasseurs: bière en cask | Rédaction agile'
-slug: 3-brasseurs-creation-biere
+slug: 3-brasseurs-fabrication-biere
 description: >-
   Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
   bière des 3 Brasseurs. Découvrir le projet.
@@ -9,7 +9,7 @@ i18nlanguage: fr
 draft: false
 style: style-1
 listing:
-  big: false
+  big: true
   title: '3 Brasseurs: bière en cask'
   description: >-
     Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
@@ -24,7 +24,7 @@ section1:
   description: >-
     Le resto Les 3 Brasseurs voulait présenter sa nouvelle offre: un atelier de
     fabrication de bière. 
-  image: /img/portfolio-3000-1500-3brasseurs.png
+  image: /img/3-brasseurs-portfolio-style-1-image-1-3000-px-x-2550-px.png
   list:
     - text: Imprimé
     - text: Rédaction
@@ -35,8 +35,8 @@ section2:
     La brochure devait parler aux amateurs de bière qui avaient envie de vivre
     ou offrir une expérience hors du commun. Le contenu devait expliquer
     clairement l’activité et inciter la cible à s’y inscrire. 
-  image1: /img/portfolio-1000-1000-3brasseurs.png
-  image2: /img/portfolio-1000-1000-3brasseurs.png
+  image1: ''
+  image2: ''
   table:
     - name: Client
       text: Les 3 Brasseurs
@@ -46,7 +46,8 @@ section2:
       text: Sara Larin
 section3:
   images:
-    - {}
+    - image: /img/3-brasseurs-bierecask-fr-1.jpg
+    - image: /img/3-brasseurs-bierecask-3-fr.png
   text1:
     title: ''
     description: ''
@@ -58,8 +59,8 @@ section4:
     illustrations et les blocs de couleurs qui facilitent la compréhension. 
 section5:
   images:
-    - image: /img/portfolio-1000-1000-3brasseurs.png
+    - image: /img/3-brasseurs-bierecask-2.png
 section6:
-  image: ''
+  image: /img/portfolio-1000-1000-3brasseurs.png
 ---
 
