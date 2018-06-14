@@ -10,7 +10,7 @@ weight: 0
 draft: false
 style: style-1
 listing:
-  big: true
+  big: false
   title: Blogue des Industries Harnois
   description: >-
     Développer une stratégie de contenu et de déploiement pour le blogue des
