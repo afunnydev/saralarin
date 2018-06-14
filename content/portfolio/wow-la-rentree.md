@@ -51,8 +51,8 @@ section2:
       text: Sara Larin
 section3:
   images:
-    - image: /img/wow-mobile1.jpg
-    - image: /img/wow-mobile2.jpg
+    - image: /img/wow-mobile-750-px-x-1500-px-portfolio-style-1-images-2.png
+    - image: /img/wow-mobile-750-px-x-1500-px-portfolio-style-1-images-3.png
 section4:
   title: En boutique et sur le Web
   description: >-
@@ -62,7 +62,7 @@ section4:
     le site Web et les médias sociaux du client.
 section5:
   images:
-    - image: ''
+    - image: /img/wow-mobile-1500-px-x-750-px-portfolio-style-1-images-4.png
 section6:
   image: /img/portfolio-1000-1000-wow-mobile-bts.png
 ---
