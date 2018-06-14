@@ -9,7 +9,7 @@ i18nlanguage: fr
 draft: false
 style: style-1
 listing:
-  big: false
+  big: true
   title: '3 Brasseurs: bière en cask'
   description: >-
     Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
@@ -24,7 +24,7 @@ section1:
   description: >-
     Le resto Les 3 Brasseurs voulait présenter sa nouvelle offre: un atelier de
     fabrication de bière. 
-  image: /img/portfolio-3000-1500-3brasseurs.png
+  image: /img/3-brasseurs-portfolio-style-1-image-1-3000-px-x-2550-px.png
   list:
     - text: Imprimé
     - text: Rédaction
