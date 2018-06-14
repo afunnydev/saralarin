@@ -10,6 +10,7 @@ weight: 0
 draft: false
 style: style-1
 listing:
+  big: true
   title: Blogue des Industries Harnois
   description: >-
     Développer une stratégie de contenu et de déploiement pour le blogue des
@@ -30,6 +31,8 @@ section1:
     Le client voulait ajouter un blogue à son site Web. Le mandat consistait à
     développer une stratégie de contenu et de déploiement, d’effectuer des
     recherches et des entrevues pour faire la rédaction d’articles de blogue.
+  image: >-
+    /img/harnois-blogue-2000-px-x-1000-px-portfolio-image-principale-template.png
   list:
     - text: Stratégie de contenu
     - text: Rédaction SEO
