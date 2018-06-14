@@ -1,6 +1,6 @@
 ---
 title: '3 Brasseurs: bière en cask | Rédaction agile'
-slug: 3-brasseurs-creation-biere
+slug: 3-brasseurs-fabrication-biere
 description: >-
   Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
   bière des 3 Brasseurs. Découvrir le projet.
