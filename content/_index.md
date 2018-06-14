@@ -57,7 +57,7 @@ section5:
       text: Offre promotionnelle
     - image: /img/ville-mtl-cover.jpg
       text: Vidéo promotionnel
-    - image: /img/manifesto.jpg
+    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
       text: Manifesto
 section6:
   steps:
