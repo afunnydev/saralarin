@@ -51,13 +51,13 @@ section5:
     J’analyse votre écosystème en place pour assurer un livrable modelé à votre
     marque.
   portfolio:
-    - image: /img/cover-3-brasseurs.jpg
+    - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Adaptation
     - image: /img/wow-mobile.jpg
       text: Offre promotionnelle
     - image: /img/ville-mtl-cover.jpg
       text: Vidéo promotionnel
-    - image: /img/manifesto.jpg
+    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
       text: Manifesto
 section6:
   steps:
