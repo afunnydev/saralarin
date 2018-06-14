@@ -58,7 +58,6 @@ section2:
 section3:
   images:
     - image: /img/harnois-blogue-portfolio-style-1-image-2-option2-1500.jpg
-    - image: ''
   text1:
     title: 'Une stratégie pour 3 divisions '
     description: >-
