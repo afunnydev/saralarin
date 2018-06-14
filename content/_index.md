@@ -59,6 +59,9 @@ section5:
       text: Vidéo promotionnel
     - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
       text: Manifesto
+    - image: >-
+        /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Stratégie de contenu
 section6:
   steps:
     - number: 1
