@@ -25,7 +25,7 @@ section1:
     Le mandat demandait de rédiger un concept accrocheur en anglais pour l’offre
     de la rentrée. Un visuel promotionnel et un axé sur la notoriété ont été
     élaborés. 
-  image: /img/portfolio-1000-1000-wow-mobile-bts.png
+  image: /img/wow-mobile-1000-px-x-1000-px-portfolio-image-principale-template.png
   list:
     - text: Rédaction
     - text: Anglais
