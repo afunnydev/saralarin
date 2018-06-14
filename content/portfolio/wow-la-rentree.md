@@ -4,7 +4,7 @@ slug: wow-la-rentree
 description: >-
   Rédaction d’un concept accrocheur en anglais pour l’offre de la rentrée de
   WOW! boutique mobile. Découvrir le projet.
-image: /img/portfolio-1000-1000-wow-mobile-bts.png
+image: /img/wow-mobile-1000-px-x-2000-px-portfolio-image-principale-template.png
 i18nlanguage: fr
 weight: 0
 draft: false
