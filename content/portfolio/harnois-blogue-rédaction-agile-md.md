@@ -76,6 +76,6 @@ section4:
 section5:
   image: /img/harnois-blogue-portfolio-style-1-image-4-1500-px-x-750-px.jpg
 section6:
-  image: /img/harnois-blogue-1000-px-x-1000-px-portfolio-image-autres-projets.jpg
+  image: ''
 ---
 
