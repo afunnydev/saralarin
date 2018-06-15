@@ -36,7 +36,7 @@ section1:
       text: Ville de Montréal
     - name: Agence
       text: Buck Créatifs
-    - name: Conception et rédaction
+    - name: Rédaction
       text: Sara Larin
     - name: Adaptation
       text: Sara Larin
