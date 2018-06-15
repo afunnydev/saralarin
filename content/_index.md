@@ -73,9 +73,8 @@ section6:
     - number: 2
       title: Stratégie et création
       description: >-
-        La stratégie cerne les objectifs, permet d’élaborer un plan de création
-        de contenu et de choisir les données récoltées. La création communique
-        votre message de façon attrayante à la cible.
+        La stratégie est la ligne directrice du projet et en assure la réussite.
+        La création communique votre message de façon attrayante à la cible.
     - number: 3
       title: Création
       description: >-
