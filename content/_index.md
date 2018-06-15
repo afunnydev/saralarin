@@ -6,13 +6,13 @@ description: >-
 draft: false
 section1:
   subtitle: Rédaction Agile
-  title: Sara Larin
-  image: /img/services-bloc-bandeauCTA.png
+  title: 'Sara '
+  image: /img/header-test-new-design-3.png
 section2:
   title: Qu’est-ce que la rédaction agile?
   description: Un service de rédaction bonifié qui s’adapte à votre réalité.
 section3:
-  image: /img/redaction-agile-web-2-header.jpg
+  image: /img/visuel-ciment-fleche-home.png
   subtitle: Adaptés à votre contexte d’affaires
   title: Services
   description: >-
@@ -51,14 +51,17 @@ section5:
     J’analyse votre écosystème en place pour assurer un livrable modelé à votre
     marque.
   portfolio:
-    - image: /img/cover-3-brasseurs.jpg
-      text: "Adaptation"
+    - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Adaptation
     - image: /img/wow-mobile.jpg
-      text: "Offre promotionnelle"
+      text: Offre promotionnelle
     - image: /img/ville-mtl-cover.jpg
-      text: "Vidéo promotionnel"
-    - image: /img/manifesto.jpg
-      text: "Manifesto"
+      text: Vidéo promotionnel
+    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
+      text: Manifesto
+    - image: >-
+        /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Stratégie de contenu
 section6:
   steps:
     - number: 1
@@ -104,7 +107,7 @@ section8:
       votre équipe composée de coordonnateurs, designers, d’architectes de
       l’information, etc. Je livre une création en accord avec l’image de marque
       de vos clients.
-    image: /img/hp-viz-agences.png
+    image: /img/hp-boite-agence-700.png
   box2:
     btn:
       link: '#'
@@ -115,13 +118,13 @@ section8:
       compléter avec succès le projet. Mon implication vous évite de nombreuses
       heures de gestion à l’interne et limite les intermédiaires. Le mandat peut
       être un projet complet agile ou à la pièce selon votre besoin. 
-    image: /img/hp-viz-entreprises.png
+    image: /img/hp-boite-entreprises-700.png
   title: Je travaille avec</br>les agences et les entreprises
 section9:
   btn:
     link: /a-propos
     text: En savoir plus
-  imaged: /img/bloc-droite-redaction.png
+  imaged: /img/bloc-à-propos-droite-rev.png
   imageg: /img/bloc-gauche-redaction.png
   title: À propos
   description: >-

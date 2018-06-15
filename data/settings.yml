@@ -1,57 +1,28 @@
 socials:
+  dribbleurl: ''
   facebookurl: ''
-  linkedinurl: 'https://www.linkedin.com/in/saralarin/'
-  twitterurl: ''
-  youtubeurl: ''
-  instagramurl: 'https://www.instagram.com/saralarina/'
   googleplusurl: ''
-  pinteresturl: ""
-  vimeourl: ""
-  dribbleurl: ""
+  instagramurl: 'https://www.instagram.com/saralarina/'
+  linkedinurl: 'https://www.linkedin.com/in/saralarin/'
+  pinteresturl: ''
+  twitterurl: ''
+  vimeourl: ''
+  youtubeurl: ''
 twitter:
+  id: ''
   share: false
-  id: ""
-address:
-  road:
-  app:
-  city:
-  province:
-  postal:
-  country:
-ouverture:
-  fr:
-    - jour: 
-      heures: 
-    - jour:
-      heures: 
-    - jour: 
-      heures: 
-    - jour: 
-      heures: 
-  en:
-    - jour: 
-      heures: 
-    - jour: 
-      heures: 
-    - jour:
-      heures: 
-    - jour: 
-      heures: 
-phone: '(514) 265-7523'
+address: {}
+phone: (514) 265-7523
 mphone: '+15142657523'
-email: 'info@saralarin.ca'
-sitedescription:
-  fr:
-  en:
-sitetitle:
-  fr:
-  en:
-defaultsocialimage: "/images/logo-share.jpg"
-removefromexternalsearch: true
+email: info@saralarin.ca
+sitedescription: {}
+sitetitle: {}
+defaultsocialimage: /images/logo-share.jpg
 logo:
   color:
-    sm: "/img/sara-larin-logo-1x.png"
-    lg: "/img/sara-larin-logo-2x.png"
+    lg: /img/logo-sara-gros-rev.png
+    sm: /img/logo-sara-petit-rev.png
   white:
-    sm: "/images/logo-white.png"
-    lg: "/images/logo-white@2x.png"
+    lg: /images/logo-white@2x.png
+    sm: /images/logo-white.png
+removefromexternalsearch: true
