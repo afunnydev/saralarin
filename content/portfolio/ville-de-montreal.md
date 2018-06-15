@@ -45,6 +45,8 @@ section2:
     - caption:
         title: bla bla
         description: bla bla
+      image: >-
+        /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
 section3:
   text1:
     title: bla bla
