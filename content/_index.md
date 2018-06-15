@@ -55,7 +55,7 @@ section5:
       text: Adaptation
     - image: /img/wow-mobile.jpg
       text: Offre promotionnelle
-    - image: /img/ville-mtl-cover.jpg
+    - image: /img/vdemtemplate-image-on-collabore-600-x-1000-ratio-11_7-1-.png
       text: Vidéo promotionnel
     - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
       text: Manifesto
