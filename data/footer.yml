@@ -1,37 +1,41 @@
 col1:
-  fr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsum quibusdam accusantium officiis sapiente harum soluta, voluptates quam dolorum, modi, excepturi alias."
-  en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos numquam, nulla doloribus totam sit? Perspiciatis, voluptate asperiores maiores saepe rerum dolores."
+  en: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos
+    numquam, nulla doloribus totam sit? Perspiciatis, voluptate asperiores
+    maiores saepe rerum dolores.
+  fr: >-
+    J'offre un service de rédaction bonifié qui allie la stratégie, la
+    créativité et la gestion.
 col2:
-  title: 
-    fr: Liens utiles
-    en: Sitemap
   links:
-    - fr: Accueil
-      en: Home
+    - en: Home
+      fr: Accueil
       link: homePage
-    - fr: Services
-      en: Services
+    - en: Services
+      fr: Services
       link: servicesPage
-    - fr: Projets
-      en: Projects
+    - en: Projects
+      fr: Projets
       link: portfolioPage
-    - fr: À propos
-      en: About
+    - en: About
+      fr: À propos
       link: aboutPage
-    - fr: Contact
-      en: Contact
+    - en: Contact
+      fr: Contact
       link: contactPage
-    - fr: Blogue
-      en: Blog
+    - en: Blog
+      fr: Blogue
       link: articlesPage
+  title:
+    en: Sitemap
+    fr: Liens utiles
 col3:
-  title: 
-    fr: "Me contacter"
-    en: "Contact me"
+  title:
+    en: Contact me
+    fr: Me contacter
 col4:
-  title: 
-    fr: "Projets"
-    en: "Projects"
-copyright:
-  fr: "2018 Sara Larin."
-  en: "2018 Sara Larin."
+  title:
+    en: Projects
+    fr: Projets
+copyrights:
+  fr: ' © 2018 Sara Larin. Fait avec  par Akia Marketing'
