@@ -847,7 +847,7 @@ collections:
             fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "text", required: false}
-              - name: porfolio
+              - name: portfolio
                 label: "Portfolio"
                 widget: list
                 create: true

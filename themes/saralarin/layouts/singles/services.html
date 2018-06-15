@@ -42,7 +42,7 @@
     {{ with .Params.section2 }}
     <!-- start about section --> 
     <section class="wow fadeIn cover-background sm-no-background-img bg-medium-light-gray" style="background-image: url('/xl/{{ .image }}')">
-        <div class="opacity-medium bg-extra-dark-gray"></div>
+        <div class="opacity-light bg-extra-dark-gray"></div>
         <div class="container">
             <div class="row"> 
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right wow fadeIn">
@@ -111,13 +111,13 @@
                 <!-- start interactive banners item -->
                 <div class="col-md-3 col-sm-6 col-xs-12 banner-style3 no-padding-lr wow fadeInUp" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
                     <figure class="bg-white">
-                        <div class="banner-image bg-white">
+                        <div class="banner-image bg-extra-dark-gray">
                             <img src="/half{{ $e.image }}" alt="{{ .text }}"/>
                         </div>
                         <figcaption>
                             <div class="display-table width-100 height-100">
                                 <div class="display-table-cell vertical-align-middle text-center">
-                                    <div class="text-large text-black alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
+                                    <div class="text-large text-white alt-font text-uppercase font-weight-600 margin-10px-bottom">{{ $e.text }}</div>
                                     <!-- <p class="text-light-gray width-80 margin-lr-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
                                     <a href="single-project-page-01.html" class="btn btn-small btn-white font-weight-300 btn-rounded">View Portfolio <i class="ti-arrow-right"></i></a> -->
                                 </div>
