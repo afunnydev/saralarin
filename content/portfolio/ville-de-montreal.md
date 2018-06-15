@@ -11,7 +11,7 @@ draft: false
 style: style-3
 listing:
   big: false
-  title: Vidéo pour le portail de la Ville de Montréal
+  title: Vidéo portail de la Ville de Montréal
   description: >-
     Le vidéo promotionnel devait inciter les citoyens à essayer le nouveau
     portail de la Ville de Montréal
@@ -26,7 +26,7 @@ section1:
   categories:
     - name: 'Conceptualisation de contenu vidéo '
     - name: Adaptation
-  title: Vidéo pour le portail de la Ville de Montréal
+  title: Vidéo portail de la Ville de Montréal
   description: >-
     La Ville de Montréal voulait inviter ses citoyens à essayer la version beta
     de son nouveau portail. Une vidéo a été produite dans le but d’expliquer la
