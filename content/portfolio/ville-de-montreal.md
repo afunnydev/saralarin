@@ -13,8 +13,8 @@ listing:
   big: false
   title: Vidéo portail de la Ville de Montréal
   description: >-
-    Le vidéo promotionnel devait inciter les citoyens à essayer le nouveau
-    portail de la Ville de Montréal
+    Conception et rédaction d'un vidéo promotionnel pour le nouveau portail de
+    la Ville de Montréal
 tags:
   - Production vidéo
   - Adaptation
