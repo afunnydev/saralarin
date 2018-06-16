@@ -110,7 +110,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: '#'
+      link: '#megadome-guide-technique'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
