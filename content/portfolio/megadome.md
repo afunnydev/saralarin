@@ -10,7 +10,7 @@ draft: false
 style: style-1
 listing:
   big: false
-  title: Guide de planification MegaDome<sup>MD</sup>
+  title: Guide de planification MegaDome
   description: >-
     Rédaction d’un guide afin d’aider les acheteurs potentiels à démarrer leur
     projet
@@ -22,12 +22,12 @@ tags:
   - Imprimé
   - Rédaction
 section1:
-  title: Guide de planification MegaDome<sup>MD</sup>
+  title: Guide de planification MegaDome
   description: >-
-    Le mandat était de rédiger un guide technique pour les produits
-    MegaDome<sup>MD</sup>. Il devait inclure toutes les informations nécessaires
-    afin de répondre aux questions des acheteurs potentiels et les aider à
-    démarrer leur projet. 
+    Le mandat était de rédiger un guide technique pour les produits MegaDome. Il
+    devait inclure toutes les informations nécessaires afin de répondre aux
+    questions des acheteurs potentiels et les aider à démarrer leur projet. 
+  image: /img/harnois-blogue-1000-px-x-1000-px-portfolio-image-autres-projets.jpg
   list:
     - text: Rédaction
     - text: Adaptation
