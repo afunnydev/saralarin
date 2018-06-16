@@ -62,6 +62,10 @@ section5:
     - image: >-
         /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Stratégie de contenu
+    - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Articles de blogue
+    - image: /img/seb-toots-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Livre de commandite
 section6:
   steps:
     - number: 1
