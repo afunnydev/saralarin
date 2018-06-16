@@ -70,12 +70,10 @@ section4:
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Adaptation
-    - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-1-.png
+    - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-rev2-1-.png
       text: Offre promotionnelle
     - image: /img/vdemtemplate-image-on-collabore-600-x-1000-ratio-11_7-1-.png
       text: Vidéo promotionnel
-    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
-      text: Manifesto
     - image: >-
         /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Stratégie de contenu
