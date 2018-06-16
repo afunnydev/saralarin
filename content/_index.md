@@ -98,7 +98,7 @@ section7:
 section8:
   box1:
     btn:
-      link: '#'
+      link: '#seb-toots'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
