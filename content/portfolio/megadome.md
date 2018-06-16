@@ -16,9 +16,11 @@ listing:
     projet
 tags:
   - Adaptation
-  - Rédaction
+  - Photographie
   - Gestion de projet
+  - Médias sociaux
   - Imprimé
+  - Rédaction
 section1:
   title: Guide de planification MegaDome<sup>MD</sup>
   description: >-
