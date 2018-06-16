@@ -98,7 +98,7 @@ section7:
 section8:
   box1:
     btn:
-      link: '#'
+      link: '#seb-toots'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
@@ -110,7 +110,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: '#'
+      link: '#megadome-guide-technique'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
