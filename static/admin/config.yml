@@ -571,6 +571,7 @@ collections:
             widget: "object" 
             fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
               - name: steps
                 label: "Étapes"
                 widget: list
@@ -859,6 +860,7 @@ collections:
             widget: "object" 
             fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
               - name: steps
                 label: "Étapes"
                 widget: list

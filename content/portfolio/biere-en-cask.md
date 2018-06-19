@@ -16,8 +16,8 @@ listing:
     bière des 3 Brasseurs.
 tags:
   - Imprimé
-  - rédaction
-  - adaptation
+  - Rédaction
+  - Adaptation
 section1:
   categories: []
   title: Concoctez votre bière en cask

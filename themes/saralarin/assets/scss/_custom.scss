@@ -35,16 +35,29 @@ span.subtitle {
 	padding-top: 36px;
 }
 
+.hover-option4 .grid-item figure div.bg-image {
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	min-height: 350px; 
+	background-position: center center;
+}
+
 @media (max-width: 991px) {
 	// .header-with-topbar .navbar-top, .header-with-topbar .navbar-fixed-top {
 
 	// }
+	.hover-option4 .grid-item figure div.bg-image {
+		min-height: 250px;
+	}
 }
 
 @media (max-width: 768px) {
 	.header-with-topbar .navbar-top, .header-with-topbar .navbar-fixed-top {
 		top: 0;
 		padding-top: 15px;
+	}
+	.hover-option4 .grid-item figure div.bg-image {
+		min-height: 200px;
 	}
 }
 

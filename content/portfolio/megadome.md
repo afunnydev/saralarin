@@ -17,7 +17,6 @@ listing:
 tags:
   - Adaptation
   - Photographie
-  - Gestion de projet
   - Médias sociaux
   - Imprimé
   - Rédaction

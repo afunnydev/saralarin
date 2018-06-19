@@ -2952,7 +2952,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 /* hover option 4 */
 .hover-option4 .grid-item figcaption {height: 100%}
 .hover-option4 .grid-item .portfolio-hover-main {transform: none; display: table; height: 100%; top: 0; width: 100%;}
-.hover-option4 .grid-item figure:hover img {opacity: 0.08; transform: scale(1, 1); transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; filter: blur(4px); -webkit-filter: blur(4px); -moz-filter: blur(4px); -ms-filter: blur(4px); -o-filter: blur(4px); }
+.hover-option4 .grid-item figure:hover img, .hover-option4 .grid-item figure:hover div.bg-image {opacity: 0.08; transform: scale(1, 1); transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; filter: blur(4px); -webkit-filter: blur(4px); -moz-filter: blur(4px); -ms-filter: blur(4px); -o-filter: blur(4px); }
 .hover-option4 .grid-item .portfolio-hover-content {bottom:-15px; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
 .hover-option4 .grid-item:hover .portfolio-hover-content {bottom:0;}
 .hover-option4 .swiper-slide.grid-item figcaption {position: absolute; top: 0; width:100%; opacity: 0}

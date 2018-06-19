@@ -19,7 +19,6 @@ tags:
   - Adaptation
   - Photographie
   - Gestion de projet
-  - Gestion client
 section1:
   btn:
     external: true

@@ -15,7 +15,6 @@ listing:
   description: Rédiger un livre pour ce snowboarder médaillé olympique
 tags:
   - Projet agile
-  - Gestion client
   - Adaptation
   - Rédaction
 section1:

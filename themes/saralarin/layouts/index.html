@@ -48,20 +48,20 @@
     <section class="wow fadeIn parallax" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}'); background-repeat: no-repeat;background-size: cover">
         <!-- <div class="opacity-very-light bg-very-light-gray"></div> -->
         <div class="container">
-            <img src="/img/carre-header-sara.png" alt="" style="position: absolute; top: 10%;
+            <img src="/img/header-homepage.png" alt="" style="position: absolute; top: 10%;
             left: 50%; transform: translate(-50%,0); height: 80%;">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
                     <div class="display-table-cell vertical-align-middle text-center">
                         <!-- start page title -->
-                        <h1 class="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-15px-bottom">{{ .title }}</h1>
+                        <!-- <h1 class="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-15px-bottom">{{ .title }}</h1> -->
                         <!-- end page title -->
                         <!-- start sub title -->
-                        <span class="text-white opacity6 alt-font subtitle">{{ .subtitle }}</span>
+                        <!-- <span class="text-white opacity6 alt-font subtitle">{{ .subtitle }}</span> -->
                         <!-- end sub title -->
                         <div class="down-section text-center" style="bottom: -40px">
                             <a href="#about" class="inner-link">
-                                <div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" 
+                                <div class="tp-caption rev-scroll-btn rs-parallaxlevel-5" 
                                      id="slide-3238-layer-13" 
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','50','50']" 
@@ -81,7 +81,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                                     style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:#fff;border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
                                     <span></span>                                               
                                 </div>
                             </a>
@@ -189,7 +189,7 @@
             	{{ range $i, $e := .portfolio }}
             	{{ $number := mul 2 $i}}
                 <!-- start interactive banners item -->
-                <div class="col-md-3 col-sm-6 col-xs-12 banner-style3 no-padding-lr wow fadeInUp" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+                <div class="col-md-3 col-sm-6 col-xs-12 banner-style3 no-padding-lr wow fadeInUp{{ if (math.Ceil  (div $i 4)) }} hidden-xs{{ end }}" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
                     <figure class="bg-white">
                         <div class="banner-image bg-extra-dark-gray">
                             <img src="/half{{ $e.image }}" alt="{{ .text }}"/>
@@ -219,6 +219,7 @@
     		<div class="row">
         		<div class="col-sm-12 margin-60px-bottom sm-margin-30px-bottom">
         			<h4 class="text-extra-dark-gray alt-font font-weight-600">{{ .title }}</h4>
+                    <p class="width-90 sm-width-100">{{ .description }}</p>
         		</div>
         	</div>
     	</div>

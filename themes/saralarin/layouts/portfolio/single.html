@@ -20,13 +20,13 @@
                 <div class="filter-content overflow-hidden">
                     <ul class="portfolio-grid work-3col hover-option4 gutter-medium">
                         <li class="grid-sizer"></li>
-                        {{ range $i, $e := shuffle (first 3 (where .Site.RegularPages "Type" "portfolio")) }}
+                        {{ range $i, $e := first 3 (shuffle (where .Site.RegularPages "Type" "portfolio")) }}
                         {{ $number := mul 2 $i}}
                         <!-- start portfolio item -->
                         <li class="grid-item web branding design wow fadeInUp" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
                             <a href="{{ .Permalink }}">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="{{ .Params.image }}" alt="{{ .Params.listing.title }}"/></div>
+                                    <div class="portfolio-img bg-extra-dark-gray"><div class="bg-image" style="background-image: url('{{ .Params.image }}')"></div></div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">

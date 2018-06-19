@@ -17,7 +17,6 @@ listing:
     Industries Harnois
 tags:
   - Stratégie de contenu
-  - rédaction SEO
   - Adaptation
   - Blogue
   - Recherches et entrevues

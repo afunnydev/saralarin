@@ -16,8 +16,8 @@ listing:
     même portée que l’anglais.
 tags:
   - Adaptation
-  - web
-  - imprimé
+  - Web
+  - Imprimé
 section1:
   title: Manifesto Lazypants
   description: >-
