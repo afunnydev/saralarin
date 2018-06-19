@@ -2102,7 +2102,7 @@ $(document).ready(function () {
             get: 'user',
             userId: 5640046896,
             limit: '6',
-            accessToken: '5640046896.1677ed0.f7cd85767e124a9f9f8d698cb33252a0',
+            accessToken: '9628603.1677ed0.6713378f896f4b24a0c5080798548e33',
             resolution: "low_resolution",
             after: function () {
                 equalizeHeight();
