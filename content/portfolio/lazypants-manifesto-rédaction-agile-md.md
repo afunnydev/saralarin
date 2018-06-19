@@ -46,8 +46,8 @@ section2:
       text: Sara Larin
 section3:
   images:
-    - image: /img/lazypants-750-px-x-1500-px-portfolio-style-1-images-2.png
-    - image: /img/lazypants-750-px-x-1500-px-portfolio-style-1-images-3.png
+    - image: /img/lazypants-750-px-x-1500-px-portfolio-style-1-images-2-rev03.png
+    - image: /img/lazypants-750-px-x-1500-px-portfolio-style-1-images-3-rev-03.png
   text1:
     title: ''
     description: ''

@@ -53,15 +53,17 @@ section5:
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Adaptation
-    - image: /img/wow-mobile.jpg
+    - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-rev2-1-.png
       text: Offre promotionnelle
-    - image: /img/ville-mtl-cover.jpg
+    - image: /img/vdemtemplate-image-on-collabore-600-x-1000-ratio-11_7-1-.png
       text: Vidéo promotionnel
-    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
-      text: Manifesto
     - image: >-
         /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Stratégie de contenu
+    - image: /img/seb-toots-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Livre de commandite
+    - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
+      text: Articles de blogue
 section6:
   steps:
     - number: 1
@@ -73,10 +75,8 @@ section6:
     - number: 2
       title: Stratégie et création
       description: >-
-        La stratégie cerne les objectifs, permet d’élaborer un plan de création
-        de contenu et de choisir les données récoltées. Elle est la ligne
-        directrice du projet et en assure la réussite. La création communique
-        votre message de façon attrayante à la cible.
+        La stratégie est la ligne directrice du projet et en assure la réussite.
+        La création communique votre message de façon attrayante à la cible.
     - number: 3
       title: Création
       description: >-
@@ -98,7 +98,7 @@ section7:
 section8:
   box1:
     btn:
-      link: '#'
+      link: ' #https://saralarin.ca/seb-toots'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
@@ -110,7 +110,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: '#'
+      link: ' #https://saralarin.ca/megadome-guide-technique'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
