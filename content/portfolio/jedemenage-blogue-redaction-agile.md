@@ -52,6 +52,7 @@ section2:
           différents déménagements insolites.
         link: >-
           https://blog.jedemenage.ca/demenagements-insolites-aux-methodes-incroyables/
+      image: /img/jedemenage-portfolio-style-1-image-1-3000-px-x-2550-px-1.png
     - caption:
         title: 10 façons d’établir de bonnes relations avec vos nouveaux voisins
         description: >-
@@ -60,5 +61,6 @@ section2:
           Bien qu’il soit tentant de commencer à ranger vos biens, il faut
           plutôt penser au voisinage. 
         link: 'https://blog.jedemenage.ca/bonnes-relations-nouveaux-voisins/'
+      image: /img/jedemenage-portfolio-style-1-image-1-3000-px-x-2550-px-2.png
 ---
 
