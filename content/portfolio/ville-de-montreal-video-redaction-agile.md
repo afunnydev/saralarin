@@ -46,17 +46,13 @@ section3:
   images:
     - {}
   text1:
-    title: blabla
+    title: ''
   text2:
-    title: blabla
-section4:
-  title: blabla
+    title: ''
+section4: {}
 section5:
-  images:
-    - image: >-
-        /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  images: []
 section6:
-  image: >-
-    /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  image: ''
 ---
 
