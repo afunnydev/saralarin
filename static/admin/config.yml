@@ -9,6 +9,9 @@ public_folder: "/img" # The src attribute for uploaded media will begin with
 
 publish_mode: editorial_workflow
 
+slug:
+  clean_accents: true
+
 collections:
 ### PORTFOLIO FR
   - name: "portoflio-fr" # Used in routes, e.g. /admin/collections/blog
@@ -21,6 +24,8 @@ collections:
     filter: 
       field: "i18nlanguage"
       value: "fr"
+    format: frontmatter
+    extension: md
     fields:
       - {label: "Titre SEO", name: "title", widget: "string"}
       - {label: "Lien interne (ce qui suit le https://saralarin.ca/)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
