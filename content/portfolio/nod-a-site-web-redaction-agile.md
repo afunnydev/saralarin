@@ -52,5 +52,7 @@ section3:
       entres autres d’outil pour le développement des affaires.  
 section5:
   video: true
+  videolink: >-
+    https://saralarin.wistia.com/medias/udirfimlz4?embedType=async&videoFoam=true&videoWidth=640
 ---
 
