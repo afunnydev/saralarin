@@ -48,8 +48,8 @@ section4:
 section5:
   title: À la pièce
   description: >-
-    J’analyse votre écosystème en place pour assurer un livrable modelé à votre
-    marque.
+    J’analyse votre écosystème en place pour assurer un livrable spécifique
+    modelé à votre marque.
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       link: portfolio/3-brasseurs-fabrication-biere
