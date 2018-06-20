@@ -1,5 +1,5 @@
 ---
-title: '3 Brasseurs: bière en cask | Rédaction agile'
+title: '3 Brasseurs: bière en cask | Rédaction très agile'
 slug: 3-brasseurs-fabrication-biere
 description: >-
   Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
@@ -55,8 +55,8 @@ section4:
   texts:
     - title: Un accord parfait entre la rédaction et le design
       description: >-
-        Ma collaboration avec le designer a permis de créer un visuel et un texte
-        qui suscitent l’intérêt. On remarque la structure du contenu, les
+        Ma collaboration avec le designer a permis de créer un visuel et un
+        texte qui suscitent l’intérêt. On remarque la structure du contenu, les
         illustrations et les blocs de couleurs qui facilitent la compréhension. 
 section5:
   images:
