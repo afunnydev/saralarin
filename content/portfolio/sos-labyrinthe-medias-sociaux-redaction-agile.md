@@ -69,6 +69,11 @@ section4:
         ont été conçus de façon à répondre aux objectifs tout en permettant la
         réactivité au quotidien. Du contenu vidéo, des concours et des
         publications ont été produits en vue d’augmenter la notoriété. Les
-        actions se déclinaient sur Facebook, Twitter et Instagram.
+        actions se déclinaient sur Facebook, Twitter et Instagram. 
+      image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1-3.png
+section5:
+  images:
+    - image: /img/sos-posts-fb-1500-px-x-750-px-portfolio-style-1-fb-1.png
+    - image: /img/sos-posts-fb-1500-px-x-750-px-portfolio-style-1-fb02.png
 ---
 
