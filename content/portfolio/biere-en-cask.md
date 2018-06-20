@@ -52,11 +52,12 @@ section3:
     title: ''
     description: ''
 section4:
-  - title: Un accord parfait entre la rédaction et le design
-    description: >-
-      Ma collaboration avec le designer a permis de créer un visuel et un texte
-      qui suscitent l’intérêt. On remarque la structure du contenu, les
-      illustrations et les blocs de couleurs qui facilitent la compréhension. 
+  texts:
+    - title: Un accord parfait entre la rédaction et le design
+      description: >-
+        Ma collaboration avec le designer a permis de créer un visuel et un texte
+        qui suscitent l’intérêt. On remarque la structure du contenu, les
+        illustrations et les blocs de couleurs qui facilitent la compréhension. 
 section5:
   images:
     - image: /img/3-brasseurs-bierecask-2.png

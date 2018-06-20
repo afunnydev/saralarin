@@ -154,11 +154,12 @@ collections:
         widget: "object" 
         required: false
         fields:
-          - name: images
+          - name: texts
             label: "S1-Section de textes"
             widget: list
             create: true
             required: false
+            fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "text", required: false}
               - {label: "Image", name: "image", widget: "image", required: false}

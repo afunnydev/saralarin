@@ -54,12 +54,13 @@ section3:
     - image: /img/wow-mobile-750-px-x-1500-px-portfolio-style-1-images-2.png
     - image: /img/wow-mobile-750-px-x-1500-px-portfolio-style-1-images-3.png
 section4:
-  - title: En boutique et sur le Web
-    description: >-
-      Tous les concepts ont été déployés en magasin et sur le Web. Les
-      représentants portaient des chandails à l’image de la campagne et des
-      affiches étaient exposées en boutique. Des visuels ont été mis en ligne sur
-      le site Web et les médias sociaux du client.
+  texts:
+    - title: En boutique et sur le Web
+      description: >-
+        Tous les concepts ont été déployés en magasin et sur le Web. Les
+        représentants portaient des chandails à l’image de la campagne et des
+        affiches étaient exposées en boutique. Des visuels ont été mis en ligne sur
+        le site Web et les médias sociaux du client.
 section5:
   images:
     - image: /img/wow-mobile-1500-px-x-750-px-portfolio-style-1-images-4.png

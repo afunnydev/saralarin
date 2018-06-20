@@ -56,18 +56,19 @@ section3:
     - image: >-
         /img/harnois-guide-technique-portfolio-style-1-image-4-1500-px-x-750-px2.png
 section4:
-  - title: Une collaboration avec l’équipe Harnois
-    description: >-
-      La rédaction de ce guide a demandé des recherches et une étude de la
-      concurrence approfondie. Nous devions offrir un guide d’information plus
-      complet que ce qui se trouvait actuellement sur le marché. J’ai organisé des
-      entrevues avec le département des ventes et de l’ingénierie chez Harnois
-      afin de récolter les renseignements importants. J’ai ensuite élaboré une
-      structure de façon à simplifier ce contenu très technique et le rendre
-      accessible à la cible. Des rencontres en cours de mandat ont été organisées
-      avec les différents départements afin d’unifier et valider les idées
-      présentées. Le guide de 60 pages a été rédigé en français et adapté en
-      anglais. 
+  texts:
+    - title: Une collaboration avec l’équipe Harnois
+      description: >-
+        La rédaction de ce guide a demandé des recherches et une étude de la
+        concurrence approfondie. Nous devions offrir un guide d’information plus
+        complet que ce qui se trouvait actuellement sur le marché. J’ai organisé des
+        entrevues avec le département des ventes et de l’ingénierie chez Harnois
+        afin de récolter les renseignements importants. J’ai ensuite élaboré une
+        structure de façon à simplifier ce contenu très technique et le rendre
+        accessible à la cible. Des rencontres en cours de mandat ont été organisées
+        avec les différents départements afin d’unifier et valider les idées
+        présentées. Le guide de 60 pages a été rédigé en français et adapté en
+        anglais. 
 section5:
   images:
     - image: /img/harnois-blogue-portfolio-style-1-image-4-1500-px-x-750-px.jpg

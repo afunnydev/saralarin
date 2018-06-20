@@ -52,11 +52,12 @@ section3:
     title: ''
     description: ''
 section4:
-  - title: Une diffusion globale
-    description: >-
-      Le manifesto se trouve sur les étiquettes apposées aux pantalons. Il est
-      également utilisé pour toutes les communications et les présentations ainsi
-      que sur le Web et en boutique. 
+  texts:
+    - title: Une diffusion globale
+      description: >-
+        Le manifesto se trouve sur les étiquettes apposées aux pantalons. Il est
+        également utilisé pour toutes les communications et les présentations ainsi
+        que sur le Web et en boutique. 
 section5:
   images:
     - image: /img/lazypants-portfolio-style-1-image-4-1500-px-x-750-px.png
