@@ -77,7 +77,9 @@ section4:
         la culture en serre, la construction de serres et de structures à
         membrane souple.
 section5:
-  image: /img/harnois-blogue-portfolio-style-1-image-4-1500-px-x-750-px.jpg
+  image: ''
+  images:
+    - image: /img/blogue-megadome-hemmingford-14-low.jpg
 section6:
   image: ''
 ---
