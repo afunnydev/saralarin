@@ -1,5 +1,5 @@
 ---
-title: Tésting with accents
+title: Tésting with accents yeah prètty awesome
 slug: ceci-est-un-example
 i18nlanguage: fr
 weight: 0
