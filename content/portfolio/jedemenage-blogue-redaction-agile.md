@@ -23,6 +23,9 @@ section1:
     external: true
     link: 'https://blog.jedemenage.ca/author/saralarin/'
     text: CONSULTER MES ARTICLES
+  categories:
+    - name: Blogue
+    - name: Rédaction SEO
   title: Blogue de jedemenage.ca
   description: >-
     jedéménage.ca est une plateforme en ligne qui regroupe tous les outils
