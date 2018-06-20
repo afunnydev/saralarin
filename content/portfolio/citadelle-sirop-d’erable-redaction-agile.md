@@ -31,7 +31,7 @@ section1:
     de l’apport positif de cet ajout à leur inventaire.
   table:
     - name: Client
-      text: Citadelle
+      text: '[Citadelle](http://www.citadelle-camp.coop/en/maple/maple-syrup) '
     - name: Agence
       text: Youville
     - name: Service-conseil
