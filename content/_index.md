@@ -42,8 +42,8 @@ section4:
     anchor: '#a-la-piece'
     text: À la pièce
   btn2:
-    anchor: '#projet-agile'
-    text: Projet agile
+    anchor: '#projet-complet'
+    text: Projet complet
   title: On collabore?
 section5:
   title: À la pièce
@@ -70,6 +70,10 @@ section5:
     - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Articles de blogue
 section6:
+  title: Projet complet
+  description: >-
+    Je me charge de toutes les étapes de la production pour vous livrer un
+    projet clé en main.
   steps:
     - number: 1
       title: Évaluation
@@ -92,7 +96,6 @@ section6:
       description: >-
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
-  title: Projet agile
 section7:
   btn:
     link: '#'
