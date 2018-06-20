@@ -17,9 +17,9 @@ section3:
   title: Services
   description: >-
     Vous choisissez entre un service à la pièce ou un projet complet selon vos
-    besoins. Je collabore avec votre équipe en mode agile pour le produire et le
-    lancer efficacement. Le mandat peut aussi être fait par phase afin de vous
-    permettre de segmenter votre budget de production. 
+    besoins. Je collabore avec votre équipe en mode agile pour produire et
+    lancer le projet efficacement. Le mandat peut aussi être fait par phase afin
+    de vous permettre de segmenter votre budget de production. 
   icons:
     - anchor: '#creation-contenu'
       icon: icon-pencil
@@ -42,14 +42,14 @@ section4:
     anchor: '#a-la-piece'
     text: À la pièce
   btn2:
-    anchor: '#projet-agile'
-    text: Projet agile
+    anchor: '#projet-complet'
+    text: Projet complet
   title: On collabore?
 section5:
   title: À la pièce
   description: >-
-    J’analyse votre écosystème en place pour assurer un livrable modelé à votre
-    marque.
+    J’analyse votre écosystème en place pour assurer un livrable spécifique
+    modelé à votre marque.
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       link: portfolio/3-brasseurs-fabrication-biere
@@ -70,6 +70,10 @@ section5:
     - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Articles de blogue
 section6:
+  title: Projet complet
+  description: >-
+    Je me charge de toutes les étapes de la production pour vous livrer un
+    projet clé en main.
   steps:
     - number: 1
       title: Évaluation
@@ -92,7 +96,6 @@ section6:
       description: >-
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
-  title: Projet agile
 section7:
   btn:
     link: '#'
