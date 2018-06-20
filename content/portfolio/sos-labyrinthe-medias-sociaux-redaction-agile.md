@@ -59,5 +59,16 @@ section3:
   images:
     - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1.png
     - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-2.png
+section4:
+  texts:
+    - title: >-
+        Une stratégie de contenu pour la saison qui assure une flexibilité au
+        quotidien
+      description: >-
+        Le plan stratégique et l’élaboration du calendrier de contenu par mois
+        ont été conçus de façon à répondre aux objectifs tout en permettant la
+        réactivité au quotidien. Du contenu vidéo, des concours et des
+        publications ont été produits en vue d’augmenter la notoriété. Les
+        actions se déclinaient sur Facebook, Twitter et Instagram.
 ---
 
