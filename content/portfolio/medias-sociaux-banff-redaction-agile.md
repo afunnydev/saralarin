@@ -35,5 +35,20 @@ section1:
     de la performance des publications et la gestion des approbations client. Le
     calendrier de contenu devait prévoir des publications promotionnelles et
     inspirationnelles.
+  table:
+    - name: Client
+      text: '[Serdy](https://groupeserdy.com/) '
+    - name: Agence
+      text: '[Toast Studio](https://www.gotoast.ca/) '
+    - name: Création de contenu
+      text: Sara Larin
+    - name: Gestion de communauté
+      text: Marika Laforest
+    - name: Année
+      text: '2015'
+section2:
+  articles:
+    - image: >-
+        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4.png
 ---
 
