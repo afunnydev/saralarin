@@ -17,9 +17,9 @@ section3:
   title: Services
   description: >-
     Vous choisissez entre un service à la pièce ou un projet complet selon vos
-    besoins. Je collabore avec votre équipe en mode agile pour le produire et le
-    lancer efficacement. Le mandat peut aussi être fait par phase afin de vous
-    permettre de segmenter votre budget de production. 
+    besoins. Je collabore avec votre équipe en mode agile pour produire et
+    lancer le projet efficacement. Le mandat peut aussi être fait par phase afin
+    de vous permettre de segmenter votre budget de production. 
   icons:
     - anchor: '#creation-contenu'
       icon: icon-pencil
