@@ -38,5 +38,8 @@ section1:
       text: Alexandre Cossette
     - name: Rédaction
       text: Sara Larin
+section2:
+  articles:
+    - image: /img/redaction_shady_maple_farms_contour.jpg
 ---
 
