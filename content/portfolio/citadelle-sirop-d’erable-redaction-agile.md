@@ -4,6 +4,7 @@ slug: citadelle-sirop-erable
 description: >-
   Shady Maple Farms voulait présenter son sirop d’érable pour la cuisson aux
   distributeurs américains. Découvrir le projet. 
+image: /img/shady-maple-farm-1000-px-x-1000-px-portfolio-image-principale-1.png
 i18nlanguage: fr
 weight: 0
 draft: false
