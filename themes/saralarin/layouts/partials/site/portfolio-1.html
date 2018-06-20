@@ -29,6 +29,9 @@
             <div class="col-md-6 sm-margin-50px-bottom xs-margin-30px-bottom wow fadeIn">
                 <h5 class="alt-font text-extra-dark-gray font-weight-600">{{ .title }}</h5>
                 <p>{{ .description }}</p>
+                {{ with .btn }}
+                <a href="{{ .link }}" target="_blank" class="btn btn-small btn-dark-gray margin-20px-top sm-margin-15px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
+                {{ end }}
             </div>
             <div class="col-md-4 col-md-offset-2 wow fadeIn">
                 <ul class="list-style-8 margin-twelve-left">
@@ -61,12 +64,17 @@
 <!-- start product information section -->
 <section class="wow fadeIn half-section fadeInUp">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
-                <h5 class="alt-font text-extra-dark-gray font-weight-600">{{ .title }}</h5>
-                <p class="width-80 center-col display-inline-block xs-width-100">{{ .description }}</p>
+        {{ range . }}
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin"{{ with .margin }} style="margin-bottom: {{ . }}"{{ end }}>
+                    <h5 class="alt-font text-extra-dark-gray font-weight-600">{{ .title }}</h5>
+                    <p class="width-80 center-col display-inline-block xs-width-100">{{ .description }}</p>
+                    {{ with .image }}
+                    <img src="{{ . }}" alt="Redaction Web" class="margin-30px-top">
+                    {{ end }}
+                </div>
             </div>
-        </div>
+        {{ end }}
     </div>
 </section>
 <!-- end product information section -->
