@@ -53,22 +53,16 @@ section5:
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Adaptation
-      link: portfolio/3-brasseurs-fabrication-biere/
     - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-rev2-1-.png
-      link: portfolio/wow-la-rentree/
       text: Offre promotionnelle
     - image: /img/vdemtemplate-image-on-collabore-600-x-1000-ratio-11_7-1-.png
-      link: portfolio/ville-montreal-video/
       text: Vidéo promotionnel
     - image: >-
         /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
-      link: portfolio/blogue-harnois/
       text: Stratégie de contenu
     - image: /img/seb-toots-image-on-collabore-600-x-1000-ratio-11_7.png
-      link: portfolio/seb-toots/
       text: Livre de commandite
     - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
-      link: portfolio/tourisme-lanaudiere/
       text: Articles de blogue
 section6:
   steps:
@@ -104,7 +98,7 @@ section7:
 section8:
   box1:
     btn:
-      link: ' #https://saralarin.ca/seb-toots'
+      link: ' https://saralarin.ca/seb-toots'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
@@ -116,7 +110,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: ' #https://saralarin.ca/megadome-guide-technique'
+      link: ' https://saralarin.ca/megadome-guide-technique'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
