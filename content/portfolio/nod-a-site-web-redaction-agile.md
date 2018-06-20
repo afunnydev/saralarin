@@ -20,9 +20,9 @@ tags:
 section1:
   table:
     - name: Client
-      text: nod-A
+      text: '[nod-A](http://makestorming.com/en/)'
     - name: Design
-      text: Kim B. Deland
+      text: '[Kim B. Deland](http://www.kimb-design.com/)'
     - name: Structure de contenu
       text: Sara Larin
     - name: 'Rédaction '
