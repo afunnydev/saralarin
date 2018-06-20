@@ -36,6 +36,8 @@ section2:
     appareils mobiles) de différentes compagnies. Cette marque non
     conventionnelle communique à sa cible sans fla-fla avec un ton jeune et
     amusant.
+  image1: /img/1701-anniversary_gif-anime_en_v1_3.gif
+  image2: /img/1701-anniversary_gif-anime_fr_v1_1.gif
   table:
     - name: Client
       text: '[WOW! boutique mobile](https://www.wowmobile.ca/en/) '
@@ -47,5 +49,7 @@ section2:
       text: Viviane Quesnel
     - name: Rédaction
       text: Sara Larin
+section4:
+  texts: []
 ---
 
