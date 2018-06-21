@@ -101,7 +101,6 @@ section6:
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
 section7:
-  image: 'http://placehold.it/960x678'
   btn:
     link: 'https://saralarin.ca/portfolio/blogue-harnois/'
     text: Voir le projet
@@ -110,6 +109,7 @@ section7:
   description: >-
     Élaboration d'une stratégie de contenu, recherches, entrevues et rédaction
     d’articles. 
+  image: /img/harnois-blogue-portfolio-style-1-image-1-3000-px-x-2550-px.png
 section8:
   box1:
     btn:
