@@ -12,9 +12,7 @@ draft: false
 style: style-3
 listing:
   title: Blogue de jedemenage.ca
-  description: >-
-    Rédaction d'articles optimisés pour le SEO qui traitent du déménagement avec
-    différents tons et styles
+  description: 'Rédaction d''articles optimisés pour le SEO '
 tags:
   - Blogue
   - Rédaction
