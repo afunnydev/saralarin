@@ -10,9 +10,7 @@ draft: false
 style: style-2
 listing:
   title: 'Site Web Makestorming '
-  description: >-
-    Rédaction en mode agile d'un site Web anglophone pour des services et
-    produits axés sur la collaboration
+  description: Un projet agile pour des services et produits axés sur la collaboration
 tags:
   - Web
   - Rédaction
@@ -33,7 +31,7 @@ section1:
       text: Sara Larin en collaboration avec Helen Savage
     - name: Gestion de projet
       text: 'Sara Larin en collaboration avec Gabrielle Tremblay '
-  title: 'Site Web Makestorming '
+  title: 'Un site Web anglophone rédigé en mode agile '
 section3:
   text1:
     title: Le projet
