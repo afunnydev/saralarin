@@ -38,8 +38,6 @@ section1:
       text: Youville
     - name: Gestionnaire du blogue
       text: Lucy Baunay
-    - name: Service
-      text: Rédaction d’articles de blogue
 section2:
   articles:
     - caption:
