@@ -4,6 +4,7 @@ slug: grenier-magazine
 description: >-
   Les articles rédigés portent sur différents sujets et intervenants du domaine
   des communications. Découvrir le mandat. 
+image: /img/grenier-mag-1000-px-x-2000-px-portfolio-image-principale-template-1-.png
 i18nlanguage: fr
 weight: 0
 draft: false
