@@ -55,7 +55,6 @@ section3:
 section5:
   image: /img/nod-a-preview-image-video-2000-x-1246-template-rev.png
   video: true
-  videolink: >-
-    https://saralarin.wistia.com/medias/udirfimlz4?embedType=async&videoFoam=true&videoWidth=640
+  videolink: 'https://saralarin.wistia.com/medias/udirfimlz4'
 ---
 
