@@ -4,7 +4,7 @@ slug: festival-banff-medias-sociaux
 description: >-
   Rédaction de publications promotionnelles et inspirationnelles pour le
   Festival du film de montagne de Banff au Québec. Découvrir le projet. 
-image: /img/banff-2000-px-x-1000-px-portfolio-image-principale-template.png
+image: /img/banff-2000-px-x-1000-px-portfolio-image-principale-template-rev2.png
 i18nlanguage: fr
 weight: 0
 draft: false
@@ -49,6 +49,6 @@ section1:
 section2:
   articles:
     - image: >-
-        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4.png
+        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4-rev2.png
 ---
 
