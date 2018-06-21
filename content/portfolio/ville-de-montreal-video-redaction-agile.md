@@ -32,7 +32,7 @@ section1:
     - name: Client
       text: Ville de Montréal
     - name: Agence
-      text: Buck Créatifs
+      text: '[Buck Créatifs](http://www.buckcreatifs.com/) '
     - name: Conception et rédaction
       text: Sara Larin
     - name: Adaptation
