@@ -12,7 +12,7 @@ style: style-2
 listing:
   big: true
   title: Vidéo promotionnel Cryos
-  description: ' Production d’un vidéo promotionnel afin de présenter le scan 3D de Cryos'
+  description: 'Conceptualiser, rédiger et coréaliser un vidéo pour Cryos'
 tags:
   - Vidéo
   - Rédaction
@@ -34,7 +34,9 @@ section1:
       text: Sara Larin
     - name: Production
       text: '[Buck Créatifs ](http://www.buckcreatifs.com/) '
-  title: Vidéo promotionnel Cryos
+  title: >-
+    Présenter le nouveau scan 3D et raconter deux décennies de développement
+    technologique en seulement cinq minutes. 
 section2:
   image1: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px.png
 section3:
