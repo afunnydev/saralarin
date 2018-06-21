@@ -11,6 +11,7 @@ weight: 0
 draft: false
 style: style-1
 listing:
+  big: true
   title: Médias sociaux de SOS Labyrinthe
   description: >-
     Stratégie de contenu élaborée qui combine des publications organiques,
