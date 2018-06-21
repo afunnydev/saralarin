@@ -3,11 +3,13 @@ title: 'Harnois: site Web | Rédaction agile'
 slug: site-web-harnois
 description: |2
    Rédaction d’un site complet pour les 3 divisions de l’entreprise. Découvrir le projet.
+image: /img/harnois-site-web-1000-px-x-1000-px-portfolio-image-principale.png
 i18nlanguage: fr
 weight: 0
 draft: false
 style: style-2
 listing:
+  big: true
   title: Site Web des Industries Harnois
   description: Rédaction d’un site complet pour les 3 divisions de l’entreprise
 tags:
@@ -31,6 +33,8 @@ section1:
 section2:
   title: ''
   description: ''
+  image1: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-1.jpg
+  image2: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-2.jpg
 section3:
   text1:
     title: Le projet
@@ -43,5 +47,9 @@ section3:
       Le client voulait procéder à une refonte de son site. Il avait besoin de
       présenter clairement le contenu de ses trois divisions très distinctes,
       soit les bâtiments MegaDome, les Serres Harnois et Agronomie Agrisys.
+section4:
+  images:
+    - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-3.jpg
+    - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-4.jpg
 ---
 
