@@ -53,7 +53,7 @@ section3:
       offres de services et produits Makestorming. Le contenu du site Web sert
       entres autres d’outil pour le développement des affaires.  
 section5:
-  image: /img/nod-a-cover-video.png
+  image: /img/nod-a-preview-image-video-2000-x-1246-template-rev.png
   video: true
   videolink: >-
     https://saralarin.wistia.com/medias/udirfimlz4?embedType=async&videoFoam=true&videoWidth=640
