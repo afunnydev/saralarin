@@ -55,7 +55,7 @@ section3:
       différents besoins tels que le site Web, les congrès et le développement
       des affaires. 
 section5:
-  image: /img/-cryos-cover-video.png
+  image: /img/cryos-preview-image-video-2000-x-1246-template.png
   video: true
   videolink: 'https://fast.wistia.net/embed/iframe/rwsactzul8'
 ---
