@@ -4,7 +4,8 @@ slug: sos-labyrinthe-medias-sociaux
 description: >-
   La stratégie de contenu élaborée combinait des publications organiques,
   commanditées, des collaborations avec différents médias et influenceurs. 
-image: /img/sos-labyrinthe-2000-px-x-1000-px-portfolio-image-principale-template.png
+image: >-
+  /img/sos-labyrinthe-2000-px-x-1000-px-portfolio-image-principale-template-rev2.png
 i18nlanguage: fr
 weight: 0
 draft: false
@@ -28,7 +29,7 @@ section1:
     organiques, commanditées, des collaborations avec différents médias et
     influenceurs. 
   image: >-
-    /img/sos-labyrinthe-2000-px-x-1000-px-portfolio-image-principale-template.png
+    /img/sos-labyrinthe-2000-px-x-1000-px-portfolio-image-principale-template-rev2.png
   list:
     - text: Médias sociaux
     - text: Stratégie de contenu
@@ -57,8 +58,8 @@ section2:
       text: 2016 et 2017
 section3:
   images:
-    - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1.png
-    - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-2.png
+    - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1-rev2.png
+    - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-2-rev2.png
 section4:
   texts:
     - title: >-
@@ -73,7 +74,7 @@ section4:
       image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1-3.png
 section5:
   images:
-    - image: /img/sos-posts-fb-1500-px-x-750-px-portfolio-style-1-fb-1.png
-    - image: /img/sos-posts-fb-1500-px-x-750-px-portfolio-style-1-fb02.png
+    - image: /img/sos-posts-fb-1500-px-x-750-px-portfolio-style-1-images-4-2rev2.png
+    - image: /img/sos-posts-fb-1500-px-x-750-px-portfolio-style-1-images-4-1rev2.png
 ---
 
