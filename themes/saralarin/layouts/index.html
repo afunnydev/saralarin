@@ -45,7 +45,7 @@
             </div>
         </div>
     </section> -->
-    <section class="wow fadeIn parallax" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}'); background-repeat: no-repeat;background-size: cover">
+    <section class="wow fadeIn hidden-xs parallax" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}'); background-repeat: no-repeat;background-size: cover">
         <!-- <div class="opacity-very-light bg-very-light-gray"></div> -->
         <div class="container">
             <img src="/img/header-homepage.png" alt="" style="position: absolute; top: 10%;
@@ -216,7 +216,7 @@
     {{ end }}
     {{ with .Params.section6 }}
     <!-- start fancy text box style 02 section -->
-    <section class="wow fadeIn no-padding-bottom" id="projet-agile">
+    <section class="wow fadeIn no-padding-bottom" id="projet-complet">
     	<div class="container">
     		<div class="row">
         		<div class="col-sm-12 margin-60px-bottom sm-margin-30px-bottom">
@@ -248,7 +248,7 @@
     <section class="no-padding wow fadeIn bg-light-gray" id="services">
         <div class="container-fluid no-padding">
             <div class="row equalize sm-equalize-auto no-margin"> 
-            	<div class="col-md-6 col-sm-12 col-xs-12 position-relative sm-height-500px xs-height-300 cover-background wow fadeIn" style="background-image: url('http://placehold.it/960x678')"></div>
+            	<div class="col-md-6 col-sm-12 col-xs-12 position-relative sm-height-500px xs-height-300 cover-background wow fadeIn" style="background-image: url('{{ .image }}'')"></div>
                 <div class="col-md-6 col-sm-12 col-xs-12 display-table wow fadeIn last-paragraph-no-margin sm-text-center">
                     <div class="display-table-cell vertical-align-middle padding-fifteen-all md-padding-ten-all xs-no-padding-lr xs-text-center">
                         <span class="text-medium margin-15px-bottom display-block alt-font text-deep-pink">{{ .client }}</span>

@@ -4,7 +4,7 @@ slug: festival-banff-medias-sociaux
 description: >-
   Rédaction de publications promotionnelles et inspirationnelles pour le
   Festival du film de montagne de Banff au Québec. Découvrir le projet. 
-image: /img/banff-2000-px-x-1000-px-portfolio-image-principale-template-rev2.png
+image: /img/banff-1000-px-x-1000-px-portfolio-image-principale-template-rev2.jpg
 i18nlanguage: fr
 weight: 0
 draft: false
@@ -37,9 +37,9 @@ section1:
     inspirationnelles.
   table:
     - name: Client
-      text: '[Serdy](https://groupeserdy.com/) '
+      text: '[Serdy](https://groupeserdy.com/)'
     - name: Agence
-      text: '[Toast Studio](https://www.gotoast.ca/) '
+      text: '[Toast Studio](https://www.gotoast.ca/)'
     - name: Création de contenu
       text: Sara Larin
     - name: Gestion de communauté
@@ -49,6 +49,8 @@ section1:
 section2:
   articles:
     - image: >-
-        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4-rev2.png
+        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4-1-full.png
+    - image: >-
+        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-2-full.png
 ---
 

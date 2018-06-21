@@ -622,6 +622,7 @@ collections:
             name: "section7" 
             widget: "object" 
             fields:
+              - {label: "Image", name: "image", widget: "image", required: false}
               - {label: "Client", name: "client", widget: "string", required: false}
               - {label: "Titre", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "text", required: false}

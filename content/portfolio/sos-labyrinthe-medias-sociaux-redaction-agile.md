@@ -11,6 +11,7 @@ weight: 0
 draft: false
 style: style-1
 listing:
+  big: true
   title: Médias sociaux de SOS Labyrinthe
   description: >-
     Stratégie de contenu élaborée qui combine des publications organiques,
@@ -28,8 +29,7 @@ section1:
     client. La stratégie de contenu élaborée combinait des publications
     organiques, commanditées, des collaborations avec différents médias et
     influenceurs. 
-  image: >-
-    /img/sos-labyrinthe-2000-px-x-1000-px-portfolio-image-principale-template-rev2.png
+  image: /img/sos-2000-px-x-2000-px-portfolio-image-1.png
   list:
     - text: Médias sociaux
     - text: Stratégie de contenu
@@ -56,6 +56,8 @@ section2:
       text: Marika Laforest
     - name: Années
       text: 2016 et 2017
+    - name: Photos
+      text: Jimmy Hamelin
 section3:
   images:
     - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1-rev2.png

@@ -79,7 +79,7 @@ section4:
 section5:
   image: ''
   images:
-    - image: /img/blogue-megadome-hemmingford-14-low.jpg
+    - image: /img/megadome-hemmingford-7.jpg
 section6:
   image: ''
 ---

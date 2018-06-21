@@ -10,14 +10,16 @@ draft: false
 style: style-2
 listing:
   title: 'Site Web Makestorming '
-  description: >-
-    Rédaction en mode agile d'un site Web anglophone pour des services et
-    produits axés sur la collaboration
+  description: Un projet agile pour des services et produits axés sur la collaboration
 tags:
   - Web
   - Rédaction
   - Projet agile
 section1:
+  btn:
+    external: true
+    link: 'http://makestorming.com/en/'
+    text: VOIR LE SITE WEB
   table:
     - name: Client
       text: '[nod-A](http://makestorming.com/en/)'
@@ -29,7 +31,7 @@ section1:
       text: Sara Larin en collaboration avec Helen Savage
     - name: Gestion de projet
       text: 'Sara Larin en collaboration avec Gabrielle Tremblay '
-  title: 'Site Web Makestorming '
+  title: 'Un site Web anglophone rédigé en mode agile '
 section3:
   text1:
     title: Le projet
@@ -51,6 +53,7 @@ section3:
       offres de services et produits Makestorming. Le contenu du site Web sert
       entres autres d’outil pour le développement des affaires.  
 section5:
+  image: /img/nod-a-preview-image-video-2000-x-1246-template-rev.png
   video: true
   videolink: >-
     https://saralarin.wistia.com/medias/udirfimlz4?embedType=async&videoFoam=true&videoWidth=640

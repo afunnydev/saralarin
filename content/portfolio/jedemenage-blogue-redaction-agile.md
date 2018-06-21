@@ -5,7 +5,7 @@ description: >-
   Les articles sont optimisés pour le SEO et traitent du déménagement avec
   différents tons et styles. Découvrir le mandat. 
 image: >-
-  /img/blogue-jedemenage-2000-px-x-1000-px-portfolio-image-principale-template.png
+  /img/blogue-jedemenage-1000-px-x-1000-px-portfolio-image-principale-preview.png
 i18nlanguage: fr
 weight: 0
 draft: false
