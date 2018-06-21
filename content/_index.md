@@ -102,15 +102,17 @@ section6:
         permettent de s’ajuster au besoin.
 section7:
   btn:
-    link: '#'
+    link: '#https://saralarin.ca/portfolio/blogue-harnois/'
     text: Voir le projet
-  client: nod-A
-  title: Site Web Makestorming
-  description: Rédaction d’un site Web pour le marché anglophone.
+  client: Les Industries Harnois
+  title: Blogue des Industries Harnois
+  description: >-
+    Élaboration d'une stratégie de contenu, recherches, entrevues et rédaction
+    d’articles. 
 section8:
   box1:
     btn:
-      link: ' https://saralarin.ca/portfolio/seb-toots'
+      link: '# https://saralarin.ca/portfolio/seb-toots/'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
@@ -122,7 +124,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: ' https://saralarin.ca/portfolio/megadome-guide-technique'
+      link: ' #https://saralarin.ca/portfolio/megadome-guide-technique/'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
