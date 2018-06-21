@@ -11,7 +11,7 @@ draft: false
 style: style-3
 listing:
   title: Sirop d’érable Shady Maple Farms
-  description: Présenter un sirop d’érable pour la cuisson aux distributeurs américains
+  description: Présenter un nouveau produit pour la cuisson aux distributeurs américains
 tags:
   - Rédaction
   - imprimé
