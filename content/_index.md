@@ -110,7 +110,7 @@ section7:
 section8:
   box1:
     btn:
-      link: ' https://saralarin.ca/seb-toots'
+      link: ' https://saralarin.ca/portfolio/seb-toots'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
@@ -122,7 +122,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: ' https://saralarin.ca/megadome-guide-technique'
+      link: ' https://saralarin.ca/portfolio/megadome-guide-technique'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
