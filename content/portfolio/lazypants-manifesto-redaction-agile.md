@@ -60,8 +60,8 @@ section4:
         ainsi que sur le Web et en boutique. 
 section5:
   images:
-    - image: /img/lazypants-portfolio-style-1-image-4-1500-px-x-750-px.png
+    - image: /img/lazypants-portfolio-style-1-image-4-1500-px-x-750-px-option2.png
 section6:
-  image: /img/lazypants-portfolio-style-1-image-4-1500-px-x-750-px-option2.png
+  image: ''
 ---
 
