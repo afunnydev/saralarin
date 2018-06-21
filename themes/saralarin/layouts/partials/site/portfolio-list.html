@@ -4,7 +4,7 @@
         {{ range $i, $e := (where $.Site.RegularPages "Type" "portfolio") }}
         {{ $number := mul 2 $i}}
         <!-- start portfolio item -->
-        <li class="grid-item {{ range .Params.tags}}{{ . | urlize }} {{ end }}{{ if .Params.listing.big }}grid-item-double {{ end }}wow zoomIn" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
+        <li class="grid-item {{ range .Params.tags}}{{ (replace (replace (replace . "é" "e") "è" "e") "ô" "o") | urlize  }} {{ end }}{{ if .Params.listing.big }}grid-item-double {{ end }}wow zoomIn" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
             <a href="{{ .Permalink }}">
                 <figure>
                     <div class="portfolio-img"><img src="{{ .Params.image }}" alt="{{ .Params.listing.title }}"/></div>
