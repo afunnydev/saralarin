@@ -4,6 +4,7 @@ slug: lpm-blogue
 description: >-
   LPM est un blogue unique et authentique qui met de l’avant Montréal. Je fais
   la rédaction d’articles au style décontracté. Découvrir le mandat.
+image: /img/lpm-1000-px-x-2000-px-portfolio-image-principale-template.png
 i18nlanguage: fr
 weight: 0
 draft: false
