@@ -18,6 +18,10 @@ tags:
   - Rédaction
   - Projet agile
 section1:
+  btn:
+    external: true
+    link: 'http://makestorming.com/en/'
+    text: VOIR LE SITE WEB
   table:
     - name: Client
       text: '[nod-A](http://makestorming.com/en/)'
@@ -51,6 +55,7 @@ section3:
       offres de services et produits Makestorming. Le contenu du site Web sert
       entres autres d’outil pour le développement des affaires.  
 section5:
+  image: /img/nod-a-cover-video.png
   video: true
   videolink: >-
     https://saralarin.wistia.com/medias/udirfimlz4?embedType=async&videoFoam=true&videoWidth=640
