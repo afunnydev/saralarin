@@ -49,7 +49,7 @@
         <!-- <div class="opacity-very-light bg-very-light-gray"></div> -->
         <div class="container">
             <img src="/img/header-homepage.png" alt="" style="position: absolute; top: 10%;
-            left: 50%; transform: translate(-50%,0); height: 80%;">
+            left: 50%; transform: translate(-50%,0); height: 80%;" class="hidden-xs">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
                     <div class="display-table-cell vertical-align-middle text-center">
@@ -59,7 +59,7 @@
                         <!-- start sub title -->
                         <!-- <span class="text-white opacity6 alt-font subtitle">{{ .subtitle }}</span> -->
                         <!-- end sub title -->
-                        <div class="down-section text-center" style="bottom: -40px">
+                        <div class="down-section text-center hidden-xs" style="bottom: -40px">
                             <a href="#about" class="inner-link">
                                 <div class="tp-caption rev-scroll-btn rs-parallaxlevel-5" 
                                      id="slide-3238-layer-13" 
@@ -230,7 +230,7 @@
             	{{ range .steps }}
                 <!-- start feature box item -->
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center display-table last-paragraph-no-margin wow fadeInRight no-padding">
-                    <div class="display-table-cell vertical-align-middle padding-fifteen-all sm-padding-50px-all xs-padding-30px-all">
+                    <div class="display-table-cell vertical-align-top padding-fifteen-all sm-padding-50px-all xs-padding-30px-all">
                         <h2 class="text-light-gray alt-font letter-spacing-minus-3 no-margin-bottom">{{ .number }}</h2>
                         <span class="display-block alt-font text-large text-extra-dark-gray margin-15px-top margin-10px-bottom xs-margin-5px-bottom">{{ .title }}</span>
                         <p>{{ .description }}</p>

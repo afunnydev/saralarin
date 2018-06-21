@@ -57,7 +57,7 @@ const jsDest = 'themes/saralarin/static/js';
  
 // resize and optimize images
 gulp.task("image-resize", () => {
-  return gulp.src("themes/saralarin/source-images/*.{jpg,png,jpeg,gif}")
+  return gulp.src("themes/saralarin/source-images/*.{jpg,png,jpeg}")
     .pipe(newer("themes/saralarin/static/img"))
     .pipe(imagemin())
     .pipe(imageresize({ width: imagexl}))

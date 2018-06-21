@@ -73,7 +73,7 @@ collections:
             required: false
             fields:
               - {label: "Texte", name: "name", widget: "string", required: false}
-          - label: "S3-Bouton" 
+          - label: "S2-S3-Bouton" 
             name: "btn" 
             widget: "object"
             required: false 
@@ -197,6 +197,13 @@ collections:
         required: false 
         fields:
           - {label: "S2-Image", name: "image", widget: "image", required: false}
+      - label: "Section 7" 
+        name: "section7" 
+        widget: "object"
+        required: false 
+        fields:
+          - {label: "S2-Citation", name: "quote", widget: "text", required: false}
+          - {label: "S2-Nom", name: "name", widget: "string", required: false}
 ### SETTINGS
   - name: "settings"
     label: "Settings"

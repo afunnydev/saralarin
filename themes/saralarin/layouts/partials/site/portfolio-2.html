@@ -36,6 +36,15 @@
                 {{ end }}
             </div>
         </div>
+        {{ if .btn.link }}
+        {{ with .btn }}
+        <div class="row">
+            <div class="col-md-10 center-col text-center wow fadeInUp" data-wow-delay="0.4s">
+                <a href="{{ .link }}" {{ if .external }}target="_blank" {{ end }}class="btn btn-transparent-dark-gray btn-large">{{ .text }}</a>
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
     </div>
 </section>
 <!-- end product information section -->
@@ -146,4 +155,21 @@
     </div>
 </section>
 <!-- end parallax section -->
+{{ end }}
+{{ if .Params.section7.quote}}
+{{ with .Params.section7 }}
+<!-- start blockquote section -->
+<section class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 center-col text-center">
+                <i class="fas fa-quote-left icon-small text-deep-pink display-block margin-25px-bottom"></i>
+                <h6 class="alt-font text-extra-dark-gray">{{ .quote }}</h6>
+                <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">{{ .name }}</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end blockquote section -->
+{{ end }}
 {{ end }}

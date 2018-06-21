@@ -9,8 +9,10 @@
             </div>
             <div class="col-md-5 col-md-offset-1 line-height-28 last-paragraph-no-margin sm-margin-50px-bottom xs-margin-30px-bottom wow fadeInUp animated">
                 <p>{{ .description }}</p>
+                {{ if .btn.link }}
                 {{ with .btn }}
                     <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{ .text }}"{{ if .external }} target="_blank"{{ end }}>{{ .text }}</a>
+                {{ end }}
                 {{ end }}
             </div>
             <div class="col-md-4 col-md-offset-1 line-height-26 wow fadeInUp animated">
