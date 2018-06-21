@@ -59,8 +59,8 @@ section3:
     anchor: '#a-la-piece'
     text: À la pièce
   btn2:
-    anchor: '#projet-agile'
-    text: Projet agile
+    anchor: '#projet-complet'
+    text: Projet complet
   title: On collabore?
 section4:
   title: À la pièce
@@ -69,8 +69,8 @@ section4:
     marque.
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
-      text: Adaptation
       link: portfolio/3-brasseurs-fabrication-biere/
+      text: Adaptation
     - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-rev2-1-.png
       link: portfolio/wow-la-rentree/
       text: Offre promotionnelle
@@ -88,6 +88,10 @@ section4:
       link: portfolio/tourisme-lanaudiere/
       text: Articles de blogue
 section5:
+  title: Projet complet
+  description: >-
+    Je me charge de toutes les étapes de la production pour vous livrer un
+    projet clé en main.
   steps:
     - number: 1
       title: Évaluation
@@ -111,7 +115,6 @@ section5:
       description: >-
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
-  title: Projet agile
 section6:
   box1:
     btn:
