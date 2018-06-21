@@ -188,6 +188,8 @@ collections:
             required: false
             fields:
               - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "S2-Titre", name: "title", widget: "string", required: false}
+          - {label: "S2-Description", name: "description", widget: "text", required: false}
           - {label: "S2-Voulez-vous un vidéo? Sinon, c'est une image", name: "video", widget: "boolean", required: false, default: false}
           - {label: "S2-Image", name: "image", widget: "image", required: false}
           - {label: "S2-Lien Vidéo (si applicable)", name: "videolink", widget: "string", required: false}

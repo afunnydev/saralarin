@@ -122,6 +122,14 @@
 <!-- start product video section -->
 <section class="wow fadeIn">
     <div class="container">
+        {{ if .title }}
+        <div class="row">
+            <div class="col-md-11 center-col text-center margin-70px-bottom xs-no-margin-bottom wow fadeInUp">
+                <span class="text-uppercase alt-font text-small text-medium-gray margin-5px-bottom display-block">{{ .title }}</span>
+                <h6 class="alt-font text-extra-dark-gray">{{ .description }}</h6>
+            </div>
+        </div>
+        {{ end }}
         <div class="row">
             <div class="col-lg-12 text-center display-table sm-margin-50px-bottom xs-margin-30px-bottom center-col wow fadeIn">
                 <div class="display-table-cell vertical-align-middle">
