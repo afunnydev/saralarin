@@ -15,7 +15,7 @@ listing:
     Le vidéo promotionnel devait inciter les citoyens à essayer le nouveau
     portail de la Ville de Montréal
 tags:
-  - vidéo
+  - Vidéo
 section1:
   btn:
     external: true
