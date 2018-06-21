@@ -15,7 +15,7 @@ listing:
     Le vidéo promotionnel devait inciter les citoyens à essayer le nouveau
     portail de la Ville de Montréal
 tags:
-  - vidéo
+  - Vidéo
 section1:
   btn:
     external: true
@@ -32,7 +32,7 @@ section1:
     - name: Client
       text: Ville de Montréal
     - name: Agence
-      text: Buck Créatifs
+      text: '[Buck Créatifs](http://www.buckcreatifs.com/) '
     - name: Conception et rédaction
       text: Sara Larin
     - name: Adaptation
@@ -46,17 +46,13 @@ section3:
   images:
     - {}
   text1:
-    title: blabla
+    title: ''
   text2:
-    title: blabla
-section4:
-  title: blabla
+    title: ''
+section4: {}
 section5:
-  images:
-    - image: >-
-        /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  images: []
 section6:
-  image: >-
-    /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  image: ''
 ---
 

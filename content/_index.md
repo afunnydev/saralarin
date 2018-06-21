@@ -17,9 +17,9 @@ section3:
   title: Services
   description: >-
     Vous choisissez entre un service à la pièce ou un projet complet selon vos
-    besoins. Je collabore avec votre équipe en mode agile afin de le produire et
-    le lancer efficacement. Le mandat peut aussi être fait par phase pour vous
-    permettre de segmenter votre budget de production. 
+    besoins. Je collabore avec votre équipe en mode agile pour produire et
+    lancer le projet efficacement. Le mandat peut aussi être fait par phase afin
+    de vous permettre de segmenter votre budget de production. 
   icons:
     - anchor: '#creation-contenu'
       icon: icon-pencil
@@ -42,18 +42,18 @@ section4:
     anchor: '#a-la-piece'
     text: À la pièce
   btn2:
-    anchor: '#projet-agile'
-    text: Projet agile
+    anchor: '#projet-complet'
+    text: Projet complet
   title: On collabore?
 section5:
   title: À la pièce
   description: >-
-    J’analyse votre écosystème en place pour assurer un livrable modelé à votre
-    marque.
+    J’analyse votre écosystème en place pour assurer un livrable spécifique
+    modelé à votre marque.
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
+      link: portfolio/3-brasseurs-fabrication-biere
       text: Adaptation
-      link: portfolio/3-brasseurs-fabrication-biere/
     - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-rev2-1-.png
       link: portfolio/wow-la-rentree/
       text: Offre promotionnelle
@@ -70,7 +70,14 @@ section5:
     - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
       link: portfolio/tourisme-lanaudiere/
       text: Articles de blogue
+    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
+      link: portfolio/lazypants-manifesto/
+      text: Manifesto
 section6:
+  title: Projet complet
+  description: >-
+    Je me charge de toutes les étapes de la production pour vous livrer un
+    projet clé en main.
   steps:
     - number: 1
       title: Évaluation
@@ -93,7 +100,6 @@ section6:
       description: >-
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
-  title: Projet agile
 section7:
   btn:
     link: '#'
@@ -104,7 +110,7 @@ section7:
 section8:
   box1:
     btn:
-      link: ' #https://saralarin.ca/seb-toots'
+      link: ' https://saralarin.ca/seb-toots'
       text: Découvrir un projet d’agence
     title: Agences
     description: >-
@@ -116,7 +122,7 @@ section8:
     image: /img/hp-boite-agence-700.png
   box2:
     btn:
-      link: ' #https://saralarin.ca/megadome-guide-technique'
+      link: ' https://saralarin.ca/megadome-guide-technique'
       text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
