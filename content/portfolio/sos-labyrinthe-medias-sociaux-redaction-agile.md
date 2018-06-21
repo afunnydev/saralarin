@@ -29,7 +29,7 @@ section1:
     client. La stratégie de contenu élaborée combinait des publications
     organiques, commanditées, des collaborations avec différents médias et
     influenceurs. 
-  image: /img/sos-2000-px-x-2000-px-portfolio-image-1-low.jpg
+  image: /img/sos-2000-px-x-2000-px-portfolio-image-1.png
   list:
     - text: Médias sociaux
     - text: Stratégie de contenu
