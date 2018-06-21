@@ -4,6 +4,7 @@ slug: cryos-video-promo
 description: >
   Production d’un vidéo promotionnel afin de présenter le scan 3D de Cryos.
   Découvrir le projet. 
+image: /img/cryos-1000-px-x-1000-px-portfolio-image-principale.png
 i18nlanguage: fr
 weight: 0
 draft: false
