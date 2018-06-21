@@ -49,6 +49,8 @@ section1:
 section2:
   articles:
     - image: >-
-        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4-rev2.png
+        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-4-1-full.png
+    - image: >-
+        /img/festival-de-banff-fb-1500-px-x-750-px-portfolio-style-1-images-2-full.png
 ---
 
