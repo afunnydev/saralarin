@@ -10,6 +10,7 @@ weight: 0
 draft: false
 style: style-2
 listing:
+  big: true
   title: Vidéo promotionnel Cryos
   description: ' Production d’un vidéo promotionnel afin de présenter le scan 3D de Cryos'
 tags:
