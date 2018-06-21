@@ -33,5 +33,26 @@ section1:
     - name: Production
       text: '[Buck Créatifs ](http://www.buckcreatifs.com/) '
   title: Vidéo promotionnel Cryos
+section2:
+  image1: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px.png
+section3:
+  text1:
+    title: Le projet
+    description: >-
+      Cryos est un joueur majeur œuvrant dans le domaine de la podiatrie qui
+      propose des outils très différenciés à la fine pointe de la technologie.
+      Un vidéo a été produit afin de présenter leur toute récente innovation, le
+      scan 3D.
+  text2:
+    title: Le brief
+    description: >-
+      Il fallait expliquer la nouvelle technologie du scan 3D en plus de
+      raconter l’histoire de l’entreprise. Le vidéo allait être utilisé pour
+      différents besoins tels que le site Web, les congrès et le développement
+      des affaires. 
+section5:
+  image: /img/-cryos-cover-video.png
+  video: true
+  videolink: 'https://fast.wistia.net/embed/iframe/rwsactzul8'
 ---
 
