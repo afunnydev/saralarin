@@ -14,7 +14,7 @@ listing:
   description: Présenter un sirop d’érable pour la cuisson aux distributeurs américains
 tags:
   - Rédaction
-  - Imprimé
+  - imprimé
 section1:
   btn:
     text: ''
