@@ -56,6 +56,8 @@ section2:
       text: Marika Laforest
     - name: Années
       text: 2016 et 2017
+    - name: Photos
+      text: Jimmy Hamelin
 section3:
   images:
     - image: /img/sos-portfolio-style-1-image-2-3-3000-px-x-2550-px-1-rev2.png
