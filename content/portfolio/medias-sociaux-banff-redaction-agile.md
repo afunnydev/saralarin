@@ -37,9 +37,9 @@ section1:
     inspirationnelles.
   table:
     - name: Client
-      text: '[Serdy](https://groupeserdy.com/) '
+      text: '[Serdy](https://groupeserdy.com/)'
     - name: Agence
-      text: '[Toast Studio](https://www.gotoast.ca/) '
+      text: '[Toast Studio](https://www.gotoast.ca/)'
     - name: Création de contenu
       text: Sara Larin
     - name: Gestion de communauté
