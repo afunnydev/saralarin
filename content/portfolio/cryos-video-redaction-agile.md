@@ -39,6 +39,7 @@ section1:
     technologique en seulement cinq minutes. 
 section2:
   image1: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px.png
+  image2: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px-1-.png
 section3:
   text1:
     title: Le projet
