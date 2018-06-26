@@ -52,5 +52,11 @@ section4:
   images:
     - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-3.jpg
     - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-4.jpg
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-2.png
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-3.png
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-4.png
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px.png
+section5:
+  video: false
 ---
 
