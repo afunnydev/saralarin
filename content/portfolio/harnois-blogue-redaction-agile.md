@@ -44,9 +44,10 @@ section2:
   title: Communiquer l’offre de 3 divisions
   description: >-
     Les Industries Harnois est un manufacturier canadien qui répond aux besoins
-    de ses clients sous trois divisions. MegaDomeMD offre des bâtiments à
-    membrane souple, Les Serres Harnois produisent des serres horticoles et
-    Agrisys propose un service de consultation spécialisé en agronomie. 
+    de ses clients sous trois divisions. MegaDome<sup>MD</sup> offre des
+    bâtiments à membrane souple, Les Serres Harnois produisent des serres
+    horticoles et Agrisys propose un service de consultation spécialisé en
+    agronomie. 
   table:
     - name: Client
       text: Les industries Harnois
