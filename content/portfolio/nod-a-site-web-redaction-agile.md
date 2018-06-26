@@ -6,7 +6,7 @@ description: >-
   sur la collaboration. Découvrir le projet. 
 i18nlanguage: fr
 weight: '1'
-draft: false
+draft: true
 style: style-2
 listing:
   title: 'Site Web Makestorming '
@@ -53,6 +53,7 @@ section3:
       offres de services et produits Makestorming. Le contenu du site Web sert
       entres autres d’outil pour le développement des affaires.  
 section5:
+  title: 'Un aperçu du site '
   image: /img/nod-a-preview-image-video-2000-x-1246-template-rev.png
   video: true
   videolink: 'https://saralarin.wistia.com/medias/udirfimlz4'
