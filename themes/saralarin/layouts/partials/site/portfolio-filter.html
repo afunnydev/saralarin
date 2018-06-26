@@ -1,5 +1,5 @@
 <!-- start filter navigation -->
-<ul class="portfolio-filter nav nav-tabs border-none portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-60px-bottom text-small sm-margin-20px-bottom xs-margin-10px-bottom">
+<ul class="portfolio-filter nav nav-tabs border-none portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-60px-bottom text-small sm-margin-20px-bottom xs-margin-10px-bottom{{ if .IsHome }} hidden-xs{{ end }}">
     <li class="nav active"><a href="javascript:void(0);" data-filter="*" class="xs-display-inline light-gray-text-link text-very-small">{{ i18n "all" }}</a></li>
     {{ range $name, $tag := $.Site.Taxonomies.tags }}
     <li class="nav"><a href="javascript:void(0);" data-filter=".{{ (replace (replace (replace $name "é" "e") "è" "e") "ô" "o") | urlize  }}" class="xs-display-inline light-gray-text-link text-very-small">{{ $name }}</a></li>

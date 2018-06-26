@@ -28,12 +28,12 @@ section1:
       text: Marc-Antoine Boily
     - name: Designer
       text: Jonathan Couture
+    - name: Production
+      text: '[Buck Créatifs ](http://www.buckcreatifs.com/) '
     - name: Recherches et entrevues
       text: Sara Larin
     - name: Rédaction et coréalisation
       text: Sara Larin
-    - name: Production
-      text: '[Buck Créatifs ](http://www.buckcreatifs.com/) '
   title: >-
     Présenter le nouveau scan 3D et raconter deux décennies de développement
     technologique en seulement cinq minutes. 

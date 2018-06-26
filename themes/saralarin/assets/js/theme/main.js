@@ -2103,7 +2103,7 @@ $(document).ready(function () {
             userId: 9628603,
             limit: '6',
             accessToken: '9628603.1677ed0.6713378f896f4b24a0c5080798548e33',
-            resolution: "low_resolution",
+            resolution: "thumbnail",
             after: function () {
                 equalizeHeight();
             },

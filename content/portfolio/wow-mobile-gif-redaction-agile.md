@@ -28,8 +28,6 @@ section1:
     - text: Rédaction
     - text: Web
 section2:
-  btn:
-    text: ''
   title: 'Sans fla-fla, jeune et amusant'
   description: >-
     WOW! est une boutique qui propose des produits de mobilités (forfaits et

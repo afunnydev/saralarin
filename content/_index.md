@@ -73,6 +73,9 @@ section5:
     - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
       link: portfolio/lazypants-manifesto/
       text: Manifesto
+  btn:
+    text: Voir tous les projets
+    link: "/projets"
 section6:
   title: Projet complet
   description: >-
@@ -147,6 +150,9 @@ section9:
     Je me spécialise en rédaction, en stratégie et en gestion.
 section10:
   title: Projets
+  btn:
+    text: Voir tous les projets
+    link: "/projets"
 section11:
   title: Quelques clients
 section12: true

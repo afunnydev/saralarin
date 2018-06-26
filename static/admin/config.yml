@@ -604,6 +604,13 @@ collections:
                   - {label: "Image (ratio 11:17)", name: "image", widget: "image", required: false}
                   - {label: "Texte", name: "text", widget: "string", required: false}
                   - {label: "Lien (sous la forme 'portfolio/wow-mobile')", name: "link", widget: "string", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object"
+                required: false 
+                fields:
+                  - {label: "Text", name: "text", widget: "string", required: false}
+                  - {label: "Lien", name: "link", widget: "string", required: false}
           - label: "Section 6" 
             name: "section6" 
             widget: "object" 
@@ -628,7 +635,8 @@ collections:
               - {label: "Description", name: "description", widget: "text", required: false}
               - label: "Bouton" 
                 name: "btn" 
-                widget: "object" 
+                widget: "object"
+                required: false 
                 fields:
                   - {label: "Text", name: "text", widget: "string", required: false}
                   - {label: "Lien", name: "link", widget: "string", required: false}
@@ -682,6 +690,13 @@ collections:
             widget: "object" 
             fields:
               - {label: "Titre", name: "title", widget: "string", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                required: false
+                fields:
+                  - {label: "Text", name: "text", widget: "string", required: false}
+                  - {label: "Lien", name: "link", widget: "string", required: false}
           - label: "Section 11" 
             name: "section11" 
             widget: "object" 

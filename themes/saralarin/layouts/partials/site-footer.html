@@ -58,13 +58,6 @@
                     <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-20px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
                     <div class="instagram-follow-api">
                         <ul id="instaFeed-footer">
-                            <!-- {{ range where $.Site.RegularPages ".Type" "portfolio" }}
-                            <li style="max-height: 110px; width: 50%; max-width: 50%; overflow: hidden;">
-                                <a href="{{ .Permalink }}">
-                                    <img src="/quart{{ .Params.image }}" alt="{{ .Params.listing.title }}" style="width: 100%; height: auto;">
-                                </a>
-                            </li>
-                            {{ end }} -->
                         </ul>
                     </div>
                     {{ end }}
