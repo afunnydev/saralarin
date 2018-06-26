@@ -10,7 +10,7 @@ draft: false
 style: style-1
 listing:
   big: true
-  title: Guide de planification MegaDome<sup>MD</sup>
+  title: Guide de planification MegaDome
   description: >-
     Rédaction d’un guide afin d’aider les acheteurs potentiels à démarrer leur
     projet
