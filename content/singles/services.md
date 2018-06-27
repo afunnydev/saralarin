@@ -88,8 +88,11 @@ section4:
       link: portfolio/tourisme-lanaudiere/
       text: Articles de blogue
     - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
-      link: /portfolio/lazypants-manifesto/
+      link: portfolio/lazypants-manifesto/
       text: Manifesto
+    - image: /img/harnois-site-web-image-on-collabore-600-x-1000-ratio-11_7-1-.png
+      link: porfolio/site-web-harnois/
+      text: Site Web
 section5:
   title: Projet complet
   description: >-
