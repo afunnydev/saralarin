@@ -59,12 +59,9 @@ section5:
   video: false
 section7:
   name: 'Geneviève Hétu, coordonnatrice marketing Industries Harnois Inc. '
-  quote: >-
+  quote: >
     Sara a très bien compris l’entreprise et son environnement (une grande
     entreprise qui chapeaute 3 divisions très différentes) afin d’acquitter son
-    mandat convenablement. Du contenu devait être créé pour plusieurs
-    plateformes : site web, brochures, photos, vidéos, articles de blogue, etc.
-    Versatile, Sara a très bien su mener à terme ses projets qui comprenaient
-    non seulement de la rédaction et de la recherche, mais aussi de la gestion.
+    mandat convenablement.
 ---
 
