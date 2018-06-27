@@ -5,7 +5,7 @@ description: |2
    Rédaction d’un site complet pour les 3 divisions de l’entreprise. Découvrir le projet.
 image: /img/harnois-site-web-1000-px-x-1000-px-portfolio-image-principale.png
 i18nlanguage: fr
-weight: 0
+weight: '0'
 draft: false
 style: style-2
 listing:
