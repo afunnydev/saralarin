@@ -6,7 +6,7 @@ description: >-
   commanditaires pour Seb Toots. Découvrir le projet.
 image: /img/sebtoots.jpg
 i18nlanguage: fr
-weight: 1
+weight: '2'
 draft: false
 style: style-2
 listing:
