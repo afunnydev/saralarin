@@ -16,11 +16,4 @@ main:
     fr: Contact
     link: contactPage
     submenu: false
-  - en: Blog
-    fr: Blogue
-    link: articlesPage
-    submenu: false
-top:
-  - en: FAQ
-    fr: FAQ
-    link: faqPage
+top: []
