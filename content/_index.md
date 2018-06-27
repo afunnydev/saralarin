@@ -46,6 +46,9 @@ section4:
     text: Projet complet
   title: On collabore?
 section5:
+  btn:
+    link: /services
+    text: Voir tous les services
   title: À la pièce
   description: >-
     J’analyse votre écosystème en place pour assurer un livrable spécifique
@@ -73,9 +76,6 @@ section5:
     - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
       link: portfolio/lazypants-manifesto/
       text: Manifesto
-  btn:
-    text: Voir tous les projets
-    link: "/projets"
 section6:
   title: Projet complet
   description: >-
@@ -149,10 +149,10 @@ section9:
     J’offre un service de rédaction bonifié avec mon équipe de collaborateurs.
     Je me spécialise en rédaction, en stratégie et en gestion.
 section10:
-  title: Projets
   btn:
-    text: Voir tous les projets
-    link: "/projets"
+    link: /projets
+    text: Tous les projets
+  title: Projets
 section11:
   title: Quelques clients
 section12: true
