@@ -21,7 +21,7 @@ tags:
   - Imprimé
   - Rédaction
 section1:
-  title: Guide de planification MegaDome<sup>MD</sup>
+  title: Guide de planification MegaDome
   description: >-
     Le mandat était de rédiger un guide technique pour les produits
     MegaDome<sup>MD</sup>. Il devait inclure toutes les informations nécessaires
