@@ -18,6 +18,7 @@
 /portfolio/blogue-jedemenage /portfolio/blogue-jedemenage/ 301
 /portfolio/wowmobile /portfolio/wow-la-rentree/ 301
 /apropos /a-propos/ 301
+https://saralarin.netlify.com/* https://saralarin.ca/:splat 301!
 
 
 
