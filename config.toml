@@ -25,15 +25,15 @@ EnableMissingTranslationPlaceholders = true
   ## Include google maps, with API Key
   googleapikey = ""
   ## This is used when the BaseURL does not need to modified (eg, in share links)
-  siteaddress = "/"
-  siteaddressno = ""
+  siteaddress = "https://saralarin.ca/"
+  siteaddressno = "https://saralarin.ca"
   ## FB share info
   fbpagename = ""
   fbappid = ""
   ## Business name in Schema.org
-  schemabiz = ""
+  schemabiz = "Sara Larin"
   ## Google Tag Manager tracking ID
-  gtmid = ""
+  gtmid = "GTM-NPX35ZC"
 
 # MARKDOWN
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday

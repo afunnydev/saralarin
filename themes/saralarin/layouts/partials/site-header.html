@@ -33,6 +33,8 @@
                             </div>
                         {{ end }}
                     {{ end }}
+                    {{ if getenv "IS_PROD" }}
+                    {{ else }}
                     <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle"></div>
                     <div class="btn-group dropdown-style-1 xs-width-100 xs-text-center xs-margin-three-bottom display-inline-block">
                         <button type="button" class="btn dropdown-toggle xs-width-100" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,6 +51,7 @@
                             {{ end }} 
                         </ul>
                     </div>
+                    {{ end }}
                 </div>
             </div>
         </div>
