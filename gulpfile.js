@@ -83,19 +83,19 @@ gulp.task("hugo", function (cb) {
 
 gulp.task('sass', function () {
   return gulp.src('themes/saralarin/assets/scss/main.scss')
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(rename('main.min.css'))
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(gulp.dest('themes/saralarin/static/css'));
 });
 
 gulp.task('scripts', function() {
     return gulp.src(jsFiles)
-        .pipe(sourcemaps.init())
+        // .pipe(sourcemaps.init())
         .pipe(concat('main.min.js'))
         .pipe(uglify())
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest(jsDest));
 });
 
