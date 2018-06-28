@@ -63,6 +63,6 @@ section7:
   quote: >
     Sara a très bien compris l’entreprise et son environnement (une grande
     entreprise qui chapeaute 3 divisions très différentes) afin d’acquitter son
-    mandat convenablement.
+    mandat parfaitement.
 ---
 
