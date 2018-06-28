@@ -51,10 +51,18 @@ section3:
 section4:
   images:
     - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-4.jpg
-    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-3.png
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-rev2-1.png
     - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-3.jpg
-    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px.png
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-rev2-2.png
+    - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-rev2-3.png
 section5:
+  image: /img/harnois-blogue-portfolio-style-1-image-4-1500-px-x-750-px.jpg
   video: false
+section7:
+  name: 'Geneviève Hétu, coordonnatrice marketing Industries Harnois Inc. '
+  quote: >
+    Sara a très bien compris l’entreprise et son environnement (une grande
+    entreprise qui chapeaute 3 divisions très différentes) afin d’acquitter son
+    mandat parfaitement.
 ---
 
