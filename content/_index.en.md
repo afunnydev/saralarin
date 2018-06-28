@@ -4,6 +4,7 @@ description: >-
   This is a desc
 image: 
 draft: false
+noindex: true
 section1:
   image: /img/redaction-agile-web-1-header.png
 section2:

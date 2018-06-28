@@ -19,4 +19,5 @@ section2:
   image: /img/contact-bloc-formulaire.png
   title: Vous avez des questions
   subtitle: Écrivez-moi
+noindex: true
 ---

@@ -20,7 +20,7 @@
 <meta property="og:image" content="{{ .Site.Params.siteaddressno }}{{.Params.image | default .Site.Data.settings.defaultsocialimage }}">
 <meta property="og:image:secure_url" content="{{ .Site.Params.siteaddressno }}{{.Params.image | default .Site.Data.settings.defaultsocialimage }}"/>
 <meta property="og:image:type" content="image/jpeg" />
-<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescription }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescription }}{{ end }}"/>
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescription.fr }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescription.fr }}{{ end }}"/>
 <meta property="og:site_name" content="{{ .Site.Title }}">
 
 

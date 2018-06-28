@@ -7,6 +7,7 @@ subtitle: "Une méthode de travail qui permet de lancer et produire un projet ra
 slug: services
 layout: services
 image: /img/services-sara-header.png
+noindex: true
 section1:
   icons:
     - icon: icon-desktop

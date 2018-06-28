@@ -7,6 +7,7 @@ identifiant: a-propos
 i18nlanguage: fr
 slug: a-propos
 layout: a-propos
+noindex: true
 image: null
 section1:
   image: /img/redaction-web-sara-a-propos4.png
