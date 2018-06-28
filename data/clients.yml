@@ -11,8 +11,6 @@ clients:
     name: Cryos
   - logo: /img/logo-sos.png
     name: SOS Labyrinthe
-  - logo: /img/logo-de-gestev.png
-    name: Gestev
   - logo: /img/logo-youville.png
     name: Youville Haussmann Park
   - logo: /img/logo-buck.png
