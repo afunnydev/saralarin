@@ -3,3 +3,8 @@ nodes_modules
 package-lock.json
 public
 /public
+themes/saralarin/static/xl/img
+themes/saralarin/static/half/img
+themes/saralarin/static/quart/img
+themes/saralarin/static/portfolio/img
+themes/saralarin/static/thumb/img

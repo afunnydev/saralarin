@@ -18,6 +18,7 @@ const imagexl = 2620;
 const imagefull = 1920;
 const imagehalf = 1024;
 const imagequart = 600;
+const imageport = 300;
 const imagethumb = 80;
 const jsFiles = [
                   'themes/saralarin/assets/js/theme/jquery.js',
@@ -68,6 +69,8 @@ gulp.task("image-resize", () => {
     .pipe(gulp.dest("themes/saralarin/static/half/img"))
     .pipe(imageresize({ width: imagequart }))
     .pipe(gulp.dest("themes/saralarin/static/quart/img"))
+    .pipe(imageresize({ width: imageport }))
+    .pipe(gulp.dest("themes/saralarin/static/portfolio/img"))
     .pipe(imageresize({ width: imagethumb }))
     .pipe(gulp.dest("themes/saralarin/static/thumb/img"));
 });
