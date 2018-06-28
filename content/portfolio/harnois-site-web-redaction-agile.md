@@ -56,6 +56,7 @@ section4:
     - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-rev2-2.png
     - image: /img/harnois-site-web-images-carroussel-1500-px-x-750-px-rev2-3.png
 section5:
+  image: /img/harnois-blogue-portfolio-style-1-image-4-1500-px-x-750-px.jpg
   video: false
 section7:
   name: 'Geneviève Hétu, coordonnatrice marketing Industries Harnois Inc. '
