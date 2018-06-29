@@ -15,12 +15,15 @@ address: {}
 phone: (514) 265-7523
 mphone: '+15142657523'
 email: info@saralarin.ca
-sitedescription: 
-  fr: "Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le
-  service de rédaction agile."
-sitetitle: 
-  fr: "Accueil | Rédaction agile"
-defaultsocialimage: "/img/logo-sara-gros-rev05.png"
+sitedescription:
+  en: 'A copywriting service that meets your needs. Discover how I can help you. '
+  fr: >-
+    Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le
+    service de rédaction agile.
+sitetitle:
+  en: Home | Rédaction agile
+  fr: Accueil | Rédaction agile
+defaultsocialimage: /img/logo-sara-gros-rev05.png
 logo:
   color:
     lg: /img/logo-sara-gros-rev04.png
