@@ -7,7 +7,7 @@ description: >-
 image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-rev-credits.png
 i18nlanguage: fr
 weight: '1'
-draft: true
+draft: false
 style: style-2
 listing:
   title: 'Site Web Makestorming '
