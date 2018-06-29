@@ -40,8 +40,10 @@ section1:
 section2:
   articles:
     - caption:
-        link: 'https://www.youtube.com/watch?v=MaZSEaJbDcY'
-        title: Vidéo explicative du portail
+        link: ''
+        title: ''
+      image: >-
+        /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
 section3:
   images:
     - {}
