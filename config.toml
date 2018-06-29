@@ -1,4 +1,4 @@
-baseURL = "https://saralarin.ca/"
+baseURL = "https://www.saralarin.ca/"
 DefaultContentLanguage = "fr"
 title = "Sara Larin | Rédaction Agile"
 theme = "saralarin"
@@ -25,8 +25,8 @@ EnableMissingTranslationPlaceholders = true
   ## Include google maps, with API Key
   googleapikey = ""
   ## This is used when the BaseURL does not need to modified (eg, in share links)
-  siteaddress = "https://saralarin.ca/"
-  siteaddressno = "https://saralarin.ca"
+  siteaddress = "https://www.saralarin.ca/"
+  siteaddressno = "https://www.saralarin.ca"
   ## FB share info
   fbpagename = ""
   fbappid = ""
