@@ -33,7 +33,7 @@ section1:
     styles afin d’arriver à toucher les différentes cibles.
   table:
     - name: Client
-      text: '[jedemenage](https://www.jedemenage.ca/) '
+      text: '[jedemenage](https://www.jedemenage.ca/)'
     - name: Agence
       text: Youville
     - name: Gestionnaire du blogue
