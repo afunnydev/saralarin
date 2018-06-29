@@ -67,5 +67,7 @@ section5:
   image: /img/nod-a-preview-image-video-2000-x-1246-template-rev.png
   video: true
   videolink: 'https://saralarin.wistia.com/medias/udirfimlz4'
+section6:
+  image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-4-low.jpg
 ---
 
