@@ -1,8 +1,5 @@
 col1:
-  en: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos
-    numquam, nulla doloribus totam sit? Perspiciatis, voluptate asperiores
-    maiores saepe rerum dolores.
+  en: 'I’m a copywriter, strategist and project manager'
   fr: >-
     J'offre un service de rédaction bonifié qui allie la stratégie, la
     créativité et la gestion.
@@ -27,7 +24,7 @@ col2:
       fr: Blogue
       link: articlesPage
   title:
-    en: Sitemap
+    en: Useful links
     fr: Liens utiles
 col3:
   title:
@@ -38,4 +35,5 @@ col4:
     en: My daily pics
     fr: Les photos de Sara
 copyrights:
+  en: ' © 2018 Sara Larin. made with love by Akia Marketing'
   fr: ' © 2018 Sara Larin. Fait avec  par Akia Marketing'

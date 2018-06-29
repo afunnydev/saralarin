@@ -4,9 +4,10 @@ slug: nod-a-site-web-makestorming
 description: >-
   Un site Web anglophone rédigé en mode agile pour des services et produits axés
   sur la collaboration. Découvrir le projet. 
+image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-rev-credits.png
 i18nlanguage: fr
 weight: '1'
-draft: true
+draft: false
 style: style-2
 listing:
   title: 'Site Web Makestorming '
@@ -32,6 +33,9 @@ section1:
     - name: Gestion de projet
       text: 'Sara Larin en collaboration avec Gabrielle Tremblay '
   title: 'Un site Web anglophone rédigé en mode agile '
+section2:
+  image1: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-2-low.jpg
+  image2: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-3-low.jpg
 section3:
   text1:
     title: Le projet
@@ -52,10 +56,18 @@ section3:
       anglophone. Les textes devaient assurer la compréhension des différentes
       offres de services et produits Makestorming. Le contenu du site Web sert
       entres autres d’outil pour le développement des affaires.  
+section4:
+  images:
+    - image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-5-low.jpg
+    - image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-7.png
+    - image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-8.png
+    - image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-9.png
 section5:
   title: 'Un aperçu du site '
   image: /img/nod-a-preview-image-video-2000-x-1246-template-rev.png
   video: true
   videolink: 'https://saralarin.wistia.com/medias/udirfimlz4'
+section6:
+  image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-4-low.jpg
 ---
 

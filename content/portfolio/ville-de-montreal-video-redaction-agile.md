@@ -32,7 +32,7 @@ section1:
     - name: Client
       text: Ville de Montréal
     - name: Agence
-      text: '[Buck Créatifs](http://www.buckcreatifs.com/) '
+      text: '[Buck Créatifs](http://www.buckcreatifs.com/)'
     - name: Conception et rédaction
       text: Sara Larin
     - name: Adaptation
@@ -40,8 +40,10 @@ section1:
 section2:
   articles:
     - caption:
-        link: 'https://www.youtube.com/watch?v=MaZSEaJbDcY'
-        title: Vidéo explicative du portail
+        link: ''
+        title: ''
+      image: >-
+        /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
 section3:
   images:
     - {}

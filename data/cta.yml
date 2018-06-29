@@ -1,17 +1,17 @@
 main:
-  text:
-    fr: Êtes-vous prêts?
-    en: Are you ready?
   btn:
-    fr: Démarrer un projet
     en: Start a project
+    fr: Démarrer un projet
     link: contactPage
+  text:
+    en: Are you ready?
+    fr: Êtes-vous prêts?
 second:
+  btn:
+    en: Start a project
+    fr: Démarrer un projet
+    link: contactPage
   image: /img/a-propos-cta.png
   text:
+    en: Let's collaborate!
     fr: On collabore?
-    en: Ready to collaborate?
-  btn:
-    fr: Démarrer un projet
-    en: Start a project
-    link: contactPage
