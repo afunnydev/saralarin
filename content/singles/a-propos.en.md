@@ -1,56 +1,54 @@
 ---
-title: À propos EN | Rédaction agile
+title: About | Agile copywriter
 description: >-
-  Sara Larin se spécialise en rédaction, stratégie et gestion. Découvrir la rédaction agile.
+  Sara Larin is specialized in copywriting, strategy, and management. Find out
+  more about agile copywriting.
 titre: À propos
-identifiant: a-propos
-i18nlanguage: fr
 slug: a-propos
 layout: a-propos
 noindex: true
-image: null
 section1:
+  title: 'Sara, rédactrice agile'
   image: /img/redaction-web-sara-a-propos4.png
-  title: "Sara, rédactrice agile"
 section2:
-  title: Je me spécialise en rédaction, en stratégie et en gestion.
-  description: >-
-    L’idée de la rédaction agile est née de mon expérience au sein de grandes agences montréalaises. Une analyse de marché et plusieurs mandats complétés avec succès m’ont confirmé la nécessité d’un service de rédaction bonifié. Il allie la stratégie, la créativité et la gestion.<br><br>Au besoin, je travaille avec des collaborateurs spécialisés en design graphique, en production de site Web, en SEO, et bien plus.<br><br>Je suis ainsi en mesure de proposer une solution de rédaction complète adaptée à vos besoins. 
   btn:
-    text: VOIR MES PROJETS
     link: portfolioPage
+    text: SEE MY PROJECTS
+  title: 'I’m a copywriter, strategist, and project manager.'
+  description: "The idea of agile copywriting comes from my work in Montreal-based advertising agencies. A market analysis and several\_successfully\_completed projects confirmed the need for a copywriting service with an added value\_that combines strategy, creativity, and management. <br><br> When needed, I work with collaborators specialized in graphic design, website production, SEO, and more. <br><br> Therefore, I can offer a complete copywriting solution that meets your needs."
 section3:
   images:
     - url: /img/redaction-web-sara-a-propos3.png
     - url: /img/redaction-web-sara-a-propos2.png
     - url: /img/redaction-web-sara-a-propos1.png
 section4:
-  title: Aptitudes
   boxes:
-    - title: Certifications et formations
-      skill:
+    - skill:
         - name: Rédaction Web | Grenier formations
         - name: Référencement SEO | Grenier formations
         - name: Content Marketing | HubSpot Academy
-    - title: Outils collaboratifs
-      skill:
+      title: Certifications and training
+    - skill:
         - name: Trello
         - name: Slack
         - name: InVision
         - name: Figma
-    - title: Design et production
-      skill:
+      title: Collaborative tools
+    - skill:
         - name: Canvas
         - name: Photoshop
-        - name: Illustrator 
+        - name: Illustrator
         - name: InDesign
         - name: Final Cut
         - name: Adobe Xd
         - name: LightRoom
+      title: Design and production
+  title: Skills
 section5:
-  title: On collabore?
-  image: /img/a-propos-cta.png
   btn:
-    text: "Démarrer un projet"
-    link: "contactPage"
+    link: contactPage
+    text: Start a project
+  title: Ready to collaborate?
+  image: /img/a-propos-cta.png
 ---
+
