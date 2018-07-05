@@ -10,12 +10,12 @@ weight: '1'
 draft: false
 style: style-2
 listing:
+  big: true
   title: 'Site Web Makestorming '
   description: Un projet agile pour des services et produits axés sur la collaboration
 tags:
   - Web
   - Rédaction
-  - Projet agile
 section1:
   btn:
     external: true
