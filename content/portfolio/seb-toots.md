@@ -4,7 +4,7 @@ slug: seb-toots
 description: >-
   Un portfolio a été rédigé dans le but d’aller chercher de nouveaux
   commanditaires pour Seb Toots. Découvrir le projet.
-image: /img/sebtoots.jpg
+image: /img/sebtoots-low.jpg
 i18nlanguage: fr
 weight: '2'
 draft: false
@@ -14,7 +14,6 @@ listing:
   title: 'Seb Toots: livre de commandite'
   description: Rédiger un livre pour ce snowboarder médaillé olympique
 tags:
-  - Projet agile
   - Adaptation
   - Rédaction
 section1:
