@@ -1,23 +1,23 @@
 ---
-title: Contact EN | Rédaction agile
-description: >-
-  J’offre un service de rédaction agile. Contactez-moi pour démarrer un projet aujourd’hui!
+title: Contact | Agile copywriting
+description: I’m an agile copywriter. Contact me today to start your project!
 titre: Contact
-subtitle: "J’offre un service de rédaction agile. Contactez-moi pour démarrer un projet aujourd’hui!"
+subtitle: I’m an agile copywriter. Contact me today to start your project!
 slug: contact
 layout: contact
-image: /img/contact-sara-header.png
+noindex: true
+image: /img/header-new-design-contact.png
 section1:
-  title: "Vous avez un projet en tête. Contactez-moi!"
-  tel:
-    icon: icon-chat
-    title: Téléphone
   email:
     icon: icon-envelope
-    title: Courriel 
+    title: Email
+  tel:
+    icon: icon-chat
+    title: Phone
+  title: You have a project in mind? Contact me!
 section2:
+  title: 'You have a question? '
+  subtitle: ''
   image: /img/contact-bloc-formulaire.png
-  title: Vous avez des questions
-  subtitle: Écrivez-moi
-noindex: true
 ---
+
