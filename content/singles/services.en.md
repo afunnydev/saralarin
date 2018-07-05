@@ -103,45 +103,45 @@ section6:
   box1:
     btn:
       link: portfolioPage
-      text: VOIR LES PROJETS
+      text: SEE PROJECTS
     id: creation-contenu
     title: Content creation
-    image: /img/specialisation-creation-contenu.jpg
+    image: /img/services-specialisation-crea.png
     list:
-      - sentence: Stratégie de contenu
-      - sentence: Stratégie et rédaction SEO
-      - sentence: Recherches et entrevues
-      - sentence: Journalisme
-      - sentence: Site Web
-      - sentence: Médias sociaux
-      - sentence: Blogue
-      - sentence: Conceptualisation de contenu vidéo
-      - sentence: Contenu commandité
-      - sentence: Imprimé
+      - sentence: Content strategy
+      - sentence: SEO copywriting
+      - sentence: Research and interviews
+      - sentence: Journalism
+      - sentence: Website
+      - sentence: Social media
+      - sentence: Blog
+      - sentence: Video content production
+      - sentence: Sponsored content
+      - sentence: Print
       - sentence: Adaptation
   box2:
     btn:
       link: portfolioPage
-      text: VOIR LES PROJETS
+      text: SEE PROJECTS
     id: gestion-production
-    title: Gestion et production
-    image: /img/services-specialisation.jpg
+    title: Management and production
+    image: /img/services-specialisation-prod.png
     list:
-      - sentence: Projets
-      - sentence: Clients (pour les agences)
+      - sentence: Projects
+      - sentence: Clients (for agencies)
       - sentence: Budget
-      - sentence: Échéancier
-      - sentence: Suivi d’objectifs
-      - sentence: Rapports de performance
-      - sentence: Gestion de communauté
-      - sentence: Site Web (design et développement)
-      - sentence: 'Vidéo (tournage, montage, son, motion design, etc.)'
+      - sentence: Timeline
+      - sentence: Objective monitoring
+      - sentence: Performance report
+      - sentence: Community management
+      - sentence: Website (design and development)
+      - sentence: 'Video (shooting, editing, motion design, etc.)'
   title: Expertise
 section7:
   btn:
     link: contactPage
-    text: Démarrer un projet
-  title: Êtes-vous prêts?
+    text: Start a project
+  title: Are you ready?
   image: /img/services-bloc-bandeauCTA.png
 ---
 
