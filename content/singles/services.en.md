@@ -98,14 +98,14 @@ section5:
       description: "The collected data determines the creative\_performance and allows us\_to adjust if needed."
     - number: 4
       title: Phases
-      description: "It\_is possible to make revisions to existing creative content\_or add new content. This agile method allows one\_to segment the production budget and ensures a\_faster delivery of the first version of the project.."
+      description: "It\_is possible to make revisions to existing creative content\_or add new content. This agile method allows one\_to segment the production budget and ensures a\_faster delivery of the first version of the project."
 section6:
   box1:
     btn:
       link: portfolioPage
       text: VOIR LES PROJETS
     id: creation-contenu
-    title: Création de contenu
+    title: Content creation
     image: /img/specialisation-creation-contenu.jpg
     list:
       - sentence: Stratégie de contenu
@@ -136,7 +136,7 @@ section6:
       - sentence: Gestion de communauté
       - sentence: Site Web (design et développement)
       - sentence: 'Vidéo (tournage, montage, son, motion design, etc.)'
-  title: Spécialisations
+  title: Expertise
 section7:
   btn:
     link: contactPage
