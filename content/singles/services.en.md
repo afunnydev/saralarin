@@ -86,7 +86,7 @@ section5:
     - number: 1
       title: Evaluation
       description: >-
-        Done at the beginning of the project to gain an accurate overview of the
+        Done at the beginning of the project to have an accurate overview of the
         project and its challenges.
     - number: 2
       title: Strategy & creation
@@ -96,10 +96,10 @@ section5:
         message to your target.
     - number: 3
       title: Analysis
-      description: "The collected data determines the creative\_performance and allows us\_to adjust if needed."
+      description: "The collected data determines the\_performance of the creative and allows us\_to adjust if needed."
     - number: 4
       title: Phases
-      description: "It\_is possible to make revisions to existing creative content\_or add new content. This agile method allows one\_to segment the production budget and ensures a\_faster delivery of the first version of the project."
+      description: "It\_is possible to make revisions to existing creative content\_or add new content. This agile method allows you\_to segment the production budget and ensures a\_faster delivery of the first version of the project."
 section6:
   box1:
     btn:
