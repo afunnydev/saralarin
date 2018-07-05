@@ -67,20 +67,20 @@ section6:
     - number: '2'
       title: Strategy and creation
       description: >-
-        The strategy defines the objectives, allows to make a content plan and
-        choose the specific data to collect. Creation communicates your message
-        to your target.
+        The strategy defines the objectives, allows me to make a content plan
+        and choose the specific data to collect. Creation communicates your
+        message to your target.
     - number: '3'
       title: Analysis
       description: >-
         The collected data determines the performance of the creative and allows
-        to adjust if needed. 
+        us to adjust if needed. 
     - number: '4'
       title: Phases
       description: >-
-        It’s possible to make revisions to existing creative or add new content.
-        This agile method allows to segment the production budget and ensures
-        faster delivery of the first version of the project. 
+        It’s possible to make revisions to existing creative content or add new
+        content. This agile method allows you to segment the production budget
+        and ensures a faster delivery of the first version of the project. 
 section7:
   btn:
     text: See the project
