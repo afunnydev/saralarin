@@ -4,7 +4,7 @@ slug: seb-toots
 description: >-
   Un portfolio a été rédigé dans le but d’aller chercher de nouveaux
   commanditaires pour Seb Toots. Découvrir le projet.
-image: /img/sebtoots-low.jpg
+image: /img/sebtoots-low-1.jpg
 i18nlanguage: fr
 weight: '2'
 draft: false
