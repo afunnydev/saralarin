@@ -1,5 +1,5 @@
 ---
-title: Home | Rédaction agile
+title: Home | Agile copywriter
 description: 'A copywriting service that meets your needs. Discover how I can help you. '
 noindex: true
 draft: false
@@ -35,8 +35,8 @@ section5:
     text: See all services
   title: Single piece
   description: >-
-    I analyze your existing ecosystem to ensure a deliverable shaped for your
-    brand. 
+    I analyze your existing ecosystem to ensure a deliverable shape for your
+    brand.
   portfolio:
     - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Adaptation
