@@ -47,7 +47,7 @@ section2:
   description: >-
     I make an overview of the project with you to allow me to understand your
     needs, maintain a strategic course and collaborate with your team.
-  image: ''
+  image: /img/visuel-briques-services-option2.png
 section3:
   btn1:
     anchor: '#a-la-piece'
@@ -71,7 +71,8 @@ section4:
     - image: >-
         /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Content strategy
-    - text: Sponsorship book
+    - image: /img/seb-toots-image-on-collabore-600-x-1000-ratio-11_7-v2.png
+      text: Sponsorship book
     - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
       text: Blog articles
     - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
