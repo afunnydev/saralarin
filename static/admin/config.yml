@@ -48,6 +48,7 @@ collections:
           - {label: "Grosseur double?", name: "big", widget: "boolean", required: false, default: false}
           - {label: "Titre", name: "title", widget: "string", required: false}
           - {label: "Description", name: "description", widget: "text", required: false}
+          - {label: "Version plus petite de l'image?", name: "smallpic", widget: "boolean", required: false, default: false}
       - {label: "Catégories (séparées de virgules)", name: "tags", widget: "list", required: false}
       - label: "Section 1" 
         name: "section1" 

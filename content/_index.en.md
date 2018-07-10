@@ -20,10 +20,22 @@ section3:
     project can also be done by phase to allow you to segment your production
     budget. 
   icons:
-    - title: Content creation
-    - title: SEO copywriting
-    - title: Strategy
-    - title: Management and production
+    - anchor: '#creation-contenu'
+      icon: icon-pencil
+      link: servicesPage
+      title: Content creation
+    - anchor: '#creation-contenu'
+      icon: icon-presentation
+      link: servicesPage
+      title: SEO copywriting
+    - anchor: '#creation-contenu'
+      icon: icon-target
+      link: servicesPage
+      title: Strategy
+    - anchor: '#gestion-production'
+      icon: icon-speedometer
+      link: servicesPage
+      title: Management and production
 section4:
   btn1:
     text: Single piece

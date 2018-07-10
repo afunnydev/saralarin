@@ -71,7 +71,7 @@
                 <div class="col-md-6 wow fadeIn">
                     <div class="padding-eleven-all text-center xs-no-padding-lr">
                         <h5 class="margin-55px-bottom text-white alt-font font-weight-700 text-uppercase xs-margin-ten-bottom">{{ .title }}</h5>
-                        <form id="project-contact-form" {{ if eq .Lang "fr" }}action="/merci"{{ else }} action="/en/thank-you" {{ end }} method="post" netlify name="contact-{{$.Lang}}" role="form">
+                        <form id="project-contact-form" {{ if eq $.Lang "fr" }}action="/merci"{{ else }} action="/en/thank-you" {{ end }} method="POST" netlify name="contact-{{$.Lang}}" role="form">
                             <div class="row">
                                  <div class="col-md-12">
                                     <div id="success-project-contact-form" class="no-margin-lr"></div>
