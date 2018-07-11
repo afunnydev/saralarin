@@ -20,6 +20,7 @@ tags:
   - Adaptation
   - Blogue
   - Recherches et entrevues
+  - Rédaction
 section1:
   btn:
     external: true
