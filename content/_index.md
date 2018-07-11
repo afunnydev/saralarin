@@ -140,7 +140,7 @@ section8:
       Je collabore directement avec les membres de votre équipe en vue de
       compléter avec succès le projet. Mon implication vous évite de nombreuses
       heures de gestion à l’interne et limite les intermédiaires. Le mandat peut
-      être un projet complet agile ou à la pièce selon votre besoin. 
+      être un projet complet ou à la pièce selon votre besoin. 
     image: /img/hp-boite-entreprises-700.png
   title: Je travaille avec</br>les agences et les entreprises
 section9:
