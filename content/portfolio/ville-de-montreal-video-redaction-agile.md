@@ -40,7 +40,7 @@ section1:
 section2:
   articles: []
   image1: /img/projet-vdm-photo-2.png
-  image2: /img/projet-vdm-photo-2.png
+  image2: /img/projet-vdm-photo-3.png
 section3:
   images:
     - {}
