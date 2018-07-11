@@ -49,12 +49,12 @@ section3:
   text2:
     title: Le brief
     description: >-
-      Un travail en mode agile, c’est-à-dire par itérations, et une
-      collaboration étroite entre les acteurs du projet étaient essentiels pour
-      ce projet. La rédaction SEO du site Web devait cibler le marché
-      anglophone. Les textes devaient assurer la compréhension des différentes
-      offres de services et produits Makestorming. Le contenu du site Web sert
-      entres autres d’outil pour le développement des affaires.  
+      Un travail en mode agile, c’est-à-dire par phases, et une collaboration
+      étroite entre les acteurs du projet étaient essentiels pour ce projet. La
+      rédaction SEO du site Web devait cibler le marché anglophone. Les textes
+      devaient assurer la compréhension des différentes offres de services et
+      produits Makestorming. Le site Web sert entres autres d’outil pour le
+      développement des affaires.  
 section4:
   images:
     - image: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-5-low.jpg
