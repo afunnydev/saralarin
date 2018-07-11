@@ -43,7 +43,7 @@ section3:
       Une version anglaise a été conçue afin de permettre à nod-A de percer le
       marché anglophone. Les outils collaboratifs Trello et Figma ont été
       utilisés afin de faciliter le travail tout au long du mandat. Le projet a
-      été complété avec ma collaboratrice en rédaction anglaise. Je m’occupais
+      été complété avec une de mes collaboratrices en rédaction. Je m’occupais
       de la structure du contenu, puis nous faisions la rédaction des
       différentes pages. 
   text2:
