@@ -16,9 +16,9 @@ listing:
     En tant que collaboratrice, je propose des sujets pertinents et m’assure de
     rédiger des textes SEO accrocheurs.
 tags:
-  - Adaptation
   - Photographie
   - Gestion de projet
+  - Rédaction
 section1:
   btn:
     external: true
@@ -76,8 +76,7 @@ section3:
     title: blabla
   text2:
     title: ''
-section4:
-  title: blabla
+section4: {}
 section5:
   image: /img/tourisme-lanaudière-2000-px-x-1000-px-portfolio-image-principale.png
   videolink: ''
