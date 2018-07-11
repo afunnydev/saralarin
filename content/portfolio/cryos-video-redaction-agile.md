@@ -13,7 +13,7 @@ listing:
   big: true
   title: Vidéo promotionnel Cryos
   description: 'Conceptualiser, rédiger et coréaliser un vidéo pour Cryos'
-  smallpic: true
+  smallpic: false
 tags:
   - Vidéo
   - Rédaction
