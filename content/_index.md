@@ -151,8 +151,8 @@ section9:
   imageg: /img/bloc-gauche-redaction.png
   title: À propos
   description: >-
-    J’offre un service de rédaction bonifié avec mon équipe de collaborateurs.
-    Je me spécialise en rédaction, en stratégie et en gestion.
+    Je me spécialise en rédaction, en stratégie et en gestion. J’offre un
+    service de rédaction bonifié avec mon équipe de collaborateurs. 
 section10:
   btn:
     link: /projets
