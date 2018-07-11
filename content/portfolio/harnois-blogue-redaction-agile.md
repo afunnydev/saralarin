@@ -30,7 +30,7 @@ section1:
     Le client voulait ajouter un blogue à son site Web. Le mandat consistait à
     développer une stratégie de contenu et de déploiement, d’effectuer des
     recherches et des entrevues pour faire la rédaction d’articles de blogue.
-  image: /img/harnois-blogue-portfolio-style-1-image-1-3000-px-x-2550-px.png
+  image: /img/blogue-harnois-portfolio-grosse.jpg
   list:
     - text: Stratégie de contenu
     - text: Rédaction SEO
