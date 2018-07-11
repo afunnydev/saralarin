@@ -9,7 +9,7 @@ i18nlanguage: fr
 draft: false
 style: style-1
 listing:
-  big: true
+  big: false
   title: '3 Brasseurs: bière en cask'
   description: >-
     Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
