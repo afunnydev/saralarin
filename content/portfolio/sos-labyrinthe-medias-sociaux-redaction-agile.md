@@ -17,6 +17,7 @@ listing:
     Élaboration d'une stratégie de contenu qui combine des publications
     organiques, commanditées, des collaborations avec différents médias et
     influenceurs
+  smallpic: true
 tags:
   - Médias sociaux
   - Stratégie de contenu
