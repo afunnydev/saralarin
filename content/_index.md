@@ -97,15 +97,17 @@ section6:
         La stratégie est la ligne directrice du projet et en assure la réussite.
         La création communique votre message de façon attrayante à la cible.
     - number: 3
-      title: Création
-      description: >-
-        Elle communique votre message de façon attrayante à la cible. Elle peut
-        être modifiée au besoin suite à l’analyse. 
-    - number: 4
-      title: Analyse
+      title: 'Analyse '
       description: >-
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
+    - number: 4
+      title: Phases
+      description: >-
+        Il est possible de faire des modifications à la création existante ou
+        d’ajouter du nouveau contenu. Ce mode agile permet de segmenter le
+        budget de production et d’assurer une livraison plus rapide de la
+        première version du projet.
 section7:
   btn:
     link: 'https://saralarin.ca/portfolio/blogue-harnois/'
