@@ -36,7 +36,7 @@ section1:
       text: Sara Larin
   title: >-
     Présenter le nouveau scan 3D et raconter deux décennies de développement
-    technologique en seulement cinq minutes. 
+    technologique en seulement cinq minutes
 section2:
   image1: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px.png
   image2: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px-1-.png
@@ -53,8 +53,8 @@ section3:
     description: >-
       Il fallait expliquer la nouvelle technologie du scan 3D en plus de
       raconter l’histoire de l’entreprise. Le vidéo allait être utilisé pour
-      différents besoins tels que le site Web, les congrès et le développement
-      des affaires. 
+      différents besoins: le site Web, les congrès et le développement des
+      affaires. 
 section5:
   image: /img/cryos-preview-image-video-2000-x-1246-template.png
   video: true

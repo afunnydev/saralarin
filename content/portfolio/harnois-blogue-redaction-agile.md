@@ -20,6 +20,7 @@ tags:
   - Adaptation
   - Blogue
   - Recherches et entrevues
+  - Rédaction
 section1:
   btn:
     external: true
@@ -56,7 +57,7 @@ section2:
     - name: Rédaction
       text: Sara Larin
     - name: Adaptation
-      text: Sara Larin et Helen Savage
+      text: Sara Larin en collaboration avec Helen Savage
 section3:
   images:
     - image: /img/harnois-blogue-portfolio-style-1-image-2-option2-1500.jpg
