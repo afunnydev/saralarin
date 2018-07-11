@@ -11,9 +11,7 @@ draft: false
 style: style-1
 listing:
   title: 'Gif anniversaire '
-  description: >-
-    Conception d’un gif utilisé pour célébrer le nombre d’années de service des
-    employés en boutique
+  description: 'Scénarisation d’un gif '
 tags:
   - Rédaction
   - Web
