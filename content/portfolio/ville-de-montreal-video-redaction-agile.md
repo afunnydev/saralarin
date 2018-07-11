@@ -8,7 +8,7 @@ image: /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principal
 i18nlanguage: fr
 weight: ''
 draft: false
-style: style-3
+style: style-2
 listing:
   title: Portail de la Ville de Montréal
   description: >-
@@ -22,8 +22,7 @@ section1:
     external: true
     link: 'https://www.youtube.com/watch?v=MaZSEaJbDcY'
     text: VOIR LA VIDÉO
-  categories:
-    - name: Conceptualisation de contenu vidéo
+  categories: []
   title: Portail de la Ville de Montréal
   description: >-
     La Ville de Montréal voulait inviter ses citoyens à essayer la version beta
@@ -39,22 +38,31 @@ section1:
     - name: Adaptation
       text: Sara Larin
 section2:
-  articles:
-    - caption:
-        link: ''
-        title: ''
-      image: >-
-        /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  articles: []
+  image1: /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  image2: /img/projet-vdm-photo-2.png
 section3:
   images:
     - {}
   text1:
-    title: ''
+    title: Le projet
+    description: >-
+      La Ville de Montréal voulait inviter ses citoyens à essayer la version
+      bêta de son nouveau portail. J'ai scénarisé la vidéo en collaboration avec
+      le réalisateur et le client. J'ai ensuite fait la rédaction des textes. 
   text2:
-    title: ''
+    title: Le brief
+    description: >-
+      Une vidéo explicative devait être produite pour présenter la nouvelle
+      plateforme (bêta) aux citoyens.  Elle devait les inciter à l'essayer et
+      partager leur commentaire en vue d'assurer sa fonctionnalité. 
 section4: {}
 section5:
   images: []
+  title: Voir la vidéo
+  image: /img/projet-vdm-photo-video-fixe.png
+  video: true
+  videolink: 'https://www.youtube.com/watch?v=MaZSEaJbDcY'
 section6:
   image: ''
 ---
