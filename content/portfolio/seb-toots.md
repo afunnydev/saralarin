@@ -13,7 +13,7 @@ listing:
   big: true
   title: 'Seb Toots: livre de commandite'
   description: Rédiger un livre pour ce snowboarder médaillé olympique
-  smallpic: true
+  smallpic: false
 tags:
   - Adaptation
   - Rédaction
