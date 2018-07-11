@@ -1,6 +1,13 @@
 <head>
 {{- partial "head/noindex.html" . -}}
 {{- partial "head/tagmanager.html" . -}}
+{{ if .Params.notloaded.need }}
+<style>
+.not-loaded {
+	background-image:url('/img/home-slider-small.jpg');
+}
+</style>
+{{ end }}
 {{- partial "head/metadata-standard.html" . -}}
 {{- partial "head/metadata-opengraph.html" . -}}
 {{- partial "head/metadata-prefetch.html" . -}}

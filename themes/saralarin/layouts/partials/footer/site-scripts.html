@@ -10,6 +10,21 @@
 <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
 
+{{ if .Params.notloaded.need }}
+<script>
+    var notLoaded = document.getElementsByClassName('not-loaded'),
+      slider = notLoaded[0];
+  
+  // Special loading - Slider
+  var imgLarge = new Image();
+  imgLarge.src = slider.dataset.large; 
+  imgLarge.onload = function () {
+    slider.style.backgroundImage = 'url('+slider.dataset.large+')';
+    slider.classList.add('loaded');
+  };
+</script>
+{{ end }}
+
 {{ with .Site.Params.googleapikey }}
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{.}}"
   type="text/javascript"></script>

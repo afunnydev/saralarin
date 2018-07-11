@@ -3,6 +3,8 @@ title: Home | Agile copywriter
 description: 'A copywriting service that meets your needs. Discover how I can help you. '
 noindex: true
 draft: false
+notloaded:
+  need: true
 section1:
   subtitle: 'A copywriting service with and an added value to meet your needs. '
   title: What is agile copywriting?

@@ -3,6 +3,8 @@ title: Accueil | Rédaction agile
 description: >-
   Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le
   service de rédaction agile.
+notloaded:
+  need: true
 draft: false
 section1:
   subtitle: Rédaction Agile
