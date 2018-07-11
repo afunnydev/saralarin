@@ -18,7 +18,7 @@
             <div class="col-md-4 col-md-offset-1 line-height-26 wow fadeInUp animated">
                 <ul class="list-style-6 margin-twelve-left">
                     {{ range .table}}
-                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">{{ .name }}:</label>{{ .text }}</li>
+                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">{{ .name }}:</label>{{ .text | markdownify }}</li>
                     {{ end }}
                 </ul>
             </div>
