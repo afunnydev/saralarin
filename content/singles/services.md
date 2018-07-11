@@ -106,21 +106,23 @@ section5:
         portrait exact du projet à accomplir et d’en comprendre l’ensemble des
         enjeux.
     - number: 2
-      title: Stratégie
+      title: Stratégie et création
       description: >-
-        Elle cerne les objectifs, permet d’élaborer un plan de création de
-        contenu et de choisir les données récoltées. Elle est la ligne
-        directrice du projet et en assure la réussite.
+        La stratégie  cerne les objectifs, permet d’élaborer un plan de création
+        de contenu et de choisir les données récoltées. Elle est la ligne
+        directrice du projet et en assure la réussite. La création communique
+        votre message de façon attrayante à la cible.
     - number: 3
-      title: Création
-      description: >-
-        Elle communique votre message de façon attrayante à la cible. Elle peut
-        être modifiée au besoin suite à l’analyse. 
-    - number: 4
       title: Analyse
       description: >-
         Les données récoltées déterminent la performance de la création et
         permettent de s’ajuster au besoin.
+    - number: 4
+      title: Phases
+      description: >-
+        Les modifications ou l’ajout de nouveau contenu par phase permettent de
+        segmenter le budget de production et de livrer une première version du
+        projet plus rapidement. 
 section6:
   box1:
     btn:
