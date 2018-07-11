@@ -14,8 +14,9 @@ listing:
   big: true
   title: Médias sociaux de SOS Labyrinthe
   description: >-
-    Stratégie de contenu élaborée qui combine des publications organiques,
-    commanditées, des collaborations avec différents médias et influenceurs
+    Élaboration d'une stratégie de contenu qui combine des publications
+    organiques, commanditées, des collaborations avec différents médias et
+    influenceurs
 tags:
   - Médias sociaux
   - Stratégie de contenu
