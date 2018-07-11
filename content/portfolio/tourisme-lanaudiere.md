@@ -15,6 +15,7 @@ listing:
   description: >-
     En tant que collaboratrice, je propose des sujets pertinents et m’assure de
     rédiger des textes SEO accrocheurs.
+  smallpic: true
 tags:
   - Photographie
   - Gestion de projet
