@@ -16,6 +16,7 @@ listing:
     portail de la Ville de Montréal
 tags:
   - Vidéo
+  - Rédaction
 section1:
   btn:
     external: true
