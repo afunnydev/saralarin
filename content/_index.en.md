@@ -104,7 +104,7 @@ section7:
     Elaboration of a content strategy, researches, interviews and copywriting of
     blog articles.
   image: >-
-    /img/harnois-blogue-2000-px-x-1000-px-portfolio-image-principale-template.png
+    /img/blogue-harnois-portfolio-grosse.jpg
 section8:
   box1:
     btn:

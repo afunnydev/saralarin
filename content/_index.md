@@ -119,7 +119,7 @@ section7:
   description: >-
     Élaboration d'une stratégie de contenu, recherches, entrevues et rédaction
     d’articles. 
-  image: /img/harnois-blogue-portfolio-style-1-image-1-3000-px-x-2550-px.png
+  image: /img/blogue-harnois-portfolio-grosse.jpg
 section8:
   box1:
     btn:

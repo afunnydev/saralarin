@@ -2,50 +2,7 @@
 <main class="main" id="homepage">
 	{{ with .Params.section1 }}
 	<!-- start hero section -->
-    <!-- <section id="home" class="no-padding parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('/xl{{.image}}');">
-        <div class="opacity-very-light bg-extra-dark-gray"></div>
-        <div class="container position-relative full-screen">
-            <div class="slider-typography text-center">
-                <div class="slider-text-middle-main xs-padding-15px-lr">
-                    <div class="slider-text-middle">
-                    	<img src="images/text.png" alt=""/>
-                        <div class="text white">
-                        	<span>{{.Params.section1.subtitle}}</span>
-                        	<h1>{{.Params.section1.title}}</h1>
-                       	</div>
-                        <div class="down-section text-center">
-                        	<a href="#about" class="inner-link">
-                        		<div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" 
-		                             id="slide-3238-layer-13" 
-		                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-		                             data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','50','50']" 
-		                             data-width="30"
-		                             data-height="45"
-		                             data-whitespace="nowrap"
-
-		                             data-type="button" 
-		                             data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":"","speed":1000}]'
-		                             data-basealign="slide" 
-		                             data-responsive_offset="on" 
-		                             data-responsive="off"
-		                             data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-		                             data-textAlign="['left','left','left','left']"
-		                             data-paddingtop="[0,0,0,0]"
-		                             data-paddingright="[0,0,0,0]"
-		                             data-paddingbottom="[0,0,0,0]"
-		                             data-paddingleft="[0,0,0,0]"
-
-		                             style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-		                            <span></span>												
-		                        </div>
-                        	</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <section class="wow fadeIn hidden-xs parallax not-loaded" data-stellar-background-ratio="0.5" style="background-repeat: no-repeat;background-size: cover" data-large="{{.image}}">
+    <section class="hidden-xs parallax not-loaded" data-stellar-background-ratio="0.5" style="background-repeat: no-repeat;background-size: cover" data-large="{{.image}}">
         <!-- <div class="opacity-very-light bg-very-light-gray"></div> -->
         <div class="container">
             <img src="/img/header-homepage.png" alt="" style="position: absolute; top: 10%;
@@ -253,7 +210,7 @@
     <section class="no-padding wow fadeIn bg-light-gray" id="services">
         <div class="container-fluid no-padding">
             <div class="row equalize sm-equalize-auto no-margin"> 
-            	<div class="col-md-6 col-sm-12 col-xs-12 position-relative sm-height-500px xs-height-300 cover-background wow fadeIn" style="background-image: url('{{ .image }}')"></div>
+            	<div class="col-md-6 col-sm-12 col-xs-12 position-relative sm-height-500px xs-height-300 cover-background wow fadeIn" style="background-image: url('/half{{ .image }}')"></div>
                 <div class="col-md-6 col-sm-12 col-xs-12 display-table wow fadeIn last-paragraph-no-margin sm-text-center">
                     <div class="display-table-cell vertical-align-middle padding-fifteen-all md-padding-ten-all xs-no-padding-lr xs-text-center">
                         <span class="text-medium margin-15px-bottom display-block alt-font text-deep-pink">{{ .client }}</span>
