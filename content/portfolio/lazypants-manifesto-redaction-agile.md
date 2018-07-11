@@ -37,7 +37,7 @@ section2:
     occasions.
   table:
     - name: Client
-      text: Lazypants
+      text: '[Lazypants](https://shoplazypants.com/) '
     - name: Agence
       text: Youville
     - name: Service-conseil
