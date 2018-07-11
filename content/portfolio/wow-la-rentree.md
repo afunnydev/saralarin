@@ -19,6 +19,7 @@ tags:
   - Web
   - Médias sociaux
   - Imprimé
+  - Rédaction
 section1:
   title: 'WOW! boutique mobile: campagne rentrée des classes'
   description: >-
@@ -59,8 +60,8 @@ section4:
       description: >-
         Tous les concepts ont été déployés en magasin et sur le Web. Les
         représentants portaient des chandails à l’image de la campagne et des
-        affiches étaient exposées en boutique. Des visuels ont été mis en ligne sur
-        le site Web et les médias sociaux du client.
+        affiches étaient exposées en boutique. Des visuels ont été mis en ligne
+        sur le site Web et les médias sociaux du client.
 section5:
   images:
     - image: /img/wow-mobile-1500-px-x-750-px-portfolio-style-1-images-4.png
