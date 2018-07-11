@@ -24,7 +24,7 @@ section1:
     Le client voulait adapter son manifesto de l’anglais au français. Le mandat
     demandait beaucoup plus qu’une traduction mot à mot. Il fallait rédiger un
     texte en français qui avait la même portée que l’anglais. 
-  image: /img/lazypants-portfolio-style-1-image-1-3000-px-x-2550-px-low.jpg
+  image: /img/lazypants-portfolio-image-1-rev2.png
   list:
     - text: Adaptation
     - text: Web
