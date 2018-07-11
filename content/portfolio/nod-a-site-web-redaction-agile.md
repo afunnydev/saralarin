@@ -40,7 +40,7 @@ section3:
   text1:
     title: Le projet
     description: >-
-      Le client a choisi le service de projet agile pour la production de leur
+      Le client a choisi le service de projet complet pour la production de leur
       site Web. Une version anglaise a été conçue afin de permettre à nod-A de
       percer le marché anglophone. Les outils collaboratifs Trello et Figma ont
       été utilisés afin de faciliter le travail tout au long du mandat. Le
