@@ -46,8 +46,7 @@ section3:
     description: >-
       Le client voulait procéder à une refonte de son site. Il avait besoin de
       présenter clairement le contenu de ses trois divisions très distinctes,
-      soit les bâtiments MegaDome<sup>MD</sup>, les Serres Harnois et Agronomie
-      Agrisys.
+      soit les bâtiments MegaDome, les Serres Harnois et Agronomie Agrisys.
 section4:
   images:
     - image: /img/harnois-siteweb-portfolioimage-1-2-1500-px-x-750-px-4.jpg
