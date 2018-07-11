@@ -39,7 +39,7 @@ section1:
       text: Sara Larin
 section2:
   articles: []
-  image1: /img/portail-ville-montréal-1000-px-x-1000-px-portfolio-image-principale.png
+  image1: /img/projet-vdm-photo-3.png
   image2: /img/projet-vdm-photo-2.png
 section3:
   images:
