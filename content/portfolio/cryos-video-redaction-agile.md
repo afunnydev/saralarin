@@ -53,8 +53,8 @@ section3:
     description: >-
       Il fallait expliquer la nouvelle technologie du scan 3D en plus de
       raconter l’histoire de l’entreprise. Le vidéo allait être utilisé pour
-      différents besoins tels que le site Web, les congrès et le développement
-      des affaires. 
+      différents besoins: le site Web, les congrès et le développement des
+      affaires. 
 section5:
   image: /img/cryos-preview-image-video-2000-x-1246-template.png
   video: true
