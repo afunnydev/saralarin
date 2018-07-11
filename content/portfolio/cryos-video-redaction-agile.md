@@ -36,7 +36,7 @@ section1:
       text: Sara Larin
   title: >-
     Présenter le nouveau scan 3D et raconter deux décennies de développement
-    technologique en seulement cinq minutes. 
+    technologique en seulement cinq minutes
 section2:
   image1: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px.png
   image2: /img/cryos-portfolio-style-1-image-1-3000-px-x-2550-px-1-.png
