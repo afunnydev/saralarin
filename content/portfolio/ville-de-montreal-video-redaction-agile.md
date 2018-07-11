@@ -39,7 +39,7 @@ section1:
       text: Sara Larin
 section2:
   articles: []
-  image1: /img/projet-vdm-photo-3.png
+  image1: /img/projet-vdm-photo-2.png
   image2: /img/projet-vdm-photo-2.png
 section3:
   images:
