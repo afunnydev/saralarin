@@ -312,7 +312,7 @@ function SetResizeContent() {
     setPageTitleSpace();
     setButtonPosition();
     parallax_text();
-    stellarParallax();
+    // stellarParallax();
     fullScreenHeight();
     equalizeHeight();
 }

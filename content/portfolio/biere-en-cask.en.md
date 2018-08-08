@@ -4,7 +4,7 @@ slug: 3-brasseurs-fabrication-biere
 description: >-
   Rédaction d’une brochure qui présente la nouvelle offre de fabrication de
   bière des 3 Brasseurs. Découvrir le projet.
-image: /img/portfolio-1000-1000-3brasseurs.png
+image: /img/portfolio-1000-1000-3brasseurs.jpg
 i18nlanguage: en
 draft: false
 style: style-1

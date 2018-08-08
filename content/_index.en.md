@@ -13,7 +13,7 @@ section2:
   title: Qu’est-ce que la rédaction agile?
   description: Un service de rédaction bonifié qui s’adapte à votre réalité.
 section3:
-  image: /img/visuel-ciment-fleche-home.png
+  image: /img/visuel-ciment-fleche-home.jpg
   subtitle: Adapted to your business context
   title: Services
   description: >-
