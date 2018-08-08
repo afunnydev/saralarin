@@ -1933,7 +1933,10 @@ $(document).ready(function () {
         animateClass: 'animated',
         offset: 0,
         mobile: false,
-        live: true
+        live: true,
+        callback: function(box) {
+            $('.gif-loader').hide();
+        }
     });
     $(window).imagesLoaded(function () {
         wow.init();

@@ -2,11 +2,13 @@
 <main class="main" id="homepage">
 	{{ with .Params.section1 }}
 	<!-- start hero section -->
-    <section class="hidden-xs parallax not-loaded" data-stellar-background-ratio="0.5" style="background-repeat: no-repeat;background-size: cover" data-large="{{.image}}">
+    <section class="wow fadeIn hidden-xs parallax not-loaded" data-stellar-background-ratio="0.5" style="background-repeat: no-repeat;background-size: cover" data-large="{{.image}}">
         <!-- <div class="opacity-very-light bg-very-light-gray"></div> -->
         <div class="container">
             <img src="/img/header-homepage.png" alt="" style="position: absolute; top: 10%;
             left: 50%; transform: translate(-50%,0); height: 80%;" class="hidden-xs">
+            <img src="/img/preloader-gif.gif" alt="" style="position: absolute; top: 50%;
+            left: 50%; transform: translate(-50%,-50%); z-index: -2; visibility: visible;" class="gif-loader">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
                     <div class="display-table-cell vertical-align-middle text-center">
