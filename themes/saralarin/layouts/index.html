@@ -152,7 +152,7 @@
                     <a href="{{ $.Site.BaseURL }}{{ $e.link }}" title="{{ $e.text }}">
                         <figure class="bg-white">
                             <div class="banner-image bg-extra-dark-gray">
-                                <img src="/quart{{ $e.image }}" alt="{{ $e.text }}"/>
+                                <img class="lazy" src="/thumb{{ $e.image }}" data-src="/quart{{ $e.image }}" alt="{{ $e.text }}" style="width: 100%;"/>
                             </div>
                             <figcaption>
                                 <div class="display-table width-100 height-100">
@@ -244,7 +244,7 @@
                 <!-- start interactive banners item -->
                 <div class="col-md-6 col-sm-6 col-xs-12 xs-margin-30px-bottom wow fadeInUp">
                     <div class="feature-box-16 xs-width-100">
-                        <img src="{{.image}}" alt="{{ .title }}">
+                        <img class="lazy" data-src="{{.image}}" alt="{{ .title }}">
                         <div class="feature-box-content text-center">
                             <div class="opacity-full-dark bg-extra-dark-gray"></div>
                             <div class="display-table height-100 width-100 position-relative xs-display-block">
@@ -265,7 +265,7 @@
                 <!-- start interactive banners item -->
                 <div class="col-md-6 col-sm-6 col-xs-12 xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.25s">
                     <div class="feature-box-16 xs-width-100">
-                        <img src="{{.image}}" alt="{{ .title }}">
+                        <img class="lazy" data-src="{{.image}}" alt="{{ .title }}">
                         <div class="feature-box-content text-center text-white">
                             <div class="opacity-full-dark bg-extra-dark-gray"></div>
                             <div class="display-table height-100 width-100 position-relative xs-display-block">
@@ -357,7 +357,7 @@
             	{{ $number := mul 2 $i}}
                 <!-- start client logo item -->
                 <div class="col-md-3 col-sm-3 col-xs-12 margin-three-bottom xs-margin-15px-bottom wow fadeInDown clients-box" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
-                    <img src="{{ $e.logo }}" alt="{{ $e.name }}" class="clients-logo">
+                    <img data-src="{{ $e.logo }}" alt="{{ $e.name }}" class="clients-logo lazy">
                 </div>
                 <!-- end client logo item -->
                 {{ end }}

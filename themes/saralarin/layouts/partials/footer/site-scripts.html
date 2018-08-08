@@ -29,5 +29,11 @@
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{.}}"
   type="text/javascript"></script>
 {{ end }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.14.0/lazyload.min.js"></script>
+<script>
+  var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 <script src="/js/main.min.js"></script>
 <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

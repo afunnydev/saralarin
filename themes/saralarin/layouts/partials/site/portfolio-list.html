@@ -8,7 +8,7 @@
         <li class="grid-item {{ range .Params.tags}}{{ (replace (replace (replace . "é" "e") "è" "e") "ô" "o") | urlize  }} {{ end }}{{ if .Params.listing.big }}grid-item-double {{ end }}wow zoomIn{{ if $IsHome }}{{ if (math.Ceil  (div $i 4)) }} hidden-xs{{ end }}{{ end }}" {{ if (eq $i 0) }}{{ else }}data-wow-delay="0.{{- $number -}}s"{{ end }}>
             <a href="{{ .Permalink }}">
                 <figure>
-                    <div class="portfolio-img"><img src="{{ if .Params.listing.smallpic }}/portfolio{{ else }}/quart{{ end }}{{ .Params.image }}" alt="{{ .Params.listing.title }}"/></div>
+                    <div class="portfolio-img"><img src="/thumb{{ .Params.image }}" data-src="{{ if .Params.listing.smallpic }}/portfolio{{ else }}/quart{{ end }}{{ .Params.image }}" alt="{{ .Params.listing.title }}" class="lazy" style="width: 100%;"/></div>
                     <figcaption>
                         <div class="portfolio-hover-main text-center">
                             <div class="portfolio-hover-box vertical-align-middle">
