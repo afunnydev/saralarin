@@ -33,6 +33,7 @@ section4:
         - name: Rédaction Web | Grenier formations
         - name: Référencement SEO | Grenier formations
         - name: Content Marketing | HubSpot Academy
+        - name: UQAM | BAC Communication profil production télé
       title: Certifications et formations
     - skill:
         - name: Trello
