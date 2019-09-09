@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.saralarin.ca/"
 DefaultContentLanguage = "fr"
-title = ""
+title = "Sara Larin | Rédaction Agile"
 theme = "saralarin"
 description = ""
 
@@ -25,15 +25,15 @@ EnableMissingTranslationPlaceholders = true
   ## Include google maps, with API Key
   googleapikey = ""
   ## This is used when the BaseURL does not need to modified (eg, in share links)
-  siteaddress = "/"
-  siteaddressno = ""
+  siteaddress = "https://www.saralarin.ca/"
+  siteaddressno = "https://www.saralarin.ca"
   ## FB share info
   fbpagename = ""
   fbappid = ""
   ## Business name in Schema.org
-  schemabiz = ""
+  schemabiz = "Sara Larin"
   ## Google Tag Manager tracking ID
-  gtmid = ""
+  gtmid = "GTM-NPX35ZC"
 
 # MARKDOWN
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
@@ -45,11 +45,17 @@ EnableMissingTranslationPlaceholders = true
 
 [Languages]
 [Languages.en]
+[Languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
 [Languages.en.permalinks]
   singles = "/:slug/"
   category = "categories"
 
 [Languages.fr]
+[Languages.fr.taxonomies]
+  category = "categories"
+  tag = "tags"
 [Languages.fr.permalinks]
   singles = "/:slug/"
   category = "categories"

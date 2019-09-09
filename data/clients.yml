@@ -1,0 +1,19 @@
+clients:
+  - logo: /img/logo-harnois.png
+    name: Les industries Harnois
+  - logo: /img/logonoda.png
+    name: nod-A
+  - logo: /img/logo-toursime.png
+    name: Tourisme Lanaudière
+  - logo: /img/logo_nouvelles-grenier.png
+    name: Grenier nouvelles
+  - logo: /img/logo_cryos_fr.png
+    name: Cryos
+  - logo: /img/logo-sos.png
+    name: SOS Labyrinthe
+  - logo: /img/logo-youville.png
+    name: Youville Haussmann Park
+  - logo: /img/logo-buck.png
+    name: Buck créatifs
+  - logo: /img/toast_logo_transp_1024_36_0_color.png
+    name: Toast Studio

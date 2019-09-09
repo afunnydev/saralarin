@@ -81,6 +81,30 @@
   other = "Autres services"
   one = "Autre service"
 
+[all]
+  other = "Tous"
+
+[agency]
+  other = "Agence"
+
+[search_interview]
+  other = "Recherches et entrevues"
+
+[copywriting]
+  other = "Rédaction"
+
+[adaptation]
+  other = "Adaptation"
+
+[previous_project]
+  other = "Projet précédent"
+
+[next_project]
+  other = "Projet suivant"
+
+[related_projects]
+  other = "Autres projets"
+
 # Form elements
 
 [name]
@@ -109,6 +133,12 @@
 
 [subject]
   other = "Sujet"
+
+[select_budget]
+  other = "Choisissez votre budget"
+
+[describe_project]
+  other = "Décrivez votre projet"
 
 # Language
 

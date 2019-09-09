@@ -1,46 +1,34 @@
 socials:
+  dribbleurl: ''
   facebookurl: ''
-  linkedinurl: 'https://www.linkedin.com/in/saralarin/'
-  twitterurl: ''
-  youtubeurl: ''
-  instagramurl: 'https://www.instagram.com/saralarina/'
   googleplusurl: ''
-  pinteresturl: ""
-  vimeourl: ""
-  dribbleurl: ""
+  instagramurl: 'https://www.instagram.com/saralarina/'
+  linkedinurl: 'https://www.linkedin.com/in/saralarin/'
+  pinteresturl: ''
+  twitterurl: ''
+  vimeourl: ''
+  youtubeurl: ''
 twitter:
+  id: ''
   share: false
-  id: ""
-address:
-  road:
-  app:
-  city:
-  province:
-  postal:
-  country:
-ouverture:
-  fr:
-    - jour: 
-      heures: 
-    - jour:
-      heures: 
-    - jour: 
-      heures: 
-    - jour: 
-      heures: 
-  en:
-    - jour: 
-      heures: 
-    - jour: 
-      heures: 
-    - jour:
-      heures: 
-    - jour: 
-      heures: 
-phone: '(514) 265-7523'
+address: {}
+phone: (514) 265-7523
 mphone: '+15142657523'
-email: 'info@saralarin.ca'
-sitedescription: ""
-sitetitle: ""
-defaultsocialimage: "/images/logo-share.jpg"
-removefromexternalsearch: true
+email: info@saralarin.ca
+sitedescription:
+  en: 'A copywriting service that meets your needs. Discover how I can help you. '
+  fr: >-
+    Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le
+    service de rédaction agile.
+sitetitle:
+  en: Home | Rédaction agile
+  fr: Accueil | Rédaction agile
+defaultsocialimage: /img/logo-sara-gros-rev05.png
+logo:
+  color:
+    lg: /img/logo-sara-gros-rev04.png
+    sm: /img/logo-sara-gros-rev05.png
+  white:
+    lg: /images/logo-white@2x.png
+    sm: /images/logo-white.png
+removefromexternalsearch: false

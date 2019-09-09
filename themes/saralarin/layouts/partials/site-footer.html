@@ -5,7 +5,9 @@
             <div class="row equalize xs-equalize-auto">
                 <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-extra-light-gray sm-no-border-right sm-margin-30px-bottom xs-text-center">
                     <!-- start logo -->
-                    <a href='{{ $.Scratch.Get "homePage" }}' class="margin-20px-bottom display-inline-block"><img class="footer-logo" src="/img/sara-larin-logo-1x.png" data-rjs="/img/sara-larin-logo-2x.png" alt="Sara Larin"></a>
+                    {{ with $.Site.Data.settings.logo }}
+                    <a href='{{ $.Scratch.Get "homePage" }}' class="margin-20px-bottom display-inline-block"><img class="footer-logo" src="{{ .color.sm }}" data-rjs="{{ if .color.lg }}{{ .color.lg }}{{ else }}{{ .color.sm }}{{ end }}" alt="Sara Larin"></a>
+                    {{ end }}
                     <!-- end logo -->
                     <p class="text-small width-95 xs-width-100">{{ if eq .Lang "fr" }}{{ .Site.Data.footer.col1.fr }}{{ else if eq .Lang "en" }}{{ .Site.Data.footer.col1.en }}{{ end }}</p>
                     <!-- start social media -->
@@ -30,7 +32,7 @@
                 <!-- start additional links -->
                 <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-extra-light-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
                     {{ with .Site.Data.footer.col2 }}
-                    <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-10px-bottom font-weight-600">{{ .title }}</div>
+                    <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-10px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
                     <ul class="list-unstyled">
                         {{ range .links }}
                             {{ $link := .link }}
@@ -45,7 +47,7 @@
                     {{ with .Site.Data.footer.col3 }}
                     <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-10px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
                     <!-- <p class="text-small display-block margin-15px-bottom width-80 sm-width-70 xs-center-col">POFO Design Agency<br> 301 The Greenhouse, Custard Factory, London, E2 8DY.</p> -->
-                    <div class="text-small">{{ i18n "email" }}: <a href="mailto:{{ $.Site.Data.settings.email }}">{{ .Site.Data.settings.email }}</a></div>
+                    <div class="text-small">{{ i18n "email" }}: <a href="mailto:{{ $.Site.Data.settings.email }}">{{ $.Site.Data.settings.email }}</a></div>
                     <div class="text-small">{{ i18n "phone" }}: {{ $.Site.Data.settings.phone }}</div>
                     {{ end }}
                 </div>
@@ -55,7 +57,8 @@
                     {{ with .Site.Data.footer.col4 }}
                     <div class="widget-title alt-font text-small text-extra-dark-gray text-uppercase margin-20px-bottom font-weight-600">{{ if eq $.Lang "fr" }}{{ .title.fr }}{{ else if eq $.Lang "en" }}{{ .title.en }}{{ end }}</div>
                     <div class="instagram-follow-api">
-                        <ul id="instaFeed-footer"></ul>
+                        <ul id="instaFeed-footer">
+                        </ul>
                     </div>
                     {{ end }}
                 </div>

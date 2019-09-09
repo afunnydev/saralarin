@@ -1,50 +1,49 @@
+{{ with .Params.section1 }}
 <!-- start information section -->
 <section class="wow fadeIn bg-light-gray big-section">
     <div class="container padding-two-tb">
         <div class="row">
             <div class="col-md-12 text-center margin-60px-bottom sm-margin-50px-bottom xs-margin-30px-bottom">
-                <span class="width-60 center-col text-outside-line alt-font xs-width-100 xs-padding-15px-lr xs-display-inline-block">Branding &nbsp;&nbsp; • &nbsp;&nbsp; Design &nbsp;&nbsp; • &nbsp;&nbsp; Web</span>
-                <h1 class="text-extra-dark-gray alt-font letter-spacing-minus-1 font-weight-700 display-block margin-10px-top">Spice Blends</h1>
+                <span class="width-60 center-col text-outside-line alt-font xs-width-100 xs-padding-15px-lr xs-display-inline-block">{{ range $i, $e := .categories }}{{ if $i }} &nbsp;&nbsp; • &nbsp;&nbsp; {{ end }}{{ $e.name }}{{end}}</span>
+                <h1 class="text-extra-dark-gray alt-font letter-spacing-minus-1 font-weight-700 display-block margin-10px-top">{{ .title }}</h1>
             </div>
             <div class="col-md-5 col-md-offset-1 line-height-28 last-paragraph-no-margin sm-margin-50px-bottom xs-margin-30px-bottom wow fadeInUp animated">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                <p>{{ .description }}</p>
+                {{ if .btn.link }}
+                {{ with .btn }}
+                    <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-40px-top sm-margin-30px-top xs-margin-15px-top" title="{{ .text }}"{{ if .external }} target="_blank"{{ end }}>{{ .text }}</a>
+                {{ end }}
+                {{ end }}
             </div>
             <div class="col-md-4 col-md-offset-1 line-height-26 wow fadeInUp animated">
                 <ul class="list-style-6 margin-twelve-left">
-                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">Client:</label>Jason Richardson</li>
-                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">Industry:</label>Adventure  /  Travel</li>
-                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">Services:</label>Design, Art Direction, Website</li>
-                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">Date:</label>January 16th, 2017</li>
-                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">Website:</label><a href="#">www.spiceblends.com</a></li>
+                    {{ range .table}}
+                    <li class="margin-5px-bottom"><label class="width-30 display-inline-block">{{ .name }}:</label>{{ .text | markdownify }}</li>
+                    {{ end }}
                 </ul>
             </div>
         </div>
     </div>
 </section>
 <!-- end information section -->
+{{ end }}
+{{ with .Params.section2 }}
 <!-- start gallery section -->
-<section class="wow fadeIn">
+<section class="wow fadeIn no-padding-bottom">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 margin-30px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1200x752" class="width-100" alt=""/>
+            {{ range .articles }}
+            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center margin-50px-bottom wow fadeInUp">
+                <img src="{{ .image }}" class="width-100" alt="Redaction web"/>
+                {{ with .caption }}
+                <h5 class="font-weight-300 text-extra-dark-gray margin-30px-top margin-10px-bottom">{{.title}}</h5>
+                <p class="margin-10px-bottom">{{ .description }}</p>
+                <a href="{{ .link }}" class="btn btn-small btn-dark-gray margin-10px-top sm-margin-10px-top xs-margin-10px-top" title="{{ .title }}" target="_blank">{{ i18n "read_more" }}</a>
+                {{ end }}
             </div>
-            <div class="col-md-12 margin-30px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1200x675" class="width-100" alt=""/>
-            </div>
-            <div class="col-md-12 margin-30px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1200x675" class="width-100" alt=""/>
-            </div>
-            <div class="col-md-12 margin-30px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1200x675" class="width-100" alt=""/>
-            </div>
-            <div class="col-md-12 margin-30px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1200x675" class="width-100" alt=""/>
-            </div>
-            <div class="col-md-12 wow fadeInUp">
-                <img src="http://placehold.it/2560x1440" class="width-100" alt=""/>
-            </div>
+            {{ end }}
         </div>
     </div>
 </section>
 <!-- end gallery section -->
+{{ end }}

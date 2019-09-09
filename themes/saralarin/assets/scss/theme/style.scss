@@ -1981,13 +1981,13 @@ footer .extra-small-icon li:last-child, footer .small-icon li:last-child, footer
 .social-icon-style-6 a.livejournal:hover {border-color: #00b0ea; color: #00b0ea}
 
 /* social icon style */
-.social-icon-style-7 a.facebook:hover {border-color: #3b5998; background-color: #3b5998}
-.social-icon-style-7 a.twitter:hover {border-color: #00aced; background-color: #00aced}
+.social-icon-style-7 a.facebook:hover,.social-icon-style-7 a.facebook.hovered {border-color: #3b5998; background-color: #3b5998}
+.social-icon-style-7 a.twitter:hover, .social-icon-style-7 a.twitter.hovered {border-color: #00aced; background-color: #00aced}
 .social-icon-style-7 a.google:hover {border-color: #dc4a38; background-color: #dc4a38}
 .social-icon-style-7 a.dribbble:hover {border-color: #ea4c89; background-color: #ea4c89}
 .social-icon-style-7 a.youtube:hover {border-color: #bb0000; background-color: #bb0000}
-.social-icon-style-7 a.linkedin:hover {border-color: #0077b5; background-color: #0077b5}
-.social-icon-style-7 a.instagram:hover {border-color: #FE1F49; background-color: #FE1F49}
+.social-icon-style-7 a.linkedin:hover, .social-icon-style-7 a.linkedin.hovered {border-color: #0077b5; background-color: #0077b5}
+.social-icon-style-7 a.instagram:hover, .social-icon-style-7 a.instagram.hovered {border-color: #FE1F49; background-color: #FE1F49}
 .social-icon-style-7 a.pinterest:hover {border-color: #CB2027; background-color: #CB2027}
 .social-icon-style-7 a.flickr:hover {border-color: #ff0084; background-color: #ff0084}
 .social-icon-style-7 a.rss:hover {border-color: #f2890a; background-color: #f2890a}
@@ -2050,6 +2050,7 @@ a.likes-count span {position: relative; top: -1px}
 
 /* icon hover effect style 7 */
 .social-icon-style-7 a {text-align: center; display:inline-block; border-radius: 100%; color: #232323; background-color: #fff;}
+.social-icon-style-7 a.hovered { color: #fff;}
 .social-icon-style-7 a:hover { color: #fff; -webkit-transform: scale(1.2); -ms-transform: scale(1.2); -moz-transform: scale(1.2); transform: scale(1.2); -o-transform: scale(1.2);}
 
 /* icon hover effect style 8 */
@@ -2951,7 +2952,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 /* hover option 4 */
 .hover-option4 .grid-item figcaption {height: 100%}
 .hover-option4 .grid-item .portfolio-hover-main {transform: none; display: table; height: 100%; top: 0; width: 100%;}
-.hover-option4 .grid-item figure:hover img {opacity: 0.08; transform: scale(1, 1); transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; filter: blur(4px); -webkit-filter: blur(4px); -moz-filter: blur(4px); -ms-filter: blur(4px); -o-filter: blur(4px); }
+.hover-option4 .grid-item figure:hover img, .hover-option4 .grid-item figure:hover div.bg-image {opacity: 0.08; transform: scale(1, 1); transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; filter: blur(4px); -webkit-filter: blur(4px); -moz-filter: blur(4px); -ms-filter: blur(4px); -o-filter: blur(4px); }
 .hover-option4 .grid-item .portfolio-hover-content {bottom:-15px; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
 .hover-option4 .grid-item:hover .portfolio-hover-content {bottom:0;}
 .hover-option4 .swiper-slide.grid-item figcaption {position: absolute; top: 0; width:100%; opacity: 0}
@@ -3043,7 +3044,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .hover-option11 .grid-item > a:hover .portfolio-img{ box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.2); transform: translateY(-10px);}
 
 /* portfolio filter tab style 1 */
-.portfolio-filter-tab-1 li {margin: 0 25px; display: inline-block; float: none}
+.portfolio-filter-tab-1 li {margin: 0 25px 20px; display: inline-block; float: none;}
 .portfolio-filter-tab-1 li a {background: transparent; border: none; padding:0 0 2px 0; display: inline; color:#6f6f6f; margin: 0;}
 .portfolio-filter-tab-1 li a:hover, .portfolio-filter-tab-1 li a:focus {background: transparent; border-bottom: 1px solid #232323; color:#232323}
 .portfolio-filter-tab-1 li.active a {background: transparent !important; border-bottom: 1px solid #232323; color: #232323;}

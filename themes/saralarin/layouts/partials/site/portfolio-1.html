@@ -1,18 +1,18 @@
+{{ with .Params.section1 }}
 <!-- start about product section -->
 <section class="wow fadeIn no-padding bg-light-gray top-space">
     <div class="container-fluid">
         <div class="row equalize sm-equalize-auto">
-            <div class="col-md-8 col-sm-12 col-xs-12 no-padding cover-background sm-height-500px xs-height-300px" style="background:url('http://placehold.it/1920x1292')"></div>
+            <div class="col-md-8 col-sm-12 col-xs-12 no-padding cover-background sm-height-500px xs-height-300px" style="background:url('{{ .image }}')"></div>
             <div class="col-md-4 col-sm-12 col-xs-12 no-padding">
                 <div class="padding-seventeen-lr padding-twenty-tb md-padding-40px-lr sm-padding-50px-tb xs-padding-30px-all">
-                    <img src="http://placehold.it/90x92" class="margin-30px-bottom" alt=""/>
-                    <h3 class="alt-font text-extra-dark-gray font-weight-600 no-margin-bottom">Aura Herbals</h3>
+                    <h3 class="alt-font text-extra-dark-gray font-weight-600 no-margin-bottom">{{ .title }}</h3>
                     <div class="bg-deep-pink separator-line-horrizontal-full display-inline-block margin-25px-tb"></div>
-                    <p class="width-90 width-100 margin-35px-bottom text-medium line-height-28">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                    <p class="width-90 width-100 margin-35px-bottom text-medium line-height-28">{{ .description }}</p>
                     <ul class="list-style-3 text-medium">
-                        <li>Branding Design</li>
-                        <li>Magento Development</li>
-                        <li>eNewsletter</li>
+                        {{ range .list }}
+                        <li>{{ .text }}</li>
+                        {{ end }}
                     </ul>
                 </div>
             </div>
@@ -20,94 +20,89 @@
     </div>
 </section>
 <!-- end about product section -->
+{{ end }}
+{{ with .Params.section2 }}
 <!-- start about product section -->
 <section class="wow fadeIn">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center wow fadeIn">
-                <img src="http://placehold.it/1000x186" alt=""/>
-                <div class="bg-extra-light-gray separator-line-horrizontal-full display-inline-block margin-45px-tb xs-margin-30px-tb"></div>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-md-6 sm-margin-50px-bottom xs-margin-30px-bottom wow fadeIn">
-                <h5 class="alt-font text-extra-dark-gray font-weight-600">Brand & website to prime new company for market entry.</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                <a href="index.html" class="btn btn-dark-gray btn-medium">Launch Website</a>
+                <h5 class="alt-font text-extra-dark-gray font-weight-600">{{ .title | markdownify }}</h5>
+                <p>{{ .description | markdownify }}</p>
+                {{ with .btn }}
+                {{ if .text }}
+                <a href="{{ .link }}" target="_blank" class="btn btn-small btn-dark-gray margin-20px-top sm-margin-15px-top xs-margin-15px-top" title="{{.text}}">{{.text}}</a>
+                {{ end }}
+                {{ end }}
             </div>
             <div class="col-md-4 col-md-offset-2 wow fadeIn">
                 <ul class="list-style-8 margin-twelve-left">
-                    <li class="text-uppercase text-extra-dark-gray"><span class="display-block text-extra-small text-medium-gray">Client</span>Jason Richardson</li>
-                    <li class="text-uppercase text-extra-dark-gray"><span class="display-block text-extra-small text-medium-gray">Industry</span>Adventure / Travel</li>
-                    <li class="text-uppercase text-extra-dark-gray"><span class="display-block text-extra-small text-medium-gray">Services</span>Design, Art Direction, Website</li>
-                    <li class="text-uppercase text-extra-dark-gray"><span class="display-block text-extra-small text-medium-gray">Website</span><a href="index.html" class="text-extra-dark-gray">www.auraherbals.com</a></li>
+                    {{ range .table }}
+                    <li class="text-uppercase text-extra-dark-gray"><span class="display-block text-extra-small text-medium-gray">{{ .name }}</span>{{ .text | markdownify }}</li>
+                    {{ end }}
                 </ul>
             </div>
         </div>
     </div>
 </section>
 <!-- end about product section -->
+{{ end }}
+{{ with .Params.section3 }}
 <!-- start section -->
 <section class="wow fadeIn no-padding">
     <div class="container-fluid">
         <div class="row padding-15px-lr sm-no-padding-lr">
+            {{ range .images }}
             <div class="col-md-6 sm-margin-30px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1300x864" class="width-100" alt=""/>
+                <img src="{{ .image }}" class="width-100" alt=""/>
             </div>
-            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                <img src="http://placehold.it/1300x864" class="width-100" alt=""/>
-            </div>
+            {{ end }}
         </div>
     </div>
 </section>
 <!-- end section -->
+{{ end }}
+{{ with .Params.section4 }}
 <!-- start product information section -->
-<section class="wow fadeIn no-padding-bottom fadeInUp">
+<section class="wow fadeIn half-section fadeInUp">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
-                <h5 class="alt-font text-extra-dark-gray font-weight-600">Beautiful and easy to understand UI, professional animations and drag &amp; drop</h5>
-                <p class="width-80 center-col display-inline-block xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        {{ range .texts }}
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin"{{ with .margin }} style="margin-bottom: {{ . }}"{{ end }}>
+                    <h5 class="alt-font text-extra-dark-gray font-weight-600">{{ .title }}</h5>
+                    <p class="width-80 center-col display-inline-block xs-width-100">{{ .description }}</p>
+                    {{ with .image }}
+                    <img src="{{ . }}" alt="Redaction Web" class="margin-30px-top">
+                    {{ end }}
+                </div>
             </div>
-        </div>
+        {{ end }}
     </div>
 </section>
 <!-- end product information section -->
+{{ end }}
+{{ with .Params.section5 }}
 <!-- start product gallery section -->
-<section class="wow fadeIn no-padding-top">
+<section class="wow fadeIn no-padding">
     <div class="container-fluid">
         <div class="row">
+            {{ range .images}}
+            {{ with .image }}
             <!-- start product gallery item -->
             <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1617x400" class="width-100" alt=""/>
+                <img src="{{ . }}" class="width-100" alt="Redaction"/>
             </div>
             <!-- end product gallery item -->
-            <!-- start product gallery item -->
-            <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1300x864" class="width-100" alt=""/>
-            </div>
-            <!-- end product gallery item -->
-            <!-- start product gallery item -->
-            <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1300x864" class="width-100" alt=""/>
-            </div>
-            <!-- end product gallery item -->
-            <!-- start product gallery item -->
-            <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                <img src="http://placehold.it/1300x864" class="width-100" alt=""/>
-            </div>
-            <!-- end product gallery item -->
-            <!-- start product gallery item -->
-            <div class="col-lg-8 col-md-12 center-col text-center wow fadeInUp">
-                <img src="http://placehold.it/1300x864" class="width-100" alt=""/>
-            </div>
-            <!-- end product gallery item -->
+            {{ end }}
+            {{ end }}
         </div>
     </div>
 </section>
 <!-- end product gallery section -->
+{{ end }}
+{{ with .Params.section6 }}
 <!-- start call to action section -->
-<section class="parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('http://placehold.it/1920x1200');">
+<!-- <section class="parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('http://placehold.it/1920x1200');">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 center-col display-table extra-small-screen text-center col-md-8 xs-padding-15px-lr">
@@ -119,5 +114,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- end call to action section -->
+{{ end }}

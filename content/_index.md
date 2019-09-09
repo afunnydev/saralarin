@@ -1,168 +1,170 @@
 ---
-title: "Accueil | Rédaction agile"
+title: Accueil | Rédaction agile
 description: >-
-  Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le service de rédaction agile.
-image: 
+  Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le
+  service de rédaction agile.
+notloaded:
+  need: true
 draft: false
 section1:
-  image: /img/redaction-agile-web-1-header.png
-  title: "Sara Larin"
-  subtitle: "Rédaction Agile"
+  subtitle: Rédaction Agile
+  title: 'Sara '
+  image: /img/header-test-new-design-3.png
 section2:
-  title: "Qu’est-ce que la rédaction agile?"
-  description: "Un service de rédaction bonifié qui s’adapte à votre réalité."
+  title: Qu’est-ce que la rédaction agile?
+  description: Un service de rédaction bonifié qui s’adapte à votre réalité.
 section3:
-  image: /img/redaction-agile-web-2-header.jpg
-  subtitle: "Adaptés à votre contexte d’affaires"
-  title: "Services"
+  image: /img/visuel-ciment-fleche-home.jpg
+  subtitle: Adaptés à votre contexte d’affaires
+  title: Services
   description: >-
-    Vous choisissez entre un service à la pièce ou un projet complet selon vos besoins. Je collabore avec votre équipe en mode agile afin de le produire et le lancer efficacement. Le mandat peut aussi être fait par phase pour vous permettre de segmenter votre budget de production. 
+    Vous choisissez entre un service à la pièce ou un projet complet selon vos
+    besoins. Je collabore avec votre équipe en mode agile pour produire et
+    lancer le projet efficacement. Le mandat peut aussi être fait par phase afin
+    de vous permettre de segmenter votre budget de production. 
   icons:
-    - icon: icon-pencil
-      title: "Création de contenu"
-      link: "servicePage"
-      anchor: "#creation-contenu"
-    - icon: icon-presentation
-      title: "Rédaction SEO"
-      link: "servicePage"
-      anchor: "#redaction-seo"
-    - icon: icon-target
-      title: "Stratégie"
-      link: "servicePage"
-      anchor: "#strategie"
-    - icon: icon-speedometer
-      title: "Gestion et production"
-      link: "servicePage"
-      anchor: "#gestion-production"
-  btn:
-    text: "CONSULTER TOUS LES SERVICES"
-    link: "servicePage"
+    - anchor: '#creation-contenu'
+      icon: icon-pencil
+      link: servicesPage
+      title: Création de contenu
+    - anchor: '#creation-contenu'
+      icon: icon-presentation
+      link: servicesPage
+      title: Rédaction SEO
+    - anchor: '#creation-contenu'
+      icon: icon-target
+      link: servicesPage
+      title: Stratégie
+    - anchor: '#gestion-production'
+      icon: icon-speedometer
+      link: servicesPage
+      title: Gestion et production
 section4:
-  title: On collabore?
   btn1:
+    anchor: '#a-la-piece'
     text: À la pièce
-    anchor: "#a-la-piece"
   btn2:
-    text: Projet agile
-    anchor: "#projet-agile"
+    anchor: '#projet-complet'
+    text: Projet complet
+  title: On collabore?
 section5:
-  title: "À la pièce"
-  description: "J’analyse votre écosystème en place pour assurer un livrable modelé à votre marque."
-  portfolio:
-    ## Ratio de l'image 11:17
-    - image: /img/cover-3-brasseurs.jpg
-      text: "Adaptation"
-    - image: /img/wow-mobile.jpg
-      text: "Offre promotionnelle"
-    - image: /img/ville-mtl-cover.jpg
-      text: "Vidéo promotionnel"
-    - image: /img/manifesto.jpg
-      text: "Manifesto"
-section6:
-  title: "Projet agile"
-  steps:
-    - number: 01
-      title: "Évaluation"
-      description: "Elle est effectuée en début de mandat afin de dresser rapidement le portrait exact du projet à accomplir et d’en comprendre l’ensemble des enjeux."
-    - number: 02
-      title: "Stratégie"
-      description: "Elle cerne les objectifs, permet d’élaborer un plan de création de contenu et de choisir les données récoltées. Elle est la ligne directrice du projet et en assure la réussite."
-    - number: 03
-      title: "Création"
-      description: "Elle communique votre message de façon attrayante à la cible. Elle peut être modifiée au besoin suite à l’analyse. "
-    - number: 04
-      title: "Analyse"
-      description: "Les données récoltées déterminent la performance de la création et permettent de s’ajuster au besoin."
-    ## - number: 05
-      ## title: "Évaluation"
-      ## description: "Il est possible de faire des modifications à la création existante ou d’ajouter du nouveau contenu. Ce mode agile permet de segmenter le budget de production et d’assurer une livraison plus rapide de la première version du projet."
-section7:
-  client: nod-A
-  title: Site Web Makestorming
-  description: Rédaction d’un site Web pour le marché anglophone.
   btn:
+    link: /services
+    text: Voir tous les services
+  title: À la pièce
+  description: >-
+    J’analyse votre écosystème en place pour assurer un livrable spécifique
+    modelé à votre marque.
+  portfolio:
+    - image: /img/3-brasseurs-template-image-on-collabore-600-x-1000-ratio-11_7.png
+      link: portfolio/3-brasseurs-fabrication-biere
+      text: Adaptation
+    - image: /img/wow-mobile-image-on-collabore-600-x-1000-ratio-11_7-rev2-1-.png
+      link: portfolio/wow-la-rentree/
+      text: Offre promotionnelle
+    - image: /img/vdemtemplate-image-on-collabore-600-x-1000-ratio-11_7-1-.png
+      link: portfolio/ville-montreal-video/
+      text: Vidéo promotionnel
+    - image: >-
+        /img/harnois-blogue-template-image-on-collabore-600-x-1000-ratio-11_7.png
+      link: portfolio/blogue-harnois/
+      text: Stratégie de contenu
+    - image: /img/seb-toots-image-on-collabore-600-x-1000-ratio-11_7.png
+      link: portfolio/seb-toots/
+      text: Livre de commandite
+    - image: /img/tourisme-lanaudiere-image-on-collabore-600-x-1000-ratio-11_7.png
+      link: portfolio/tourisme-lanaudiere/
+      text: Articles de blogue
+    - image: /img/lazypants-template-image-on-collabore-600-x-1000-ratio-11_7-.png
+      link: portfolio/lazypants-manifesto/
+      text: Manifesto
+    - image: /img/harnois-site-web-image-on-collabore-600-x-1000-ratio-11_7-1-.png
+      link: portfolio/site-web-harnois/
+      text: Site Web
+section6:
+  title: Projet complet
+  description: >-
+    Je me charge de toutes les étapes de la production pour vous livrer un
+    projet clé en main.
+  steps:
+    - number: 1
+      title: Évaluation
+      description: >-
+        Elle est effectuée en début de mandat afin de dresser rapidement le
+        portrait exact du projet à accomplir et d’en comprendre l’ensemble des
+        enjeux.
+    - number: 2
+      title: Stratégie et création
+      description: >-
+        La stratégie est la ligne directrice du projet et en assure la réussite.
+        La création communique votre message de façon attrayante à la cible.
+    - number: 3
+      title: 'Analyse '
+      description: >-
+        Les données récoltées déterminent la performance de la création et
+        permettent de s’ajuster au besoin.
+    - number: 4
+      title: Phases
+      description: >-
+        Il est possible de faire des modifications à la création existante ou
+        d’ajouter du nouveau contenu. Ce mode agile permet de segmenter le
+        budget de production et d’assurer une livraison plus rapide de la
+        première version du projet.
+section7:
+  btn:
+    link: 'https://saralarin.ca/portfolio/blogue-harnois/'
     text: Voir le projet
-    link: "#"
+  client: Les Industries Harnois
+  title: Blogue des Industries Harnois
+  description: >-
+    Élaboration d'une stratégie de contenu, recherches, entrevues et rédaction
+    d’articles. 
+  image: /img/blogue-harnois-portfolio-grosse.jpg
 section8:
-  title: Je travaille avec les agences et les entreprises
   box1:
-    image: /img/hp-viz-agences.png
-    title: Agences
-    description: "Je connais bien la structure de travail en agence. Je cumule 7 ans d’expérience chez Sid Lee, LG2 et Taxi. Je m’intègre ainsi facilement à votre équipe composée de coordonnateurs, designers, d’architectes de l’information, etc. Je livre une création en accord avec l’image de marque de vos clients."
     btn:
+      link: 'https://saralarin.ca/portfolio/seb-toots/'
       text: Découvrir un projet d’agence
-      link: "#"
+    title: Agences
+    description: >-
+      Je connais bien la structure de travail en agence. Je cumule 7 ans
+      d’expérience chez Sid Lee, LG2 et Taxi. Je m’intègre ainsi facilement à
+      votre équipe composée de coordonnateurs, designers, d’architectes de
+      l’information, etc. Je livre une création en accord avec l’image de marque
+      de vos clients.
+    image: /img/hp-boite-agence-700.png
   box2:
-    image: /img/hp-viz-entreprises.png
+    btn:
+      link: 'https://saralarin.ca/portfolio/megadome-guide-technique/'
+      text: Découvrir un projet d’entreprise
     title: Entreprises
     description: >-
-      Je collabore directement avec les membres de votre équipe en vue de compléter avec succès le projet. Mon implication vous évite de nombreuses heures de gestion à l’interne et limite les intermédiaires. Le mandat peut être un projet complet agile ou à la pièce selon votre besoin. 
-    btn:
-      text: Découvrir un projet d’entreprise
-      link: "#"
+      Je collabore directement avec les membres de votre équipe en vue de
+      compléter avec succès le projet. Mon implication vous évite de nombreuses
+      heures de gestion à l’interne et limite les intermédiaires. Le mandat peut
+      être un projet complet ou à la pièce selon votre besoin. 
+    image: /img/hp-boite-entreprises-700.png
+  title: Je travaille avec</br>les agences et les entreprises
 section9:
-  imageg: /img/bloc-gauche-redaction.png
-  imaged: /img/bloc-droite-redaction.png
-  title: À la hauteur
-  description: >-
-    J’offre un service de rédaction bonifié avec mon équipe de collaborateurs. Je me spécialise en rédaction, en stratégie et en gestion.
   btn:
-    text: "À propos de Sara"
-    link: "/a-propos"
+    link: /a-propos
+    text: En savoir plus
+  imaged: /img/bloc-à-propos-droite-rev.png
+  imageg: /img/bloc-gauche-redaction.png
+  title: À propos
+  description: >-
+    Je me spécialise en rédaction, en stratégie et en gestion. J’offre un
+    service de rédaction bonifié avec mon équipe de collaborateurs. 
 section10:
-  title: "Projets"
+  btn:
+    link: /projets
+    text: Tous les projets
+  title: Projets
 section11:
-  title: "Quelques clients"
-  clients:
-    - name: Les industries Harnois
-      link: "#"
-      logo: /img/logo-harnois.png
-    - name: nod-A
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Gab café
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Tourisme Lanaudière
-      link: "#"
-      logo: /img/logo-toursime.png
-    - name: Grenier nouvelles
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Cryos 
-      link: "#"
-      logo: /images/logo-10.png
-    - name: SOS Labyrinthe 
-      link: "#"
-      logo: /img/logo-sos.png
-    - name: Gestev
-      link: "#"
-      logo: /images/logo-10.png
-    - name: Youville Haussmann Park
-      link: "#"
-      logo: /img/logo-youville.png
-    - name: Buck créatifs 
-      link: "#"
-      logo: /img/logo-buck.png
-section12:
-  testimonials:
-    - text: >-
-        Étant moi-même un homme de mots (et je le dis avec toute l'humilité de quelqu'un qui n'a que 6 crédits universitaires), j'ai été plus que satisfait de ma relation avec Sara. C'était professionnel, rapide, satisfaisant et j'en suis sorti heureux, comblé et mon site Web ainsi que mes réseaux sociaux ont pris du tonus et de la vigueur. Comme toujours, merci. Love
-      name: Gabriel Dancause, cofondateur GAB
-    - text: >-
-        Sara démontre toujours une très grande créativité et une compréhension rapide des clients et enjeux. Elle se démarque par sa capacité de créer des textes marquants et axés résultat. Elle maîtrise tous les styles et longueurs, du « liners/short copy » au « long copy ».
-      name: Alexandre Cossette, chef de marque groupe Antonopoulos
-    - text: >-
-        Sara a cette capacité à joindre une gestion de projet serrée à l'aspect créatif du livrable à produire. Elle est en mesure de faire une évaluation critique et pertinente au niveau créatif, tout en mettant le tout en contexte grâce à sa grande expérience sur de nombreux comptes et projets. C'est un atout essentiel dans le contexte d'affaires dans lequel nous évoluons chaque jour.
-      name: Alexandre Gravel, Associé-fondateur et producteur Toast Studio
-    - text: >-
-        Sara est une personne sensible et intelligente. travailler avec elle c'est agréable, devrais-je dire collaborer, en effet c'est sa force la collaboration. Elle pose les bonnes questions et aime aller au fond des choses. C'est donc dire que c'est super que de la connaître et de savoir que nous pouvons compter sur elle.
-      name: Stéphane Olivier, Producteur / Propriétaire Buck Créatifs
-    - text: >-
-        Les Industries Harnois ont pris tout un virage en 2017-2018 avec la refonte complète de leur image de marque ainsi que de nouvelles stratégies marketing, dont un tout nouveau site web. Sara a très bien compris l’entreprise et son environnement (une grande entreprise qui chapeaute 3 divisions très différentes) afin d’acquitter son mandat parfaitement. Du contenu devait être créé pour plusieurs plateformes : site web, brochures, photos, vidéos, articles de blogue, etc. Versatile, Sara a très bien su mener à terme ses projets qui comprenaient non seulement de la rédaction et de la recherche, mais aussi de la gestion. Le travail d’équipe et l’initiative ont également été de mise puisqu’elle a dû contacter et travailler avec plusieurs intervenants en plus de la coordonnatrice de projets de l’entreprise.
-      name: Geneviève Hétu, Coordonnatrice marketing Industries Harnois Inc.  
+  title: Quelques clients
+section12: true
 section13:
-  title: "Vous avez des questions?"
+  title: Vous avez des questions?
   image: /img/hp-bloc contact.png
-
 ---
+

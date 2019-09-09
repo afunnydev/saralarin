@@ -18,6 +18,7 @@ const imagexl = 2620;
 const imagefull = 1920;
 const imagehalf = 1024;
 const imagequart = 600;
+const imageport = 300;
 const imagethumb = 80;
 const jsFiles = [
                   'themes/saralarin/assets/js/theme/jquery.js',
@@ -57,7 +58,7 @@ const jsDest = 'themes/saralarin/static/js';
  
 // resize and optimize images
 gulp.task("image-resize", () => {
-  return gulp.src("themes/saralarin/source-images/*.{jpg,png,jpeg,gif}")
+  return gulp.src("themes/saralarin/source-images/*.{jpg,png,jpeg}")
     .pipe(newer("themes/saralarin/static/img"))
     .pipe(imagemin())
     .pipe(imageresize({ width: imagexl}))
@@ -68,6 +69,8 @@ gulp.task("image-resize", () => {
     .pipe(gulp.dest("themes/saralarin/static/half/img"))
     .pipe(imageresize({ width: imagequart }))
     .pipe(gulp.dest("themes/saralarin/static/quart/img"))
+    .pipe(imageresize({ width: imageport }))
+    .pipe(gulp.dest("themes/saralarin/static/portfolio/img"))
     .pipe(imageresize({ width: imagethumb }))
     .pipe(gulp.dest("themes/saralarin/static/thumb/img"));
 });
@@ -83,19 +86,19 @@ gulp.task("hugo", function (cb) {
 
 gulp.task('sass', function () {
   return gulp.src('themes/saralarin/assets/scss/main.scss')
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(rename('main.min.css'))
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(gulp.dest('themes/saralarin/static/css'));
 });
 
 gulp.task('scripts', function() {
     return gulp.src(jsFiles)
-        .pipe(sourcemaps.init())
+        // .pipe(sourcemaps.init())
         .pipe(concat('main.min.js'))
         .pipe(uglify())
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest(jsDest));
 });
 

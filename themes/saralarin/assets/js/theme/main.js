@@ -312,7 +312,7 @@ function SetResizeContent() {
     setPageTitleSpace();
     setButtonPosition();
     parallax_text();
-    stellarParallax();
+    // stellarParallax();
     fullScreenHeight();
     equalizeHeight();
 }
@@ -1933,7 +1933,10 @@ $(document).ready(function () {
         animateClass: 'animated',
         offset: 0,
         mobile: false,
-        live: true
+        live: true,
+        callback: function(box) {
+            $('.gif-loader').hide();
+        }
     });
     $(window).imagesLoaded(function () {
         wow.init();
@@ -2100,10 +2103,10 @@ $(document).ready(function () {
         var instaFeedFooter = new Instafeed({
             target: 'instaFeed-footer',
             get: 'user',
-            userId: 5640046896,
+            userId: 9628603,
             limit: '6',
-            accessToken: '5640046896.1677ed0.f7cd85767e124a9f9f8d698cb33252a0',
-            resolution: "low_resolution",
+            accessToken: '9628603.1677ed0.6713378f896f4b24a0c5080798548e33',
+            resolution: "thumbnail",
             after: function () {
                 equalizeHeight();
             },

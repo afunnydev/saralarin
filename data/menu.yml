@@ -1,49 +1,19 @@
 main:
-  # - fr: Accueil
-  #   en: Home
-  #   link: homePage
-  #   submenu: false
-  #   links:
-  #     - fr:
-  #       en:
-  #       link:
-  - fr: Services
-    en: Services
+  - en: Services
+    fr: Services
     link: servicesPage
-    submenu: false
-    links:
-      - fr:
-        en:
-        link:
-  - fr: Portfolio
-    en: Portfolio
+  - en: Projects
+    fr: Projets
     link: portfolioPage
-    submenu: false
     links:
-      - fr:
-        en:
-        link:
-  - fr: À propos
-    en: About
+      - {}
+    submenu: false
+  - en: About
+    fr: À propos
     link: aboutPage
     submenu: false
-    links:
-      - fr:
-        en:
-        link:
-  - fr: Contact
-    en: Contact
+  - en: Contact
+    fr: Contact
     link: contactPage
     submenu: false
-    links:
-      - fr:
-        en:
-        link:
-  - fr: Blogue
-    en: Blog
-    link: articlesPage
-    submenu: false
-    links:
-      - fr:
-        en:
-        link:
+top: []

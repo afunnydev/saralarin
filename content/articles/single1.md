@@ -11,4 +11,5 @@ listing:
 i18nlanguage: fr
 ordre: 1
 draft: false
+noindex: true
 ---
