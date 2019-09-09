@@ -3,216 +3,547 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://akia.saralarin.ca/portfolio/seb-toots/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/tourisme-lanaudiere/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/ville-de-montreal/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/biere-en-cask/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/</loc>
+    <loc>https://www.saralarin.ca/portfolio/nod-a-site-web-makestorming/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/"
+                href="https://www.saralarin.ca/en/portfolio/nod-a-site-web-makestorming/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/"
+                href="https://www.saralarin.ca/portfolio/nod-a-site-web-makestorming/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/tags/adaptation/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/blogue/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/categories/</loc>
-    <priority>0</priority>
+    <loc>https://www.saralarin.ca/portfolio/tourisme-lanaudiere/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/categories/"
+                href="https://www.saralarin.ca/en/portfolio/tourisme-lanaudiere/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/categories/"
+                href="https://www.saralarin.ca/portfolio/tourisme-lanaudiere/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/contact/</loc>
+    <loc>https://www.saralarin.ca/portfolio/seb-toots/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/contact/"
+                href="https://www.saralarin.ca/en/portfolio/seb-toots/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/contact/"
+                href="https://www.saralarin.ca/portfolio/seb-toots/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/tags/gestion-client/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/gestion-de-projet/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/imprim%C3%A9/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/megadome/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/merci/</loc>
+    <loc>https://www.saralarin.ca/portfolio/3-brasseurs-fabrication-biere/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/merci/"
+                href="https://www.saralarin.ca/en/portfolio/3-brasseurs-fabrication-biere/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/merci/"
+                href="https://www.saralarin.ca/portfolio/3-brasseurs-fabrication-biere/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/tags/m%C3%A9dias-sociaux/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/photographie/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/production-vid%C3%A9o/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/projet-agile/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/services/</loc>
+    <loc>https://www.saralarin.ca/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/services/"
+                href="https://www.saralarin.ca/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/services/"
+                href="https://www.saralarin.ca/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/singles/</loc>
-    <priority>0</priority>
+    <loc>https://www.saralarin.ca/tags/adaptation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/singles/"
+                href="https://www.saralarin.ca/en/tags/adaptation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/singles/"
+                href="https://www.saralarin.ca/tags/adaptation/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/tags/</loc>
-    <priority>0</priority>
+    <loc>https://www.saralarin.ca/tags/blogue/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/tags/"
+                href="https://www.saralarin.ca/en/tags/blogue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/tags/"
+                href="https://www.saralarin.ca/tags/blogue/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/articles/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/articles/single1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/lazypants/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/makestorming/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/portfolio/wow-la-rentree/</loc>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/tags/web/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://akia.saralarin.ca/a-propos/</loc>
+    <loc>https://www.saralarin.ca/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akia.saralarin.ca/en/a-propos/"
+                href="https://www.saralarin.ca/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://akia.saralarin.ca/a-propos/"
+                href="https://www.saralarin.ca/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://akia.saralarin.ca/faq/</loc>
+    <loc>https://www.saralarin.ca/portfolio/citadelle-sirop-erable/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/citadelle-sirop-erable/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/citadelle-sirop-erable/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/cryos-video-promo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/cryos-video-promo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/cryos-video-promo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/gestion-de-projet/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/gestion-de-projet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/gestion-de-projet/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/grenier-magazine/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/grenier-magazine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/grenier-magazine/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/blogue-harnois/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/blogue-harnois/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/blogue-harnois/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/site-web-harnois/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/site-web-harnois/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/site-web-harnois/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/imprim%C3%A9/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/imprim%C3%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/imprim%C3%A9/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/blogue-jedemenage/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/blogue-jedemenage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/blogue-jedemenage/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/lazypants-manifesto/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/lazypants-manifesto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/lazypants-manifesto/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/lpm-blogue/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/lpm-blogue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/lpm-blogue/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/megadome-guide-technique/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/megadome-guide-technique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/megadome-guide-technique/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/merci/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/merci/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/merci/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/m%C3%A9dias-sociaux/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/m%C3%A9dias-sociaux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/m%C3%A9dias-sociaux/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/festival-banff-medias-sociaux/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/festival-banff-medias-sociaux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/festival-banff-medias-sociaux/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/photographie/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/photographie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/photographie/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/recherches-et-entrevues/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/recherches-et-entrevues/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/recherches-et-entrevues/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/r%C3%A9daction/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/r%C3%A9daction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/r%C3%A9daction/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/services/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/singles/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/singles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/singles/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/sos-labyrinthe-medias-sociaux/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/sos-labyrinthe-medias-sociaux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/sos-labyrinthe-medias-sociaux/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/strat%C3%A9gie-de-contenu/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/strat%C3%A9gie-de-contenu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/strat%C3%A9gie-de-contenu/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/articles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/articles/single1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/vid%C3%A9o/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/vid%C3%A9o/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/vid%C3%A9o/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/ville-montreal-video/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/ville-montreal-video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/ville-montreal-video/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/tags/web/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/tags/web/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/wow-mobile-gif/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/wow-mobile-gif/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/wow-mobile-gif/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/portfolio/wow-la-rentree/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/portfolio/wow-la-rentree/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/portfolio/wow-la-rentree/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/a-propos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.saralarin.ca/en/a-propos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.saralarin.ca/a-propos/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.saralarin.ca/faq/</loc>
   </url>
   
 </urlset>
