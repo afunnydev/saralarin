@@ -20,9 +20,9 @@ col2:
     - en: Contact
       fr: Contact
       link: contactPage
-    - en: Blog
-      fr: Blogue
-      link: articlesPage
+    # - en: Blog
+    #   fr: Blogue
+    #   link: articlesPage
   title:
     en: Useful links
     fr: Liens utiles
