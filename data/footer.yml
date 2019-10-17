@@ -1,8 +1,8 @@
 col1:
   en: 'I’m a copywriter, strategist and project manager'
   fr: >-
-    J'offre un service de rédaction bonifié qui allie la stratégie, la
-    créativité et la gestion.
+    J'offre un service de rédaction bonifié qui allie la stratégie, la création
+    et la gestion.
 col2:
   links:
     - en: Home
@@ -20,9 +20,6 @@ col2:
     - en: Contact
       fr: Contact
       link: contactPage
-    # - en: Blog
-    #   fr: Blogue
-    #   link: articlesPage
   title:
     en: Useful links
     fr: Liens utiles
