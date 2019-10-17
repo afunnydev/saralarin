@@ -1,7 +1,7 @@
 ---
 title: Accueil | Rédaction agile
 description: >
-  Un service de rédaction qui allie la stratégie, la créativité et la gestion.
+  Un service de rédaction qui allie la stratégie, la création et la gestion.
   Découvrir la rédaction agile.
 notloaded:
   need: true
