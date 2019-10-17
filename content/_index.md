@@ -1,18 +1,20 @@
 ---
 title: Accueil | Rédaction agile
-description: >-
-  Un service de rédaction bonifié qui s’adapte à votre réalité. Découvrir le
-  service de rédaction agile.
+description: >
+  Un service de rédaction qui allie la stratégie, la créativité et la gestion.
+  Découvrir la rédaction agile.
 notloaded:
   need: true
 draft: false
 section1:
+  image: /img/header-test-new-design-3.png
   subtitle: Rédaction Agile
   title: 'Sara '
-  image: /img/header-test-new-design-3.png
 section2:
   title: Qu’est-ce que la rédaction agile?
-  description: Un service de rédaction bonifié qui s’adapte à votre réalité.
+  description: >-
+    Un service de rédaction bonifié qui allie la stratégie, la créativité et la
+    gestion.
 section3:
   image: /img/visuel-ciment-fleche-home.jpg
   subtitle: Adaptés à votre contexte d’affaires
@@ -149,12 +151,12 @@ section9:
   btn:
     link: /a-propos
     text: En savoir plus
-  imaged: /img/bloc-à-propos-droite-rev.png
-  imageg: /img/bloc-gauche-redaction.png
-  title: À propos
   description: >-
     Je me spécialise en rédaction, en stratégie et en gestion. J’offre un
     service de rédaction bonifié avec mon équipe de collaborateurs. 
+  imaged: /img/bloc-à-propos-droite-rev.png
+  imageg: /img/bloc-gauche-redaction.png
+  title: À propos
 section10:
   btn:
     link: /projets
