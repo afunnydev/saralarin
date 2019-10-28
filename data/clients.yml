@@ -17,3 +17,9 @@ clients:
     name: Buck créatifs
   - logo: /img/toast_logo_transp_1024_36_0_color.png
     name: Toast Studio
+  - logo: /img/bevo_logo_rouge.jpg
+    name: Bevo
+  - logo: /img/brasserie701_logo_horizontal_couleur_rgb.jpg
+    name: Brasserie 701
+  - logo: /img/experiencevieuxmontreal_logo.jpg
+    name: Experience Vieux-Montréal
