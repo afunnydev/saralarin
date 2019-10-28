@@ -29,3 +29,5 @@ clients:
     name: Kyo
   - logo: /img/logo_gaspar_taverne-126c.jpg
     name: Taverne Gaspar
+  - logo: /img/mechantboeuf-rouge.jpg
+    name: Méchant boeuf
