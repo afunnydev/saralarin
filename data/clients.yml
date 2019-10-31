@@ -39,3 +39,5 @@ clients:
     name: Verses
   - logo: /img/vps.png
     name: Vieux Port Steak House
+  - logo: /img/logo-ges.png
+    name: GES
