@@ -50,7 +50,7 @@
     {{ end }}
     {{ with .Params.section3 }}
     <!-- start feature box section -->
-    <section class="wow fadeIn no-padding-tb">
+    <section class="wow fadeIn no-padding-top">
         <div class="container-fluid">
             <div class="row equalize">
                 {{ range $i, $e := .images }}
@@ -70,7 +70,7 @@
     {{ end }}
     {{ with .Params.section4 }}
     <!-- start heading style 01 section -->
-    <section class="wow fadeIn">
+    <section class="wow fadeIn" style="background-color: #f7f7f7;">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-60px-bottom xs-margin-40px-bottom">
@@ -83,7 +83,7 @@
                 {{ range .boxes }}
                 <!-- start column -->
                 <div class="col-md-4 col-sm-12 sm-margin-15px-bottom">
-                    <div class="bg-light-gray padding-40px-all xs-padding-30px-all last-paragraph-no-margin full-height">
+                    <div class="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin full-height">
                         <h5>{{ .title }}</h5>
                         <ul class="no-padding list-style-6">
                             {{ range .skill }}
@@ -100,7 +100,7 @@
     <!-- end heading style 01 section -->
     {{ end }}
     <!-- start clients style 03 -->
-    <section class="wow fadeIn half-section" id="clients" style="background-color: rgb(22, 186, 197)">
+    <section class="wow fadeIn half-section" id="clients" style="background-color: white;">
         <div class="container">
             <div class="row">
                 {{ range $i, $e := $.Site.Data.clients.clients }}
