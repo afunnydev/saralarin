@@ -4,7 +4,8 @@
   "description": "Basic gulp file to process images in hugo",
   "main": "no",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "prod": "gulp prod"
   },
   "repository": {
     "type": "git",
@@ -21,17 +22,13 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "concurrent-transform": "^1.0.0",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-image-resize": "^0.13.1",
-    "gulp-imagemin": "^4.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
-    "run-sequence": "^2.2.1"
+    "gulp-uglify": "^3.0.2"
   }
 }
