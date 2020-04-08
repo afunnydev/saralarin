@@ -18,7 +18,7 @@ tags:
 section1:
   btn:
     external: true
-    link: 'https://lespetitesmanies.com/author/saralarina/'
+    link: 'https://lespetitesmanies.wordpress.com/author/saralarina/'
     text: CONSULTER MES ARTICLES
   categories:
     - name: Blogue
