@@ -23,11 +23,6 @@ section1:
   categories:
     - name: Blogue
     - name: Rédaction SEO
-  title: Blogue les petites manies
-  description: >-
-    LPM est un blogue unique et authentique qui met de l’avant Montréal et sa
-    panoplie d’artistes et artisans émergents. Je me laisse inspirer par ma
-    ville adorée pour rédiger des articles au style décontracté.
   table:
     - name: Client
       text: LPM
@@ -35,25 +30,31 @@ section1:
       text: Gabrielle Tremblay-Baillargeon et Fanny Doyon-Turcotte
     - name: Rédaction
       text: Sara Larin
+  title: Blogue les petites manies
+  description: >-
+    LPM est un blogue unique et authentique qui met de l’avant Montréal et sa
+    panoplie d’artistes et artisans émergents. Je me laisse inspirer par ma
+    ville adorée pour rédiger des articles au style décontracté.
 section2:
   articles:
     - caption:
-        title: 'Johanie les biscuits, la styliste du biscuit'
+        title: 'LPM rencontre: Danilo, propriétaire du Phillies Cheesesteak'
         description: >-
-          Johanie est aussi habile pour faire de belles feuilles Excel que de
-          beaux biscuits. Heureusement pour nous, elle a laissé tomber le
-          domaine de l’actuariat et les feuilles Excel pour créer Johanie les
-          biscuits.
+          LPM s’est entretenu avec Danilo, propriétaire du resto, afin de tout
+          savoir au sujet de ce nouveau resto qui vient tout juste d’ouvrir ses
+          portes.
         link: >-
-          https://lespetitesmanies.com/2015/10/johanie-biscuits-styliste-biscuit/
-      image: /img/lpm-portfolio-style-1-image-1-3000-px-x-2550-px-1-low.jpg
+          https://lespetitesmanies.wordpress.com/2014/11/07/lpm-rencontre-danilo-proprietaire-du-le-phillies-cheesesteak/
+      image: /img/lpm-rencontre-sandwich.jpg
     - caption:
-        title: 'Agriculture urbaine 101 : tout ce que tu dois savoir'
+        title: 'Top 5 des endroits pour vendre vos cds, dvds et livres usages'
         description: >-
-          Tu es tanné d’aller chercher tous tes fruits et légumes à l’épicerie ?
-          La solution est bien simple : l’agriculture urbaine ! Tu as besoin de
-          savoir te servir de tes mains et d’avoir une petite surface libre.
-        link: 'https://lespetitesmanies.com/2016/05/agriculture-urbaine-mtl/'
-      image: /img/lpm-portfolio-style-1-image-1-3000-px-x-2550-px-2.jpg
+          Qui dit printemps, dit… ménage du printemps ! En attendant les ventes
+          de garage cet été, j’ai décidé d’aller faire la tournée des
+          bouquineries et des disquaires pour voir si j’étais capable de vendre
+          mes CDs, DVDs et livres usagés.
+        link: >-
+          https://lespetitesmanies.wordpress.com/2014/04/19/top-5-des-endroits-pour-vendre-vos-cds-dvds-et-livres-usages/
+      image: /img/vente-livres-usages.jpg
 ---
 
