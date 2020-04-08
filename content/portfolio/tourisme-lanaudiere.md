@@ -23,19 +23,12 @@ tags:
 section1:
   btn:
     external: true
-    link: 'https://lanaudiere.ca/fr/blogue-lanaudiere/auteurs/sara-larin/'
+    link: 'https://lanaudiere.ca/fr/blogue-lanaudiere/sara-larin/'
     text: CONSULTER MES ARTICLES
   categories:
     - name: Blogue
     - name: Rédaction SEO
     - name: Photographie
-  title: Blogue de Tourisme Lanaudière
-  description: >-
-    Le blogue de Tourisme Lanaudière veille à faire découvrir la région et son
-    offre touristique. En tant que collaboratrice, je propose des sujets
-    pertinents et m’assure de rédiger des textes accrocheurs. J’optimise ces
-    derniers en vue de faciliter leur référencement organique. De plus, je
-    prends les photos pour plusieurs articles.
   table:
     - name: Client
       text: Tourisme Lanaudière
@@ -43,6 +36,13 @@ section1:
       text: Tourisme
     - name: Service
       text: Rédaction d’articles de blogue
+  title: Blogue de Tourisme Lanaudière
+  description: >-
+    Le blogue de Tourisme Lanaudière veille à faire découvrir la région et son
+    offre touristique. En tant que collaboratrice, je propose des sujets
+    pertinents et m’assure de rédiger des textes accrocheurs. J’optimise ces
+    derniers en vue de faciliter leur référencement organique. De plus, je
+    prends les photos pour plusieurs articles.
 section2:
   articles:
     - caption:
