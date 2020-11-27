@@ -32,7 +32,7 @@ section1:
       text: Sara Larin en collaboration avec Helen Savage
     - name: Gestion de projet
       text: 'Sara Larin en collaboration avec Gabrielle Tremblay '
-  title: 'Un site Web anglophone rédigé en mode agile '
+  title: 'Un site Web rédigé en mode agile '
 section2:
   image1: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-2-low.jpg
   image2: /img/makestorming-2000-px-x-1000-px-portfolio-image-principale-3-low.jpg
