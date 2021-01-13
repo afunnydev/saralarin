@@ -1,18 +1,5 @@
 testimonials:
   - name:
-      en: 'Gabriel Dancause, cofounder GAB'
-      fr: 'Gabriel Dancause, cofoundateur GAB'
-    text:
-      en: >-
-        I was more than satisfied with my work relation with Sara. It was
-        professional and fast. I ended up being happy and fulfilled with my
-        website and my social media who were positively impacted.
-      fr: >-
-        J'ai été plus que satisfait de ma relation avec Sara. C'était
-        professionnel, rapide, satisfaisant et j'en suis sorti heureux, comblé
-        et mon site Web ainsi que mes réseaux sociaux ont pris du tonus et de la
-        vigueur. 
-  - name:
       en: 'Alexandre Cossette, Brand chief at Groupe Antonopoulos'
       fr: 'Alexandre Cossette, chef de marque groupe Antonopoulos'
     text:
@@ -24,17 +11,6 @@ testimonials:
         Sara démontre toujours une très grande créativité et une compréhension
         rapide des clients et enjeux. Elle maîtrise tous les styles et
         longueurs, du « liners/short copy » au « long copy ».
-  - name:
-      en: 'Alexandre Gravel, Associate, founder and producer at Toast Studio'
-      fr: 'Alexandre Gravel, Associé-fondateur et producteur Toast Studio'
-    text:
-      en: >-
-        Sara can join rigorous project management to the creative aspect of the
-        deliverable. She’s a real asset in the business context we evolve in.
-      fr: >-
-        Sara a cette capacité à joindre une gestion de projet serrée à l'aspect
-        créatif du livrable à produire. C'est un atout essentiel dans le
-        contexte d'affaires dans lequel nous évoluons chaque jour.
   - name:
       en: 'Stéphane Olivier, Producer/Owner at Buck Créatifs'
       fr: 'Stéphane Olivier, Producteur/Propriétaire Buck Créatifs'
@@ -62,3 +38,27 @@ testimonials:
         son mandat parfaitement. Versatile, Sara a très bien su mener à terme
         ses projets qui comprenaient non seulement de la rédaction et de la
         recherche, mais aussi de la gestion.
+  - name:
+      en: 'Alexandre Gravel, Associate, founder and producer at Toast Studio'
+      fr: 'Alexandre Gravel, Associé-fondateur et producteur Toast Studio'
+    text:
+      en: >-
+        Sara can join rigorous project management to the creative aspect of the
+        deliverable. She’s a real asset in the business context we evolve in.
+      fr: >-
+        Sara a cette capacité à joindre une gestion de projet serrée à l'aspect
+        créatif du livrable à produire. C'est un atout essentiel dans le
+        contexte d'affaires dans lequel nous évoluons chaque jour.
+  - name:
+      en: 'Gabriel Dancause, cofounder GAB'
+      fr: 'Gabriel Dancause, cofoundateur GAB'
+    text:
+      en: >-
+        I was more than satisfied with my work relation with Sara. It was
+        professional and fast. I ended up being happy and fulfilled with my
+        website and my social media who were positively impacted.
+      fr: >-
+        J'ai été plus que satisfait de ma relation avec Sara. C'était
+        professionnel, rapide, satisfaisant et j'en suis sorti heureux, comblé
+        et mon site Web ainsi que mes réseaux sociaux ont pris du tonus et de la
+        vigueur. 
