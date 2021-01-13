@@ -5,22 +5,12 @@ clients:
     name: LE GROUPE ANTONOPOULOS
   - logo: /img/logo-buck.png
     name: Buck créatifs
-  - logo: /img/logonoda.png
-    name: nod-A
   - logo: /img/logo-toursime.png
     name: Tourisme Lanaudière
   - logo: /img/experiencevieuxmontreal_logo.jpg
     name: Experience Vieux-Montréal
-  - logo: /img/logo_cryos_fr.png
-    name: Cryos
   - logo: /img/logo-harnois.png
     name: Les industries Harnois
-  - logo: /img/logo_nouvelles-grenier.png
-    name: Grenier nouvelles
-  - logo: /img/logo-sos.png
-    name: SOS Labyrinthe
-  - logo: /img/toast_logo_transp_1024_36_0_color.png
-    name: Toast Studio
   - logo: /img/bevo_logo_rouge.jpg
     name: Bevo
   - logo: /img/brasserie701_logo_horizontal_couleur_rgb.jpg
