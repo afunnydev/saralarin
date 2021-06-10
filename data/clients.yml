@@ -31,3 +31,5 @@ clients:
     name: Vieux Port Steak House
   - logo: /img/logo-ges.png
     name: GES
+  - logo: /img/reseau_fondgris_rgb.jpg
+    name: 'PME MTL '
