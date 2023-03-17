@@ -1,35 +1,21 @@
 clients:
   - logo: /img/iga.jpg
     name: IGA
-  - logo: /img/groupeantonopoulos_logo_black.jpg
-    name: LE GROUPE ANTONOPOULOS
   - logo: /img/logo-buck.png
     name: Buck créatifs
-  - logo: /img/logo-toursime.png
-    name: Tourisme Lanaudière
   - logo: /img/experiencevieuxmontreal_logo.jpg
     name: Experience Vieux-Montréal
-  - logo: /img/logo-harnois.png
-    name: Les industries Harnois
-  - logo: /img/brasserie701_logo_horizontal_couleur_rgb.jpg
-    name: Brasserie 701
   - logo: /img/jacopo_big.png
     name: Jacopo
-  - logo: /img/kyo-logo.jpg
-    name: Kyo
   - logo: /img/logo_gaspar_taverne-126c.jpg
     name: Taverne Gaspar
-  - logo: /img/mechantboeuf-rouge.jpg
-    name: Méchant boeuf
   - logo: /img/mo_grillvinscocktails.png
     name: Maggie Oakes
-  - logo: /img/modavie_logo_k.jpg
-    name: Modavie
-  - logo: /img/versesbistro_k.jpg
-    name: Verses
   - logo: /img/vps.png
     name: Vieux Port Steak House
-  - logo: /img/logo-ges.png
-    name: GES
   - logo: /img/reseau_fondgris_rgb.jpg
     name: 'PME MTL '
+  - logo: /img/spawg_logo-k.jpg
+    name: Spa William Gray
+  - logo: /img/wg-logo-wide-k.jpg
+    name: William Gray
