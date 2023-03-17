@@ -3,14 +3,10 @@ clients:
     name: IGA
   - logo: /img/logo-buck.png
     name: Buck créatifs
-  - logo: /img/experiencevieuxmontreal_logo.jpg
-    name: Experience Vieux-Montréal
   - logo: /img/jacopo_big.png
     name: Jacopo
   - logo: /img/logo_gaspar_taverne-126c.jpg
     name: Taverne Gaspar
-  - logo: /img/mo_grillvinscocktails.png
-    name: Maggie Oakes
   - logo: /img/vps.png
     name: Vieux Port Steak House
   - logo: /img/reseau_fondgris_rgb.jpg
@@ -33,3 +29,5 @@ clients:
     name: Terrasse sur l'Auberge
   - logo: /img/jau2rj1s.png
     name: Gray Collection
+  - logo: /img/mo_grillvinscocktails.png
+    name: Maggie Oakes
