@@ -19,3 +19,15 @@ clients:
     name: Spa William Gray
   - logo: /img/wg-logo-wide-k.jpg
     name: William Gray
+  - logo: /img/pincette_big_logo2couleurs_rgb.png
+    name: Pincette
+  - logo: /img/avp-logo-k.png
+    name: Auberge du Vieux-Port
+  - logo: /img/lph-logo-k.jpg
+    name: Le Petit Hôtel
+  - logo: /img/bevo_logo_rouge.jpg
+    name: Bevo
+  - logo: /img/perche_logo_3395c_2017.png
+    name: Perche
+  - logo: /img/terrassesurlauberge_logo_v_couleur.png
+    name: Terrasse sur l'Auberge
