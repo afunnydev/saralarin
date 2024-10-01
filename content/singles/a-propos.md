@@ -32,8 +32,6 @@ section4:
     - skill:
         - name: Rédaction Web | Grenier formations
         - name: Référencement SEO | Grenier formations
-        - name: Content Marketing | HubSpot Academy
-        - name: UQAM | BAC Communication profil télé
       title: Certifications et formations
     - skill:
         - name: Trello
@@ -41,13 +39,6 @@ section4:
         - name: InVision
         - name: Figma
       title: Outils collaboratifs
-    - skill:
-        - name: Canvas
-        - name: Adobe Xd
-        - name: Photoshop et LightRoom
-        - name: ' Illustrator et InDesign'
-        - name: Final Cut
-      title: Design et production
   title: Aptitudes
 section5:
   btn:
