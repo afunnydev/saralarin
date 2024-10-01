@@ -32,6 +32,9 @@ section4:
     - skill:
         - name: Rédaction Web | Grenier formations
         - name: Référencement SEO | Grenier formations
+        - name: Writing Digital Content | University of Toronto
+        - name: Copywriting that Sells | University of Toronto
+        - name: A Grammar Handbook | University of Toronto
       title: Certifications et formations
     - skill:
         - name: Trello
